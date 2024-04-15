@@ -20,7 +20,7 @@ if($_ENV['APP_MODE'] == 'production') {
     $https = 'http';
     $dominio = "$https://".$_ENV['APP_SINGLE_DOMAIN']."/";
     $dominio_www = "$https://www.".$_ENV['APP_SINGLE_DOMAIN']."/";
-    $dominio_admin = "$https://".$_ENV['APP_SINGLE_DOMAIN']."/admin";
+    $dominio_admin = "$https://".$_ENV['APP_SINGLE_DOMAIN']."/admin/";
     $dominio_procesamiento = "$https://procesamiento.".$_ENV['APP_SINGLE_DOMAIN']."/";
     $dominio_plataforma = "$https://plataforma.".$_ENV['APP_SINGLE_DOMAIN']."/";
 }
