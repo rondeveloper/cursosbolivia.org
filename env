@@ -1,0 +1,16 @@
+# variables de aplicacion
+APP_NAME=CURSOS BOLIVIA
+APP_CODE=PC005
+APP_MODE=development
+# APP_MODE=production
+APP_SINGLE_DOMAIN=localhost/cursosbolivia/public_html
+APP_PUBLIC_PATH=/home/hostcb/public_html/
+
+# variables de conexion a base de datos
+DDBB_HOST=localhost
+DDBB_USER=root
+DDBB_PASSWORD=
+DDBB_NAME=cursosbolivia_db
+
+# variables auxiliares
+AUX_REDUCCION_IDCURSO=0

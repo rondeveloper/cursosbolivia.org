@@ -1,0 +1,640 @@
+
+
+/* page header */
+.menu-button {
+    z-index: 1030;
+}
+
+/* ************************* PAGE INICIO *********************************** */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    #c-slide {
+        padding: 0px;
+        margin-top: 10px;
+    }
+}
+
+/* **************** DATA ******************** */
+
+.grow:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*-----------------------*/
+.space_img{
+    padding:5px;
+}
+/*-----------------------*/
+.fnd_CatalogoCurso{
+    background-image:url(../images/FndCatalogo.jpg);
+
+}
+
+/* ***************** DATA ******************* */
+
+
+.wellPaqueteMain {
+    min-height: 40px;
+    margin-bottom: 0px;
+    border: 5px solid #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.wellPaquete {
+    min-height: 20px;
+    padding: 7px;
+    margin-bottom: 0px;
+    background-color: #ECF0F1;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px 5px 2px 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+/****************************************************/
+
+.panel-info {
+    border-color: #bce8f1;
+}
+.panel-info > .panel-heading {
+    background-color: #0169B2;
+    border-color: #bce8f1;
+    color: #fff;
+}
+
+
+.panel-primary {
+    border-color: #337ab7;
+}
+.panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0px;
+}
+
+
+/*---------------------*/
+
+
+
+mas.accordion {
+    /*  background-color: #eee;*/
+    padding-top:3px;
+    color: #444;
+    cursor: pointer;
+    /* padding: 18px;*/
+    width: 3%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+mas.accordion.active, mas.accordion:hover {
+    /*  background-color: #ddd;*/
+}
+
+mas.accordion:after {
+    margin-top:-20px;
+    margin-right:-30px;
+    content: '\25bc';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    color:#f04343;
+}
+
+mas.accordion.active:after {
+    content: "\25b2";
+}
+
+.course-self div.panel {
+/*    margin-top:-22px;
+    padding: 0 2px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    border:1px solid #f0f0f0;*/
+}
+
+.course-self .panel {
+    margin-top:-22px;
+    padding: 0 2px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    border:1px solid #f0f0f0;
+}
+
+
+
+@media screen and (max-width:65.375em) {
+    .course-self div.panel {
+        margin-top:-22px;
+        padding: 0 2px;
+        background-color: white;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 1;
+        max-height: 15000px;  
+        border:1px solid #f0f0f0;
+    }
+
+}
+.course-self div.panel.show {
+    opacity: 1;
+    max-height: 15000px;  
+}
+
+.buttonblack:hover,.buttoncolor:hover {
+    background: #555;
+    background:none;
+    color: #000;
+}
+
+mas_cel.accordion {
+    /*  background-color: #eee;*/
+    padding-top:0px;
+    color: #444;
+    cursor: pointer;
+    /* padding: 18px;*/
+    width: 3%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+mas_cel.accordion.active, mas_cel.accordion:hover {
+    /*  background-color: #ddd;*/
+}
+
+mas_cel.accordion:after {
+    content: "\25b2";
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    color:#f04343;
+}
+
+mas_cel.accordion.active:after {
+    content: "\2796";
+}
+
+
+/* ***************** DATA ******************* */
+
+
+
+.list-group-item {
+    min-height:90px;
+}
+.abajo{
+    position:absolute;
+    bottom:0;
+}
+
+/***************************************/
+/*--------------------------*/	
+A.Enlace_Curso_Main{
+    z-index:20000;
+    font-size:18px;
+    color: #000;
+    line-height:20px;
+    max-height:100px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+A.Enlace_Curso_Main:hover {
+    color: #034C9B;
+    text-decoration:none;
+}
+/*--------------------------*/	
+A.Enlace_Curso_Main_Cel{
+    z-index:20000;
+    font-size:13px;
+    color: #000;
+    line-height:15px;
+    max-height:40px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+A.Enlace_Curso_Main_Cel:hover {
+    color: #034C9B;
+    text-decoration:none;
+}
+/*--------------------------*/	
+
+
+A.Enlace_Curso_Main_Titulo{
+    margin-top:30px;
+    z-index:20000;
+    font-size:18px;
+    color: #000;
+    line-height:20px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+A.Enlace_Curso_Main_Titulo:hover {
+    color: #034C9B;
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 979px){
+
+    .list-group-item {
+        min-height:90px;
+    }
+
+    .list-group-item-cel {
+        min-height:170px;
+    }
+
+    .list-group-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        display: block;
+        margin-bottom: -1px;
+        padding: 3px 5px;
+        position: relative;
+    }
+
+    .list-group-item-cel {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        display: block;
+        margin-bottom: -1px;
+        padding: 3px 5px;
+        position: relative;
+    }
+
+
+
+}
+
+
+/* aux css */
+.courses-three-devider{
+    clear:both;
+    width:100%;
+    height:0px;
+}
+.courses-two-devider{
+
+}
+
+/* ***************** DATA ******************* */
+
+
+.bx-img-curso-f1{
+    background: #FFF;
+    height: 230px;
+    overflow: hidden;
+}
+.img-curso-f1{
+    max-height: 230px;
+    height: 100%;
+    width:100%;
+    transition: 1.2s;
+}
+.img-curso-f1:hover{
+    transform: rotate(-2deg);
+    max-width:120%;
+    width:120%;
+    max-height: 120%;
+    height: 120%;
+    margin-left: -10px;
+    margin-top: -10px;
+    transition: 1.2s;
+}
+.titulo-curso-f1{
+    height:60px;
+    overflow: hidden;
+    margin-top: -20px;
+}
+.titulo-second-f1{
+    background: #2aad0c;
+    border-radius: 7px;
+    font-size: 16pt;
+    color: #FFF;
+    padding: 8px 0px;
+    border-bottom: 2px solid #258fad;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.titulo-second-f1-a{
+    background: #258fad;
+    border-radius: 7px;
+    font-size: 16pt;
+    color: #FFF;
+    padding: 8px 0px;
+    border-bottom: 2px solid #1b5b77;
+    text-align: center;
+    margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+    .bx-img-curso-f1{
+        height: 120px;
+    }
+    .titulo-curso-f1{
+        /* height:40px; */
+        overflow: visible;
+        margin-top: 0px;
+    }
+    .buttonlinkcel{
+        margin-top: -10px;
+    }
+}
+
+/* ***************** DATA ******************* */
+
+
+.search-box{
+    background: #e2e2e2;
+    padding: 15px;
+    color: gray;
+    border-radius: 7px;
+    border: 1px solid #8dc1c5;
+    margin-top: 15px;
+    box-shadow: 1px 1px 4px 0px grey;
+}
+.search-box input,.search-box select{
+    margin-bottom: 0px;
+    margin:2px 0px;
+}
+
+/* ***************** DATA ******************* */
+
+
+.list-group-item {
+    min-height:90px;
+}
+.abajo{
+    position:absolute;
+    bottom:0;
+}
+
+/***************************************/
+/*--------------------------*/	
+A.Enlace_Curso_Main{
+    z-index:20000;
+    font-size:18px;
+    color: #000;
+    line-height:20px;
+    max-height:100px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+A.Enlace_Curso_Main:hover {
+    color: #034C9B;
+    text-decoration:none;
+}
+/*--------------------------*/	
+A.Enlace_Curso_Main_Cel{
+    z-index:20000;
+    font-size:13px;
+    color: #000;
+    line-height:15px;
+    max-height:40px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+A.Enlace_Curso_Main_Cel:hover {
+    color: #034C9B;
+    text-decoration:none;
+}
+/*--------------------------*/	
+
+
+A.Enlace_Curso_Main_Titulo{
+    margin-top:30px;
+    z-index:20000;
+    font-size:18px;
+    color: #000;
+    line-height:20px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+}
+A.Enlace_Curso_Main_Titulo:hover {
+    color: #034C9B;
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 979px){
+
+    .list-group-item {
+        min-height:90px;
+    }
+
+    .list-group-item-cel {
+        min-height:130px;
+    }
+
+    .list-group-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        display: block;
+        margin-bottom: -1px;
+        padding: 3px 5px;
+        position: relative;
+    }
+
+    .list-group-item-cel {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        display: block;
+        margin-bottom: -1px;
+        padding: 3px 5px;
+        position: relative;
+    }
+
+}
+/* ***************** DATA ******************* */
+
+
+.dv-2c:hover{
+    background: #3eda16;
+    transition: .7s;
+}
+.dv-3c:hover{
+    background: #37bce2;
+    color: #FFF;
+    transition: .5s;
+}
+.dv-3c:hover a{
+    color: #FFF;
+    transition: .5s;
+}
+
+
+/* ************************* END PAGE INICIO *********************************** */
+
+
+/* ************************* PAGE CURSO *********************************** */
+
+
+
+    .panel-info {
+        border-color: #bce8f1;
+    }
+    .panel-info .panel-heading {
+        background-color: #0169B2;
+        border-color: #bce8f1;
+        color: #fff;
+    }
+
+
+    .panel-primary {
+        border-color: #337ab7;
+    }
+    .panel {
+        background-color: #fff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        margin-bottom: 0px;
+    }
+
+
+    /*---------------------*/
+
+
+
+    button.accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    button.accordion.active, button.accordion:hover {
+        background-color: #ddd;
+    }
+
+    button.accordion:after {
+        content: '\02795';
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+    }
+
+    button.accordion.active:after {
+        content: "\2796";
+    }
+
+    .course-self div.panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 0;
+    }
+
+    .course-self div.panel.show {
+        opacity: 1;
+        max-height: 15000px;  
+    }
+
+    .buttonblack:hover,.buttoncolor:hover {
+        /*	background: #555;*/
+        background:none;
+        color: #000;
+    }
+    .TituloContenidoCursosinLinea h1{
+        color: #175d96;
+        letter-spacing: 1px;
+        text-transform: none;
+        margin-bottom: 15px;
+        font-size: 25pt;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+
+
+/* ***************** DATA ******************* */
+
+@media (max-width: 750px){
+                        .text-cont-curso {
+                            line-height: 2;
+                        }
+                        .img-pag-static{
+                            width: 100%;
+                        }
+                    }
+                    
+/* ***************** DATA ******************* */
+
+
+/* ***************** DATA ******************* */
+
+
+/* ***************** DATA ******************* */
+
+
+/* ***************** DATA ******************* */
+
+
+/* ***************** DATA ******************* */
+
+
+/* ***************** DATA ******************* */
+
+
+/* ***************** DATA ******************* */
+
+
+
+/* ***************** OTHERS ******************* */
+
+.titulo-second-f1-cat{
+        background: #258fad;
+        border-radius: 7px;
+        font-size: 16pt;
+        color: #FFF;
+        padding: 8px 0px;
+        border-bottom: 2px solid #1b5b77;
+        text-align: center;
+        margin-bottom: 25px;
+    }

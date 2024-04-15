@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<html lang="es" class="fa-events-icons-ready js csstransitions csstransforms csstransforms3d">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <base href="https://cursosbolivia.org/" target="_self"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="language" content="es"/>
+        <meta name="robots" content="index,follow"/>
+        <meta name="author" content="CURSOS BOLIVIA"/>
+        <meta name="category" content="General"/>
+        <meta name="rating" content="General"/>
+        <meta name="keywords" content="cursos,capacitaciones,bolivia"/>
+        <meta name="title" content="CURSOS BOLIVIA - Cursos y capacitaciones en Bolivia" />
+        <meta name="description" content="Cursos y capacitaciones en Bolivia"/>
+
+        <title>CURSOS BOLIVIA - Cursos y capacitaciones en Bolivia</title>
+
+        <meta property="og:url" content="https://cursosbolivia.org/" />
+        <meta property="og:title" content="CURSOS BOLIVIA - Cursos y capacitaciones en Bolivia" />
+        <meta property="og:description" content="Cursos y capacitaciones en Bolivia" />
+        <meta property="og:site_name" content="CURSOS BOLIVIA" />
+        <meta property="og:image" content="https://www.cursosbolivia.org/contenido/imagenes/17-12f8c9a.jpg" />
+
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:description" content="Cursos y capacitaciones en Bolivia"/>
+        <meta name="twitter:title" content="CURSOS BOLIVIA - Cursos y capacitaciones en Bolivia"/>
+        <meta name="twitter:site" content="CURSOS BOLIVIA"/>
+        <meta name="twitter:domain" content="https://cursosbolivia.org/"/>
+        <meta name="twitter:creator" content="CURSOS BOLIVIA"/>
+        <link rel="image_src" href="https://www.cursosbolivia.org/contenido/imagenes/17-12f8c9a.jpg"/>
+
+
+        <link href="https://www.cursosbolivia.org/contenido/alt/bootstrap.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/style.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/responsive.v2.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/layout-semiboxed.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/skin-red.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/yamm.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/custom.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/jquery.sidr.css" rel="stylesheet"/>
+        <link rel="shortcut icon" type="image/png" href="https://www.cursosbolivia.org/contenido/alt/favicon.png"/>
+
+        <script src="https://www.cursosbolivia.org/contenido/alt/c5f1172444.js.descarga"></script>
+        <link href="https://www.cursosbolivia.org/contenido/alt/c5f1172444.css" media="all" rel="stylesheet"/>
+
+        <link href="https://www.cursosbolivia.org/contenido/css/data-style9.css" media="all" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/css/individual.css" media="all" rel="stylesheet"/>
+
+        <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '588570369550443');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height='1' width='1' style='display:none'
+  src='https://www.facebook.com/tr?id=588570369550443&ev=PageView&noscript=1'
+/></noscript>
+<!-- End Meta Pixel Code -->        
+        <!--        newt scripts-->
+        <script src="https://www.cursosbolivia.org/contenido/alt/jquery.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/bootstrap.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/jquery.sidr.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/plugins.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/common.js"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/validable.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/footer.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/index.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/sidr.js.descarga"></script>
+        
+    </head>
+    <body class="on">
+        <div class="wrapbox">
+            <div style='height:10px;'>&nbsp;</div>
+            <nav class="navbar yamm navbar-fixed-top wowmenu tiny" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo-nav" href="https://cursosbolivia.org/">
+                            <img src="https://www.cursosbolivia.org/contenido/imagenes/14-54e5eee.jpg" style="height:40px;" alt="logo">
+                        </a>
+                    </div>
+                    <ul id="nav" class="nav navbar-nav pull-left">
+    <li class="active">
+        <a href="https://cursosbolivia.org/">Inicio</a>
+    </li>
+    <li class="">
+        <a href="quienes-somos.html">Quienes Somos</a>
+    </li>
+    <li class="">
+        <a href="cursos-virtuales.html">Cursos virtuales</a>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categorias
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                            <li><a href="categoria/sector-publico.html">Sector público</a></li>
+                                <li><a href="categoria/diseno-y-marketing.html">Diseño y marketing</a></li>
+                        </ul>
+    </li>
+<!--    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Departamentos
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                            <li>
+                    <a href="la-paz/" title="Cursos y capacitaciones en La Paz - Bolivia">
+                        La Paz                    </a>
+                </li>
+                                <li>
+                    <a href="cochabamba/" title="Cursos y capacitaciones en Cochabamba - Bolivia">
+                        Cochabamba                    </a>
+                </li>
+                                <li>
+                    <a href="santa-cruz/" title="Cursos y capacitaciones en Santa Cruz - Bolivia">
+                        Santa Cruz                    </a>
+                </li>
+                                <li>
+                    <a href="chuquisaca/" title="Cursos y capacitaciones en Chuquisaca - Bolivia">
+                        Chuquisaca                    </a>
+                </li>
+                                <li>
+                    <a href="potosi/" title="Cursos y capacitaciones en Potosi - Bolivia">
+                        Potosi                    </a>
+                </li>
+                                <li>
+                    <a href="oruro/" title="Cursos y capacitaciones en Oruro - Bolivia">
+                        Oruro                    </a>
+                </li>
+                                <li>
+                    <a href="pando/" title="Cursos y capacitaciones en Pando - Bolivia">
+                        Pando                    </a>
+                </li>
+                                <li>
+                    <a href="beni/" title="Cursos y capacitaciones en Beni - Bolivia">
+                        Beni                    </a>
+                </li>
+                                <li>
+                    <a href="tarija/" title="Cursos y capacitaciones en Tarija - Bolivia">
+                        Tarija                    </a>
+                </li>
+                        </ul>
+    </li>-->
+    <li class="">
+        <a href="comunicados.html">Comunicados</a>
+    </li>
+        <li class="">
+        <a href="contacto.html">Cont&aacute;cto</a>
+    </li>
+</ul>
+<ul id="nav" class="nav navbar-nav pull-right">
+    <li title="Notificaciones">
+        <a class="dropdown-toggle" data-toggle="dropdown" ><i class="fa fa-bell"></i></a>
+        <ul class="dropdown-menu">
+                        <li id="ajaxbox-notification-state">
+                                    <a ><i class="fa fa-close"></i> NOTIFICACIONES DES-ACTIVADAS</a>
+                                </li>
+            <li id="ajaxbox-notification-msm">
+                                    <a style="cursor: pointer;" onclick="cambia_estado_notificaciones('', '1');"><i class="fa fa-refresh"></i> Activar notificaciones</a>
+                                </li>
+            <li><a href="notificaciones.html"><i class="fa fa-list"></i> Notificaciones recibidas</a></li>
+        </ul>
+    </li>
+
+            <li class="active">
+            <a href="https://plataforma.cursosbolivia.org/registro-de-usuarios.html" class="top-boton-user">REGISTRATE</a>
+        </li>
+        <li class="active">
+            <a href="https://plataforma.cursosbolivia.org/" class="top-boton-user">INGRESA</a>
+        </li>
+        </ul>
+                </div>	
+            </nav>
+            <div id="mobile-header" class="hidden-md hidden-lg">
+                <a id="simple-menu" class="menu-button" href="https://cursosbolivia.org/#sidr">Toggle menu</a>
+            </div>
+            <div id="sidr" class="hidden-md hidden-lg sidr left" style="transition: left 0.1s ease-in-out;">
+                <a class="sidr_close pull-right" href="https://cursosbolivia.org/#" style="padding:5px;"><i class="icon-remove-sign text-contrast"></i></a>
+                <ul>
+    <li><a href="https://cursosbolivia.org/"><i class="fa fa-home"></i> Inicio</a></li>
+    <li>
+        <a href="quienes-somos.html"><i class="fa fa-tv"></i> Quienes Somos</a>
+    </li>
+    <li>
+        <a href="cursos-virtuales.html"><i class="fa fa-street-view"></i> Cursos virtuales</a>
+    </li>
+    <li class="groupheader">
+        <a href="#" class="disabled_menu"><i class="fa fa-list"></i> Categorias</a>
+        <span class="icon-chevron-right text-contrast headerbutton"></span>
+        <ul>
+                            <li><a href="categoria/sector-publico.html">Sector público</a></li>
+                                <li><a href="categoria/diseno-y-marketing.html">Diseño y marketing</a></li>
+                        </ul>
+    </li>
+<!--    <li class="groupheader">
+        <a href="#" class="disabled_menu"><i class="fa fa-map-o"></i> Departamentos</a>
+        <span class="icon-chevron-right text-contrast headerbutton"></span>
+        <ul>
+                            <li>
+                    <a href="la-paz/" title="Cursos y capacitaciones en La Paz - Bolivia">
+                        La Paz                    </a>
+                </li>
+                                <li>
+                    <a href="cochabamba/" title="Cursos y capacitaciones en Cochabamba - Bolivia">
+                        Cochabamba                    </a>
+                </li>
+                                <li>
+                    <a href="santa-cruz/" title="Cursos y capacitaciones en Santa Cruz - Bolivia">
+                        Santa Cruz                    </a>
+                </li>
+                                <li>
+                    <a href="chuquisaca/" title="Cursos y capacitaciones en Chuquisaca - Bolivia">
+                        Chuquisaca                    </a>
+                </li>
+                                <li>
+                    <a href="potosi/" title="Cursos y capacitaciones en Potosi - Bolivia">
+                        Potosi                    </a>
+                </li>
+                                <li>
+                    <a href="oruro/" title="Cursos y capacitaciones en Oruro - Bolivia">
+                        Oruro                    </a>
+                </li>
+                                <li>
+                    <a href="pando/" title="Cursos y capacitaciones en Pando - Bolivia">
+                        Pando                    </a>
+                </li>
+                                <li>
+                    <a href="beni/" title="Cursos y capacitaciones en Beni - Bolivia">
+                        Beni                    </a>
+                </li>
+                                <li>
+                    <a href="tarija/" title="Cursos y capacitaciones en Tarija - Bolivia">
+                        Tarija                    </a>
+                </li>
+                        </ul>
+    </li>-->
+    <li class="">
+        <a href="comunicados.html"><i class="fa fa-map-o"></i> Comunicados</a>
+    </li>
+        <li>
+        <a href="contacto.html"><i class="fa fa-comments"></i> Cont&aacute;cto</a>
+    </li>
+    <li class="groupheader">
+        <a href="#" class="disabled_menu"><i class="fa fa-group"></i> Cuenta</a>
+        <span class="icon-chevron-right text-contrast headerbutton"></span>
+        <ul>
+                            <li><a href="https://plataforma.cursosbolivia.org/registro-de-usuarios.html">Registro de usuarios</a></li>
+                <li><a href="https://plataforma.cursosbolivia.org/">Ingreso de usuarios</a></li>
+                        </ul>
+    </li>
+</ul>
+            </div>
+<section class="carousel carousel-fade slide home-slider" id="c-slide" data-ride="carousel" data-interval="4500" data-pause="false">
+    <ol class="carousel-indicators">
+        <!-- <li data-target="#c-slide" data-slide-to="0" class="active"></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="1" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="2" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="3" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="4" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="5" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="6" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="7" class=""></li>-->
+        <!-- <li data-target="#c-slide" data-slide-to="8" class=""></li>-->
+    </ol>
+    <div class="carousel-inner">
+                    <div class="item active">
+                <img src="https://www.cursosbolivia.org/contenido/imagenes/banners/1627500325banner-cursos.png" style="width:100%;" class="img-responsive" alt="BANNER">
+            </div>
+            </div>
+    <a class="left carousel-control animated fadeInLeft" href="https://cursosbolivia.org/#c-slide" data-slide="prev"><i class="icon-angle-left"></i></a>
+    <a class="right carousel-control animated fadeInRight" href="https://cursosbolivia.org/#c-slide" data-slide="next"><i class="icon-angle-right"></i></a>
+</section>
+<div class="gris">
+    <section class="container container-home">
+        <style>
+            .cont-short-couses {
+                clear: both;
+                max-height: 650px;
+                overflow: hidden;
+            }
+            .cover-short-courses {
+                background: white;
+                box-shadow: 0px -16px 20px 20px white;
+                height: 100px;
+                text-align: center;
+                padding: 30px;
+                position: absolute;
+                width: 1160px;
+                max-width: 100%;
+                margin-top: -100px;
+                opacity: .95;
+                cursor: pointer;
+                border-bottom: 1px solid #258fad;
+                transition: .3s;
+            }
+            .cover-short-courses:hover {
+                opacity: .99;
+                border-bottom: 3px solid #258fad;
+                transition: .3s;
+            }
+            .cover-short-courses:hover .cover-short-courses-label {
+                text-decoration: underline;
+                text-decoration-color: #DDD;
+            }
+            .cover-short-courses-label {
+                font-size: 25pt;
+                color: #258fad;
+            }
+        </style>
+
+        <div style="padding-top:20px">
+    <form action="" method="post">
+        <div class="input-group input-group-lg">
+        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+        <input type="text" name="input-buscar" class="form-control" placeholder="Buscar curso..." value="" required/>
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="submit">BUSCAR</button>
+            </span>
+        </div>
+    </form>
+</div>
+<div class="row">
+    </div>
+<div class="row">
+            <div class="col-md-12 h1-container-home">
+
+            <h1>CURSOS VIRTUALES EN BOLIVIA</h1>
+
+        </div>
+        <br />
+    
+                        <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/16783865421178_475_1152_004_1200px.png" alt="4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 " title="4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 " class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">148 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html" class="Enlace_Curso_Main_Titulo">4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 </a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 148 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> TODA BOLIVIA</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%204%20Cursos%20virtuales%20Ley%20475,%20Ley%201152%20y%20Ley%20004%20y%20Ley%201178%20"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('65');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-65');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-65" style="display:none;">https://cursos.bo/R/65/</div>
+            <div id="contentInfo-65" style="display:none;">
+                <div>*4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 *</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/65/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 148 Bs.
+                            <div><br></div>
+                                            </div>
+                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/65/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-ley-1178-safco-virtual-.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1677470812noticia-ley-1178.jpeg" alt="Curso Ley 1178 SAFCO virtual " title="Curso Ley 1178 SAFCO virtual " class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">80 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-ley-1178-safco-virtual-.html" class="Enlace_Curso_Main_Titulo">Curso Ley 1178 SAFCO virtual </a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 80 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> TODA BOLIVIA</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20Ley%201178%20SAFCO%20virtual%20"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-ley-1178-safco-virtual-.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('69');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-69');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-ley-1178-safco-virtual-.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-69" style="display:none;">https://cursos.bo/R/69/</div>
+            <div id="contentInfo-69" style="display:none;">
+                <div>*Curso Ley 1178 SAFCO virtual *</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/69/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 80 Bs.
+                            <div><br></div>
+                                            </div>
+                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/69/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678379008LEY_843_2492_1200px.png" alt="2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM" title="2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">105 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html" class="Enlace_Curso_Main_Titulo">2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 105 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">95 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%202%20Cursos%20Ley%20843%20%20y%20Ley%202492%20Consultoria%20Impuestos%20Nacionales%20Virtual%20y/o%20ZOOM"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('36');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-36');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-36" style="display:none;">https://cursos.bo/R/36/</div>
+            <div id="contentInfo-36" style="display:none;">
+                <div>*2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/36/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 105 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 95 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/36/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-three-devider hidden-xs hidden-sm'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1683295877EXCEL_Mesa de trabajo 1.jpg" alt="✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)" title="✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">100 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html" class="Enlace_Curso_Main_Titulo">✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 100 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">80 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20✅%203x1%20Cursos%20Excel%20Basico%20Medio%20Avanzado%20Macros%20con%20VB%20✅(Virtual%2024/07)"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('57');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-57');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-57" style="display:none;">https://cursos.bo/R/57/</div>
+            <div id="contentInfo-57" style="display:none;">
+                <div>*✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/57/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 100 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 80 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/57/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-atencion-al-cliente-modalidad-virtual.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678740632ATENCION_AL_CLIENTE_1.png" alt="Curso atención al cliente - modalidad Virtual" title="Curso atención al cliente - modalidad Virtual" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">120 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-atencion-al-cliente-modalidad-virtual.html" class="Enlace_Curso_Main_Titulo">Curso atención al cliente - modalidad Virtual</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 120 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">110 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 Luego de reportar pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20atención%20al%20cliente%20-%20modalidad%20Virtual"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-atencion-al-cliente-modalidad-virtual.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('59');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-59');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-atencion-al-cliente-modalidad-virtual.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-59" style="display:none;">https://cursos.bo/R/59/</div>
+            <div id="contentInfo-59" style="display:none;">
+                <div>*Curso atención al cliente - modalidad Virtual*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 Luego de reportar pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/59/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 120 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 110 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/59/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-virtual-relaciones-humanas-y-publicas.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678393077RELACIONES_HUMANAS_1200px.png" alt="Curso virtual Relaciones Humanas y Publicas" title="Curso virtual Relaciones Humanas y Publicas" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">70 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-virtual-relaciones-humanas-y-publicas.html" class="Enlace_Curso_Main_Titulo">Curso virtual Relaciones Humanas y Publicas</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 70 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">60 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20virtual%20Relaciones%20Humanas%20y%20Publicas"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-virtual-relaciones-humanas-y-publicas.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('61');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-61');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-virtual-relaciones-humanas-y-publicas.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-61" style="display:none;">https://cursos.bo/R/61/</div>
+            <div id="contentInfo-61" style="display:none;">
+                <div>*Curso virtual Relaciones Humanas y Publicas*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/61/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 70 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 60 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/61/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-three-devider hidden-xs hidden-sm'></div><div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-virtual-ley-3131.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678391237LEY_3131_1200px.png" alt="Curso virtual Ley 3131" title="Curso virtual Ley 3131" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">55 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-virtual-ley-3131.html" class="Enlace_Curso_Main_Titulo">Curso virtual Ley 3131</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 55 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">45 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20virtual%20Ley%203131"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-virtual-ley-3131.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('63');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-63');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-virtual-ley-3131.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-63" style="display:none;">https://cursos.bo/R/63/</div>
+            <div id="contentInfo-63" style="display:none;">
+                <div>*Curso virtual Ley 3131*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/63/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 55 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 45 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/63/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-virtual-vsiaf-activos-fijos.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678377250VSIAF_1200px.png" alt="Curso virtual VSIAF - Activos Fijos" title="Curso virtual VSIAF - Activos Fijos" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">75 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-virtual-vsiaf-activos-fijos.html" class="Enlace_Curso_Main_Titulo">Curso virtual VSIAF - Activos Fijos</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 75 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">65 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20virtual%20VSIAF%20-%20Activos%20Fijos"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-virtual-vsiaf-activos-fijos.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('66');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-66');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-virtual-vsiaf-activos-fijos.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-66" style="display:none;">https://cursos.bo/R/66/</div>
+            <div id="contentInfo-66" style="display:none;">
+                <div>*Curso virtual VSIAF - Activos Fijos*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/66/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 75 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 65 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/66/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-virtual-ley-1152-sistema-unico-de-salud.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678373026LEY_1152_1200px.png" alt="Curso virtual Ley 1152  Sistema Unico de Salud" title="Curso virtual Ley 1152  Sistema Unico de Salud" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">59 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-virtual-ley-1152-sistema-unico-de-salud.html" class="Enlace_Curso_Main_Titulo">Curso virtual Ley 1152  Sistema Unico de Salud</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 59 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">49 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20virtual%20Ley%201152%20%20Sistema%20Unico%20de%20Salud"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-virtual-ley-1152-sistema-unico-de-salud.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('67');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-67');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-virtual-ley-1152-sistema-unico-de-salud.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-67" style="display:none;">https://cursos.bo/R/67/</div>
+            <div id="contentInfo-67" style="display:none;">
+                <div>*Curso virtual Ley 1152  Sistema Unico de Salud*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/67/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 59 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 49 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/67/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-three-devider hidden-xs hidden-sm'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678370591LEY_2027_1200px.png" alt="Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)" title="Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">59 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html" class="Enlace_Curso_Main_Titulo">Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 59 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">49 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20Ley%202027%20%20🎁%20Estatuto%20del%20Funcionario%20Público%20(Virtual%2024/7)"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('68');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-68');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-68" style="display:none;">https://cursos.bo/R/68/</div>
+            <div id="contentInfo-68" style="display:none;">
+                <div>*Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/68/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 59 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 49 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/68/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="4-cursos-virtuales-salmi-sial-soaps-snisve.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/16772783604cursossalud.png" alt="4 Cursos virtuales Salmi - Sial - Soaps SnisVe" title="4 Cursos virtuales Salmi - Sial - Soaps SnisVe" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">120 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="4-cursos-virtuales-salmi-sial-soaps-snisve.html" class="Enlace_Curso_Main_Titulo">4 Cursos virtuales Salmi - Sial - Soaps SnisVe</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 120 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">95 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 Luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%204%20Cursos%20virtuales%20Salmi%20-%20Sial%20-%20Soaps%20SnisVe"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="4-cursos-virtuales-salmi-sial-soaps-snisve.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('70');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-70');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/4-cursos-virtuales-salmi-sial-soaps-snisve.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-70" style="display:none;">https://cursos.bo/R/70/</div>
+            <div id="contentInfo-70" style="display:none;">
+                <div>*4 Cursos virtuales Salmi - Sial - Soaps SnisVe*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 Luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/70/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 120 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 95 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/70/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="cursos-virtual-word-y-excel.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1676435301noticia word excel.jpeg" alt="Cursos virtual  Word y Excel" title="Cursos virtual  Word y Excel" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">80 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="cursos-virtual-word-y-excel.html" class="Enlace_Curso_Main_Titulo">Cursos virtual  Word y Excel</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 80 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">60 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Cursos%20virtual%20%20Word%20y%20Excel"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="cursos-virtual-word-y-excel.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('71');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-71');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/cursos-virtual-word-y-excel.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-71" style="display:none;">https://cursos.bo/R/71/</div>
+            <div id="contentInfo-71" style="display:none;">
+                <div>*Cursos virtual  Word y Excel*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/71/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 80 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 60 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/71/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-three-devider hidden-xs hidden-sm'></div><div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1678375485LEY_1178_843_2492_1200px.png" alt="3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual" title="3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">150 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html" class="Enlace_Curso_Main_Titulo">3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 150 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">120 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%203%20Cursos%20Ley%201178%20-%20Ley%202492%20y%20Ley%20843%20Virtual"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('89');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-89');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-89" style="display:none;">https://cursos.bo/R/89/</div>
+            <div id="contentInfo-89" style="display:none;">
+                <div>*3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/89/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 150 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 120 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/89/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="3-cursos-ley-1178-safco-politicas-publicas-y-ds23318-a-virtual-24-7-.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/17109404381178_23318_POLPUB_Mesa de trabajo 1.jpg" alt="3 Cursos  Ley 1178 SAFCO , Políticas Públicas y DS23318-A (Virtual 24/7) " title="3 Cursos  Ley 1178 SAFCO , Políticas Públicas y DS23318-A (Virtual 24/7) " class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">130 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="3-cursos-ley-1178-safco-politicas-publicas-y-ds23318-a-virtual-24-7-.html" class="Enlace_Curso_Main_Titulo">3 Cursos  Ley 1178 SAFCO , Políticas Públicas y DS23318-A (Virtual 24/7) </a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 130 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">110 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%203%20Cursos%20%20Ley%201178%20SAFCO%20,%20Políticas%20Públicas%20y%20DS23318-A%20(Virtual%2024/7)%20"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="3-cursos-ley-1178-safco-politicas-publicas-y-ds23318-a-virtual-24-7-.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('103');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-103');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/3-cursos-ley-1178-safco-politicas-publicas-y-ds23318-a-virtual-24-7-.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-103" style="display:none;">https://cursos.bo/R/103/</div>
+            <div id="contentInfo-103" style="display:none;">
+                <div>*3 Cursos  Ley 1178 SAFCO , Políticas Públicas y DS23318-A (Virtual 24/7) *</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/103/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 130 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 110 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/103/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="https://cursosbolivia.org/quechua/">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1680649301QUECHUA_Mesa de trabajo 1.png" alt=" Curso QUECHUA BASICO virtual" title=" Curso QUECHUA BASICO virtual" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">130 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="https://cursosbolivia.org/quechua/" class="Enlace_Curso_Main_Titulo"> Curso QUECHUA BASICO virtual</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 130 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">100 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 Luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20%20Curso%20QUECHUA%20BASICO%20virtual"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="https://cursosbolivia.org/quechua/" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('107');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-107');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/-curso-quechua-basico-virtual.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-107" style="display:none;">https://cursos.bo/R/107/</div>
+            <div id="contentInfo-107" style="display:none;">
+                <div>* Curso QUECHUA BASICO virtual*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 Luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/107/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 130 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 100 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/107/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-three-devider hidden-xs hidden-sm'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="https://cursosbolivia.org/ofimatica/">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1683296673OFFICE_1200px.jpg" alt="Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10" title="Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">TODA BOLIVIA</div>
+                                            <div class="box-label-costo">110 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="https://cursosbolivia.org/ofimatica/" class="Enlace_Curso_Main_Titulo">Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 110 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">90 Bs</b> hasta el 12/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> DISPONIBLE AHORA</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> 24/7 luego de reportar el pago</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Manejo%20básico%20de%20Herramientas%20Ofimáticas%20(Word,%20Excel,%20Power%20Point)%20y%20%20Operador%20de%20Computación%20con%20Windows%2010"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="https://cursosbolivia.org/ofimatica/" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('108');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-108');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/manejo-basico-de-herramientas-ofimaticas-word-excel-power-point-y-operador-de-computacion-con-windows-10.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-108" style="display:none;">https://cursos.bo/R/108/</div>
+            <div id="contentInfo-108" style="display:none;">
+                <div>*Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10*</div>
+                <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; 24/7 luego de reportar el pago</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;VIRTUAL</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/108/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 110 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 90 Bs. hasta 12/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/108/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-two-devider'></div>            <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="curso-photoshop-cc-2023-en-vivo-por-zoom.html">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1708539587photoshop noticia 01.jpg" alt="CURSO PHOTOSHOP CC 2023 en vivo Por zoom" title="CURSO PHOTOSHOP CC 2023 en vivo Por zoom" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">BOLIVIA</div>
+                                            <div class="box-label-costo">200 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="curso-photoshop-cc-2023-en-vivo-por-zoom.html" class="Enlace_Curso_Main_Titulo">CURSO PHOTOSHOP CC 2023 en vivo Por zoom</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 200 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">180 Bs</b> hasta el 15/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> Martes 16 de Abr.</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> Del 16 al 26 de Abril</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20CURSO%20PHOTOSHOP%20CC%202023%20en%20vivo%20Por%20zoom"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="curso-photoshop-cc-2023-en-vivo-por-zoom.html" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('96');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-96');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-photoshop-cc-2023-en-vivo-por-zoom.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-96" style="display:none;">https://cursos.bo/R/96/</div>
+            <div id="contentInfo-96" style="display:none;">
+                <div>*CURSO PHOTOSHOP CC 2023 en vivo Por zoom*</div>
+                <div><br></div>
+                                    <div>*Fecha:* &nbsp; Martes 16 de Abr.</div>
+                    <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; Del 16 al 26 de Abril</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;Online mediante ZOOM</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/96/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 200 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 180 Bs. hasta 15/04 </div>
+                        <div><br></div>
+                                                                                        <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/96/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" align="left">
+                <div class="blog-post-short">
+                    <div class="img-holder">
+                        <div class="bg-img-holder bx-img-curso-f1">
+                            <a href="https://cursosbolivia.org/cursosicoes/">
+                                <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1708528483sicoes noticia 02.jpg" alt="Curso SICOES para empresas y consultores Por Zoom" title="Curso SICOES para empresas y consultores Por Zoom" class="img-responsive grafico img-curso-f1" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-label-ciudad">BOLIVIA</div>
+                                            <div class="box-label-costo">250 Bs</div>
+                                    </div>
+                <!----->
+                <div class="blog-post-short list-group-item ">
+                    <div class="row">
+                        <div class="col-md-12  titulo-curso-f1">
+                            <h2 class="h2-to-normal"><a href="https://cursosbolivia.org/cursosicoes/" class="Enlace_Curso_Main_Titulo">Curso SICOES para empresas y consultores Por Zoom</a></h2>
+                        </div>
+                    </div>
+                    <div class="row hi ">
+                                                    <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: 250 Bs</div>
+                            <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <b style="color: #006ede;font-weight: bold;">200 Bs</b> hasta el 15/04</div>
+                                                <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> Martes 16 de Abr.</div>
+                        <div class="col-md-6 col-sx-6 hi " align="right"><b style="color:red;"><i class="fa fa-street-view"></i> VIRTUAL</b></div>
+                        <div class="col-md-8 col-sx-8 hi "><i class="icon-time"></i> del 16 al 23 Abril 19:45  a 22:30</div>
+                        <div class="col-md-4 col-sx-4 hi  text-right"><a style="color: #00c728;font-weight: bold;font-size: 11pt;text-decoration: none;" target="_blank" href="https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20Curso%20SICOES%20para%20empresas%20y%20consultores%20Por%20Zoom"><img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png" /> 67080077</a></div>
+                    </div>
+                    <div class="row hi  ">
+                        <div class="blog-meta">
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="https://cursosbolivia.org/cursosicoes/" class="buttonlink btn-block boton-primario" style="border-radius: 3px;"> <i class="fa fa-eye"></i> Detalles</a>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('106');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-copy text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-2 col-xs-2 hi " style="padding: 5px;text-align: center;">
+                                <b class="btn btn-xs btn-info" onclick="copyToClipboard('R-106');" title="Copiar informacion al clipboard." style="width: 100%;border-radius: 3px;"><i class="icon-edit text-contrast"></i></b>
+                            </div>
+                            <div class="col-md-4 col-xs-4 hi " align="right">
+                                <a href="registro-curso/curso-sicoes-para-empresas-y-consultores-por-zoom.html" class="buttonlink rojo btn-block"> <i class="icon-edit text-contrast"></i> Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="contentInfo-R-106" style="display:none;">https://cursos.bo/R/106/</div>
+            <div id="contentInfo-106" style="display:none;">
+                <div>*Curso SICOES para empresas y consultores Por Zoom*</div>
+                <div><br></div>
+                                    <div>*Fecha:* &nbsp; Martes 16 de Abr.</div>
+                    <div><br></div>
+                                <div>*Duraci&oacute;n:* &nbsp; del 16 al 23 Abril 19:45  a 22:30</div>
+                <div><br></div>
+                                    <div>*Modalidad:* &nbsp;Online mediante ZOOM</div>
+                                <div><br></div>
+                <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/106/</div>
+                <div><br></div>
+                                    <div>
+                                                    *Inversi&oacute;n:* &nbsp; 250 Bs.
+                            <div><br></div>
+                                            </div>
+                                            <div>*DESCUENTO POR PAGO ANTICIPADO:*</div>
+                        <div><br></div>
+                        <div>*Inversi&oacute;n:* 200 Bs. hasta 15/04 </div>
+                        <div><br></div>
+                                                                            <div>*Estudiantes:* 150 Bs. presentando carnet universitario</div>
+                            <div><br></div>
+                                                                <div>*Whatsapp:* &nbsp; https://wa.me/59169714008</div>
+                    <div><br></div>
+                                                                    <div>*PAGOS:*</div>
+                        <div><br></div>
+                        <div>Banco UNION cuenta 135417258 :&nbsp; Titular YARAUMA</div>
+                        <div><br></div>
+                        <div>Pago por TigoMoney 69714008 (sin recargo)</div>
+                        <div><br></div>
+                        <div>*Otras formas de pago:* https://cursosbolivia.org/formas-de-pago.html</div>
+                        <div><br></div>
+                        <div>Una vez realizado el pago, tiene que registrarse en: https://cursosbolivia.org/R/106/</div>
+                        <div><br></div>
+                                                    <div><br></div>
+            </div>
+        <div class='courses-three-devider hidden-xs hidden-sm'></div><div class='courses-two-devider'></div>        
+</div>        <br>
+    </section>
+</div>
+
+<div style="background-color:#FFF">
+    <section class="container">
+        <hr/>
+
+        <style>
+            .box-valida-cert{
+                background: #f7f7f7;
+                padding: 5px 20px;
+                border: 1px solid #258fad;
+                margin-bottom: 20px;
+            }
+        </style>
+        <div class="box-valida-cert">
+            <div class="row">
+                <form action="validacion-de-certificado.html" method="post" id="form-valida-cert">
+                    <h2 class="titulo-second-f1-a" style="clear: both;">VALIDACI&Oacute;N DE CERTIFICADOS</h2>
+
+                    <h4 class="text-center" style="color:#258fad;">M&aacute;s de 350 instituciones p&uacute;blicas han verificado nuestros cerficados.</h4>
+
+                    <p>
+                        Mediante el sistema de validaci&oacute;n de certificados, se podr&aacute; verificar la autenticidad del certificado correspondiente emitido para cada uno de los cursos realizados, estos pueden ser solicitados por la instituci&oacute;n o persona que lo requiera.
+                        <br/>
+                        Para ello ingrese el <b>'ID de certificado'</b> ubicado en la parte inferior del c&oacute;digo QR del certificado emitido. IMPORTANTE: La informaci&oacute;n v&aacute;lida es la generada en la pantalla.
+                    </p>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <hr/>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-id-card"></i></span>
+                            <input type="text" name="id_certificado" id="id_certificado" value="" class="form-control" placeholder="Ingrese el ID de certificado..." aria-describedby="basic-addon1" required=""/>
+                            <span class="input-group-addon" onclick="send_form_valid();" style="cursor:pointer;"><i class="fa fa-eye"></i> VALIDAR</span>
+                        </div>
+                        <script>
+                            function send_form_valid() {
+                                if (document.getElementById('id_certificado').value !== '') {
+                                    document.getElementById('form-valida-cert').submit();
+                                }
+                            }
+                        </script>
+                        <hr/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    function actualiza_ciudades() {
+        $("#select_ciudad").html('<option>Cargando...</option>');
+        var id_departamento = $("#select_departamento").val();
+        $.ajax({
+            url: 'contenido/paginas/ajax/ajax.actualiza_ciudades.php',
+            data: {
+                id_departamento: id_departamento
+            },
+            type: 'POST',
+            dataType: 'html',
+            success: function(data) {
+                $("#select_ciudad").html(data);
+            }
+        });
+    }
+</script>
+
+<script>
+    function copyToClipboard(cod) {
+        alert('Se ha copiado la informacion del curso al portapapeles (Ctrl + C)');
+        var container = document.createElement('div');
+        container.innerHTML = document.getElementById("contentInfo-" + cod).innerHTML;
+        var activeSheets = Array.prototype.slice.call(document.styleSheets).filter(function(sheet) {
+            return !sheet.disabled;
+        });
+        document.body.appendChild(container);
+        window.getSelection().removeAllRanges();
+        var range = document.createRange();
+        range.selectNode(container);
+        window.getSelection().addRange(range);
+        document.execCommand('copy');
+        document.body.removeChild(container);
+    }
+</script>
+
+
+
+
+    <style>
+        .wrapsemibox {
+            z-index: auto !important;
+        }
+        @media (min-width: 768px){
+            .modal-dialog {
+                width: 900px;
+                margin: 30px auto;
+            }
+        }
+        .hook{
+            background: url('https://www.cursosbolivia.org/contenido/imagenes/images/back_reg_popup.jpg') #121e2c;
+            height: 640px;
+            float: left;
+        }
+        .cont-regg{
+            float: left;
+            min-height:610px;
+        }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .hook{
+                background-image: url('https://d2ycj993f2qxkw.cloudfront.net/assets/onboard/domestika-onboard-6@2x-074842a7e1a94854ccd5614eb7e3f2ab659452713930a76f3434f985a63e2e07.jpg');
+            }
+        }
+        .btn-facebook{
+            color: #FFF;
+            background-color: #3B5998;
+            border-color: #FFF;
+        }
+        .btn-google{
+            margin-top: 10px;
+            color: #FFF;
+            background-color: #dd4c39;
+            border-color: #FFF;
+        }
+        .btn-facebook:hover,.btn-google:hover{
+            color: #EEE;
+            border-color: gray;
+        }
+    </style>
+    
+
+<section id="TextoConsultasPie" class="TextoConsultasPie"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 hidden-xs hidden-sm">
+                <br>                
+                Informes y consultas : &nbsp;<i class="icon-phone"></i> &nbsp;
+                &nbsp;       | &nbsp; 
+                <img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png"> 
+                &nbsp; 67080077                     | &nbsp;  &nbsp; 
+                <a href="https://www.facebook.com/cursosvirtualesenbolivia" target="_blank" title="CURSOS BOLIVIA / Facebook Cursos y capacitaciones en Bolivia">
+                    <img src="https://www.cursosbolivia.org/contenido/alt/icono-facebook.png"> <span style="color:#FFF;font-size: 11pt;">Facebook</span>
+                </a>
+                <br><br>            
+            </div>
+            <div class="col-md-12 hidden-md hidden-lg">
+            </div>
+            <div class="col-md-12 hidden-md hidden-lg">
+                <br>
+                <img src="contenido/alt/icono_whatsap.png"> 67080077            </div>
+            <div class="col-md-12 hidden-md hidden-lg">
+                <br>
+                <a href="https://www.facebook.com/cursosvirtualesenbolivia" target="_blank" title="CURSOS BOLIVIA / Facebook Cursos y capacitaciones en Bolivia">
+                    <img src="https://www.cursosbolivia.org/contenido/alt/icono-facebook.png">
+                </a>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <p class="text-center">
+                    Cursos y capacitaciones en toda Bolivia.                </p>
+                            </div>
+                    </div>
+    </div>
+    <p id="back-top" style="display: none;">
+        <a href="https://cursosbolivia.org/#top"><span></span></a>
+    </p>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-5 hidden-sm hidden-xs">
+                    <p class="pull-left">&copy; CURSOS BOLIVIA 2024   Cochabamba - Bolivia</p>
+                </div>
+                <div class="col-xs-12 hidden-sm col-md-7 hidden-xs ">
+                    <ul class="footermenu pull-right">
+                        <li><a href="https://licitaciones.com.bo/">Licitaciones</a></li>
+                        <li><a href="https://infosiscon.com/consultorias-bolivia.html">Consultorias</a></li>
+                        <li><a href="https://cursosbolivia.org/">Cursos Bolivia</a></li>
+                        <li><a href="https://www.vpshostingbolivia.com/">VPS Hosting Bolivia</a></li>
+                        <li><a target="_blank" href="https://infosiscon.com/noticias.html">NOTICIAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12  hidden-md hidden-lg">
+                    <p class="pull-left">&copy; CURSOS BOLIVIA 2024   Cochabamba - Bolivia</p>
+                </div>
+                <div class="col-xs-12  hidden-md hidden-lg" style="padding-top: 5px;margin-top: 5px;border-top:1px solid #FFF;">
+                    <div class="col-xs-6 text-center"> <a href="contacto.html" class="EnlacePoliticas">Contacto</a></div>
+                    <div class="col-xs-6 text-center"> <a href="quienes-somos.html" class="EnlacePoliticas">Quienes Somos</a></div>
+                    <br/>
+                </div>
+            </div>
+        </div>
+            </div>            
+</section>
+</div>
+
+<!--previous scripts-->
+    <script>
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ')
+                    c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0)
+                    return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+    </script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117245747-1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117245747-1');
+</script>
+
+
+<!--Notificaciones-->
+<script>
+    function guardaToken(token) {
+        //alert('Token:' + token);
+        $.ajax({
+            url: 'contenido/paginas/ajax/ajax.instant.saveToken.php',
+            data: {token: token},
+            type: 'POST',
+            dataType: 'html',
+            success: function(data) {
+                //alert('Token: guardado : ' + token);
+            }
+        });
+    }
+</script>
+<script>
+    function cambia_estado_notificaciones(token, state) {
+        $("#ajaxbox-notification-msm").html("Cargando...");
+        if (token === '') {
+            location.href='notificaciones.html';
+        } else {
+            $.ajax({
+                url: 'contenido/paginas/ajax/ajax.instant.cambia_estado_notificaciones.php',
+                data: {token: token, state: state},
+                type: 'POST',
+                dataType: 'html',
+                success: function(data) {
+                    $("#ajaxbox-notification-state").html(data);
+                    $("#ajaxbox-notification-msm").html("");
+                }
+            });
+        }
+    }
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+    var config = {
+        apiKey: "AIzaSyDVaOYZYo_6QzuWqu9LHkgROukGGdlDL70",
+        authDomain: "cursosbo-220916.firebaseapp.com",
+        messagingSenderId: "1057058715628"
+    };
+    firebase.initializeApp(config);
+
+    const messaging = firebase.messaging();
+    messaging.requestPermission()
+            .then(function() {
+                //MsgElem.innerHTML = "Notification permission granted.";
+                console.log("Notification permission granted.");
+
+                // get the token in the form of promise
+                return messaging.getToken();
+            })
+            .then(function(token) {
+                //TokenElem.innerHTML = "token is : " + token;
+                guardaToken(token);
+            })
+            .catch(function(err) {
+                //ErrElem.innerHTML = ErrElem.innerHTML + "; " + err;
+                console.log("Unable to get permission to notify.", err);
+            });
+
+    messaging.onMessage(function(payload) {
+        console.log("Message received. ", payload);
+        //NotisElem.innerHTML = NotisElem.innerHTML + JSON.stringify(payload);
+        displayNotification(payload);
+    });
+</script>
+<script>
+    function displayNotification(payload) {
+        if (Notification.permission === 'granted') {
+            var options = {
+                body: payload["data"]["gcm.notification.text"],
+                icon: payload["data"]["gcm.notification.image"]
+            };
+            var notif = new Notification(payload["data"]["gcm.notification.text"], options);
+            notif.onclick = function(event) {
+                event.preventDefault(); // Previene al buscador de mover el foco a la pesta�a del Notification
+                window.open(payload["data"]["gcm.notification.url"], '_blank');
+                notif.close();
+            };
+            notif.show();
+        }
+    }
+</script>
+
+
+
+
+
+<!-- Modal general -->
+<div id="MODAL-general" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="title-MODAL-general"></h4>
+      </div>
+      <div class="modal-body" id="body-MODAL-general">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+

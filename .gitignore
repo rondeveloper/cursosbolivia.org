@@ -1,0 +1,36 @@
+
+# variables de entorno
+.env
+# archivo htaccess
+.htaccess
+/public_html/contenido/plataforma/.htaccess
+# directorio composer
+/vendor/
+# archivos comprimidos
+*.zip
+*.rar
+# carpetas dentro librerias
+/public_html/contenido/librerias/*
+/public_html/contenido/imagenes/depositos/*
+# archivos ini
+*.ini
+# carpeta de instalacion ssl
+.well-known/
+# carpeta cgi-bin
+cgi-bin/
+# carpetas
+/public_html/contenido/imagenes/cursos/certificados/*
+/public_html/contenido/archivos/cursos/lecciones/*
+!/public_html/contenido/archivos/cursos/lecciones/.gitkeep
+/public_html/contenido/videos/cursos/*
+!/public_html/contenido/videos/cursos/.gitkeep
+/public_html/contenido/imagenes/qrcode/*
+/public_html/contenido/archivos/pdf_comprobante/*
+!/public_html/contenido/archivos/pdf_comprobante/.gitkeep
+# carpeta vscode
+.vscode/
+
+.DS_Store
+
+
+

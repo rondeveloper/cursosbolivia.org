@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteRule ^(.*).adm?$ index.php?seccion=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?dir=$1 [NC,L]

@@ -1,0 +1,245 @@
+/* ---------------------------------------------------------------------- */
+/*	Carousel
+ /* ---------------------------------------------------------------------- */
+$(window).load(function () {
+    $('#carousel-projects').carouFredSel({
+        responsive: true,
+        items: {
+            width: 200,
+            height: 295,
+            visible: {
+                min: 1,
+                max: 4
+            }
+        },
+        width: '200px',
+        height: '295px',
+        auto: true,
+        circular: true,
+        infinite: false,
+        prev: {
+            button: "#car_prev",
+            key: "left",
+        },
+        next: {
+            button: "#car_next",
+            key: "right",
+        },
+        swipe: {
+            onMouse: true,
+            onTouch: true
+        },
+        scroll: {
+            easing: "",
+            duration: 1200
+        }
+    });
+});
+
+//CALL PRETTY PHOTO
+$(document).ready(function () {
+   // $("a[data-gal^='prettyPhoto']").prettyPhoto({social_tools: '', animation_speed: 'normal', theme: 'dark_rounded'});
+   
+   
+   
+   
+});
+
+//MASONRY
+$(document).ready(function () {
+    var $container = $('#content');
+    $container.imagesLoaded(function () {
+        $container.isotope({
+            filter: '*',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false,
+            }
+        });
+    });
+    $('#filter a').click(function (event) {
+        $('a.selected').removeClass('selected');
+        var $this = $(this);
+        $this.addClass('selected');
+        var selector = $this.attr('data-filter');
+        $container.isotope({
+            filter: selector
+        });
+        return false;
+    });
+});
+
+
+//ROLL ON HOVER
+$(function () {
+    $(".roll").css("opacity", "0");
+    $(".roll").hover(function () {
+        $(this).stop().animate({
+            opacity: .8
+        }, "slow");
+    },
+            function () {
+                $(this).stop().animate({
+                    opacity: 0
+                }, "slow");
+            });
+});
+    
+	/**************************************************************************/
+	
+	
+function paqueteSuma() {
+    var frmId = $(this).data('frm');
+    var selNro = $(this).data('nro');
+    var td = '#td_'+frmId+'_'+selNro;
+
+	if( $(td).hasClass('paquete_quitar') ){
+		
+	    $(td).addClass('paquete_agregar');
+		$(td).removeClass('paquete_quitar');
+        // quitar
+		var cursos = $('#cursos_' + frmId).val();
+		
+		var vector= cursos.split(","); 
+		var tam=vector.length;
+		var aux='';
+		
+		for(i=0;i<tam;i++)
+		{
+		    if(vector[i]!=selNro){
+				aux+=vector[i]+',';
+			} 
+		}
+		$('#cursos_' + frmId).val(aux);
+		
+		} else {
+		$(td).addClass('paquete_quitar');
+		$(td).removeClass('paquete_agregar');
+		
+		// agrega
+		var cursos= $('#cursos_' + frmId).val();
+		cursos+=','+selNro; 
+        $('#cursos_' + frmId).val(cursos);
+
+		
+		
+	  } 
+	
+	var costo_total=0;
+	var hora_total=0;
+	var total =0;
+	var total_dia=0;
+	
+	$('#frm_' + frmId+' .ct').each(function (x, el) {
+         var tdname = $(el).data('td');
+		 if(!$('#'+tdname).hasClass('paquete_agregar')){
+		          costo_total += parseFloat($(el).val());
+				  total ++;
+		 }
+	 });
+	 //-----
+	 var tc = costo_total;
+	 $('#frm_' + frmId).find('.valor_ct').text(tc);
+	 $('#costo_total_paquete_'+frmId).val(costo_total);
+ 	 //------
+	 $('#frm_' + frmId).find('.valor_mes').text(' '+total);
+	 $('#mes_final').val(total);
+	 //------
+	$('#frm_' + frmId+' .hr').each(function (x, el) {
+         var tdname = $(el).data('td');
+		 if(!$('#'+tdname).hasClass('paquete_agregar')){
+		          hora_total += parseFloat($(el).val());
+		 }
+	 });
+	 $('#frm_' + frmId).find('.valor_hora').text(' '+hora_total);
+	 //------
+
+
+
+}
+;
+
+function reservar(ev) {
+    ev.preventDefault();
+    var domain = $('#domain').html();
+    var frmId = $(this).data('frm');
+    var cursos = '';
+    $('#frm_' + frmId).find('.cursos').each(function (x, el) {
+        var nro = $(el).val();
+        if ($('#caja_' + frmId + '_' + nro).length) {
+
+            if ($('#caja_' + frmId + '_' + nro).is(':checked')) {
+                if (cursos === '') {
+                    cursos += $(el).val();
+                } else {
+                    cursos += ',' + $(el).val();
+                }
+            }
+        }
+
+    });
+    
+	$('#cursos_' + frmId).val(cursos);
+	
+    var costo_final = $('#frm_' + frmId).find('.costo_final_' + frmId).html();
+    $('#costo_' + frmId).val( costo_final );
+    if (cursos) {
+        $('#cursos_' + frmId).val(cursos);
+        $('#frm_' + frmId).submit();
+    } else {
+        $.gritter.add({
+            title: '¡Atención!',
+            text: 'Debe agregar al menos un curso para hacer la reserva.',
+        });
+
+
+    }
+
+}
+;	
+	/**************************************************************************/
+    
+    /* ---------------------------------------------------------------------- */
+	/*	Toggles
+	/* ---------------------------------------------------------------------- */
+	$(document).ready(function () {
+
+	$('.faqs dd').hide(); // Hide all DDs inside .faqs
+	$('.faqs dt').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}).click(function(){ // Add class "hover" on dt when hover
+	$(this).next().slideToggle('normal'); // Toggle dd when the respective dt is clicked
+	}); 
+	
+	/*****************************/
+	
+	   var acc = document.getElementsByClassName("accordion");
+		var i;
+		
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function(){
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+		  }
+		}
+
+     /******************************************************/
+	 
+	 
+	 $('.caja, .labelAgregarQuitar').click(paqueteSuma);
+	 
+	 
+  /*   $('a.reservar').click(reservar);
+		loadValidable({
+			reqInput: 'error',
+			callback: 'enviaForm'
+		});*/
+	
+
+
+
+
+	
+	
+	});
+
+ 

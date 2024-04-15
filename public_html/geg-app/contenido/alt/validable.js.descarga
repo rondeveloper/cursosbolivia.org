@@ -1,0 +1,224 @@
+/* VALIDABLE VERSION 4.1 para front
+ * 
+ * for NEW SIMPLE tested with jQuery v1.10.2 
+ * 
+ * usage:
+ loadValidable({
+ reqInput: 'req',
+ reqSelect: 'req',
+ reqTextarea: 'req',
+ loadClass:'load',
+ callback: 'dumbCallBack'
+ });
+ * callback:
+ *  function dumbCallBack(e) {
+ if(SOMETHING_WRONG) {
+ $.stop(e || window.event);
+ return false;
+ }
+ }
+ * utf8 support
+ * onfocus highlight was deleted
+ * alpha and currency types were deleted
+ * event click automatically add to class a.button
+ * customized for input with inpB and req classes 
+ * inpB DELETED bug on focus submit 
+ * version 4 parametrizable
+ * loading class show hide
+ *
+ * ****** BUG CLEAR PREVIUS REQS *******
+ * div_3 added for extra messages
+ * unbind added
+ * 
+ * currency_comma added format 33,555.00
+ * 
+ */
+var filters = {
+    required: function (el) {
+        return ($(el).val() !== '' && $(el).val() !== -1);
+    },
+    email: function (el) {
+        return /^[A-Za-z][A-Za-z0-9_\.\-]*@[A-Za-z0-9_\-]+\.[A-Za-z0-9_.\-]+[A-za-z]$/.test($(el).val());
+    },
+    numeric: function (el) {
+        return /^[0-9]*\.?[0-9]*$/.test($(el).val());
+    },
+    phone: function (el) {
+        return /^[0-9\-()]*$/.test($(el).val());
+    },
+    currency: function (el) {
+        return /^[0-9]*\.?[0-9]{0,2}$/.test($(el).val());
+    },
+    currency_comma: function (el) {
+        return /^[0-9,]*\.?[0-9]{0,2}$/.test($(el).val());
+    },
+    alpha: function (el) {
+        return /^[a-zA-Z áéíóúAÉÍÓÚÑñ\.,;:\|)"(º_@><#&'\?¿¡!/\\%\$=]*$/.test($(el).val());
+    },
+    alphanum: function (el) {
+        return /^[a-zA-Z0-9 áéíóúAÉÍÓÚÑñëïüÿâêîôûàèìòùæç\-\.,;:\|)"(º_@><#&'\?¿¡!/\\%\$=]*$/.test($(el).val());
+    },
+    password: function (el) {
+        return /^[a-zA-Z0-9áéíóúAÉÍÓÚÑñëïüÿç\.,;:\|)"(º_><#&'\?¿¡!/\\%\$=\*\+]*$/.test($(el).val());
+    }
+};
+
+$.extend({
+    /* PARAMOS LA EJECUCIÓN*/
+    stop: function (e) {
+        if (e.preventDefault)
+            e.preventDefault();
+        if (e.stopPropagation)
+            e.stopPropagation();
+    }
+});
+
+
+function dumbCallBack(e) {
+    return true;
+
+}
+;
+
+function loadValidable(args) {
+    options = jQuery.extend({
+        formId: 'any',
+        formName: 'any',
+        reqInput: 'req',
+        reqSelect: 'req',
+        reqTextarea: 'req',
+        loadClass: 'load',
+        callback: 'dumbCallBack'
+    }, args);
+
+    var frm = 'form.validable';
+    if (options.formId !== 'any') {
+        frm = '#' + options.formId;
+    } else if (options.formName !== 'any') {
+        frm = 'form[name="' + options.formName + '"]';
+    }
+
+    $(frm).unbind("submit");
+    //on submit
+    $(frm).bind("submit", function (e) {
+
+        if (typeof filters === 'undefined')
+            return;
+
+
+        $(this).find("input, textarea, select").each(function (x, el) {
+
+
+            if ($(el).attr("class") !== 'undefined' && $(el).attr("class") !== '') {
+
+                // clear previus reqs
+                aux = el.tagName;
+                switch (aux.toUpperCase()) {
+                    case 'INPUT'    :
+                        $(el).removeClass(options.reqInput);
+                        break;
+                    case 'SELECT'   :
+                        $(el).removeClass(options.reqSelect);
+                        break;
+                    case 'TEXTAREA' :
+                        $(el).removeClass(options.reqTextarea);
+                        break;
+
+                }
+
+                $.each(new String($(el).attr("class")).split(" "), function (x, klass) {
+                    if ($.isFunction(filters[klass])) {
+                        if (!filters[klass](el)) {
+                            aux = el.tagName;
+
+                            switch (aux.toUpperCase()) {
+                                case 'INPUT'    :
+                                    $(el).addClass(options.reqInput);
+                                    break;
+                                case 'SELECT'   :
+                                    $(el).addClass(options.reqSelect);
+                                    break;
+                                case 'TEXTAREA' :
+                                    $(el).addClass(options.reqTextarea);
+                                    break;
+
+                            }
+
+                            var idName = $(el).attr("id");
+                            if ($(el).val() === '') {
+                                $("#div_" + idName).show();
+                            } else {
+                                $("#div_" + idName + "_2").show();
+                            }
+                        }
+                    }
+
+                });
+            }
+        });
+        var findClasses = "." + options.reqInput + ", ." + options.reqSelect + ", ." + options.reqTextarea;
+        /*var findClasses= ".req, .req2, .req3"; */
+        if ($(this).find(findClasses).size() > 0) {
+            $.stop(e || window.event);
+            return false;
+        } else {
+
+            var fnstring = options.callback;
+            var fn = window[fnstring];
+            if (typeof fn === "function") {
+                fn(e);
+            } else {
+                $('.' + options.loadClass).show();
+                return true;
+            }
+
+
+        }
+    });
+
+// on focus	remueve los tag de error
+    $(frm).find("input, textarea, select").each(function (x, el) {
+        $(el).bind("focus", function () {
+            if ($(el).attr("class") !== 'undefined' && $(el).attr("class") !== '') {
+
+                aux = el.tagName;
+                switch (aux.toUpperCase()) {
+                    case 'INPUT'    :
+                        $(el).removeClass(options.reqInput);
+                        break;
+                    case 'SELECT'   :
+                        $(el).removeClass(options.reqSelect);
+                        break;
+                    case 'TEXTAREA' :
+                        $(el).removeClass(options.reqTextarea);
+                        break;
+
+                }
+
+
+                var idName = $(el).attr("id");
+                $("#div_" + idName).hide();
+                $("#div_" + idName + "_2").hide();
+                $("#div_" + idName + "_3").hide();
+            }
+        });
+    });
+
+// on blur
+    $(frm).find("input, textarea, select").each(function (x, el) {
+        $(el).bind("blur", function () {
+            if ($(el).attr("class") !== 'undefined' && $(el).attr("class") !== '') {
+
+
+                var idName = $(el).attr("id");
+                $("#div_" + idName).hide();
+                $("#div_" + idName + "_2").hide();
+                $("#div_" + idName + "_3").hide();
+            }
+        });
+    });
+
+
+}
+;
+

@@ -1,0 +1,188 @@
+.colortext {	color:#277092;}
+
+
+
+.colorbg {background:#FE0000;}
+
+
+
+a {	color:#000;}
+
+
+
+::selection{background:#FE0000;}
+
+
+
+.navbar-nav>li.active>a,.navbar-nav>li.active>a:hover,.navbar-nav>li.active>a:focus {
+    background-color:#318CB8;
+    padding-bottom: 14px;
+    border-bottom: 7px solid #1b5b77;
+}
+
+
+
+/*.navbar-nav>li.active>a:before,.navbar-nav>li>a:hover:before,.navbar-nav>li>a:focus:before,.extra-nav-class a.dropdown-toggle:before {}*/
+
+
+
+.navbar-nav>li>a:hover,.navbar-nav>li>a:focus {	
+    background-color:#318CB8;
+    border-bottom: 7px solid #1b5b77;
+}
+
+
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {background-color:#318CB8 !Important;}
+
+
+
+.extra-nav-class a.dropdown-toggle {	background-color:#318CB8 !Important;}
+
+
+
+.car-highlight1 {background-color:#FE0000;}
+
+
+
+.car-smallcircle {background:#FE0000;}
+
+
+
+.carouselText2 {	background:#FE0000;}
+
+
+
+.icon-box-top i:hover {background-color:#FE0000;}
+
+
+
+.fontawesome-icon.circle-white {	color:#FE0000;}
+
+
+
+.grey-box-icon:hover .fontawesome-icon.circle-white,.grey-box-icon.active .fontawesome-icon.circle-white,.active i.fontawesome-icon {background-color:#FE0000;}
+
+
+
+.home-features .icon {background:#FE0000;}
+
+
+
+.copyright {	background-color:#FE0000;}
+
+
+
+.panel1 {border-left:6px solid #FE0000;}
+
+
+
+.buttoncolor {/*background:#FE0000;*/}
+
+
+
+.panel,.panel2 {	border-left:0px solid #FE0000;}
+
+
+
+.btn-default {background-color:#FE0000;}
+
+
+
+.btn-minimal:hover {	color: #FE0000;}
+
+
+
+#accordion div h4:before {	background:#FE0000 url('../img/plus.png') center center no-repeat;}
+
+
+
+#accordion div.active h4:before {background:#FE0000 url('../img/minus.png') center center no-repeat;}
+
+
+
+.sidebar h4 {color:#FE0000;}
+
+
+
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover {/*font-weight:bold;*/color: #0169B2 !important;}
+
+
+
+blockquote {border-left:5px solid #FE0000;}
+
+
+
+#skill i {background:#FE0000;}
+
+
+
+.service-fancybox:hover i {color:#FE0000;}
+
+
+
+.service-fancybox:hover {background:#FE0000;}
+
+
+
+.service-fancybox.featured {	background:#FE0000;}
+
+
+
+.service-fancybox.featured .circleicon i {color:#FE0000;}
+
+
+
+.service-fancybox.black .circleicon i {color:#FE0000;}
+
+
+
+.cbp_tmtimeline>li .cbp_tmicon {background:#FE0000;}
+
+
+
+.services i {	color:#FE0000;}
+
+
+
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {background-color:#FE0000;	border-color:#FE0000;}
+
+
+
+.landingpage-button {color:#FE0000;}
+
+
+
+.landingpage-button {color:#FE0000;}
+
+
+
+.landingpage-button span {color:#FE0000;}
+
+
+
+.landingpage-button strong {color:#FE0000;}
+
+
+
+.landingpage-button i {color:#FE0000;}
+
+
+
+.active-header {	background:#FE0000;}
+
+
+
+.active-header:hover {background:#FE0000;}
+
+
+
+#filter ul li .selected {background: #FE0000 !Important;}
+
+
+
+.drop-cap, .captionicons {background:#FE0000;}
+
+
+
+.pageheader-default .semitransparentbg, .bgarea-semitransparent {background: rgba(0,0,0,0.80) !important;}

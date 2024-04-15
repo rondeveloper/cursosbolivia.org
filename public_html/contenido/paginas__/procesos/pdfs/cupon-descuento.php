@@ -1,0 +1,202 @@
+<?php
+session_start();
+include_once '../../../configuracion/config.php';
+include_once '../../../configuracion/funciones.php';
+$mysqli = mysqli_connect($env_hostname,$env_username,$env_password,$env_database);
+
+/* carga composer autoload */
+require_once $___path_raiz."../vendor/autoload.php";
+
+
+/* datos */
+$id_cupon = '0';
+if (isset_get('id_cupon')) {
+    $id_cupon = get('id_cupon');
+}
+$id_curso = '0';
+if (isset_get('id_curso')) {
+    $id_curso = get('id_curso');
+}
+$id_participante = '0';
+if (isset_get('id_participante')) {
+    $id_participante = get('id_participante');
+}
+
+
+/* generad de QR */
+include_once '../../../librerias/phpqrcode/qrlib.php';
+
+session_start();
+$name = $_SESSION['username'];
+$id = $_SESSION['userid'];
+$fullname = $_SESSION['full'];
+
+class PDF extends FPDF {
+
+    function Footer() {
+        $this->SetY(-27);
+        $this->SetFont('Arial', 'I', 8);
+        $this->Cell(0, 10, 'This certificate has been produced by Desteco SRL', 0, 0, 'R');
+    }
+
+}
+
+$pdf = new FPDF('P', 'pt', 'Letter');
+//$pdf = new FPDF('L', 'pt', array(595.28,871.89));
+
+
+
+/* registro */
+if($id_participante=='0'){
+    $rqce1 = query("SELECT * FROM cursos_emisiones_cupones WHERE id_cupon='$id_cupon' AND id_curso='$id_curso' ORDER BY id_participante ASC limit 300 ");
+}else{
+    $rqce1 = query("SELECT * FROM cursos_emisiones_cupones WHERE id_cupon='$id_cupon' AND id_participante='$id_participante' ORDER BY id_participante ASC limit 300 ");
+}
+$cnt_counter = num_rows($rqce1);
+if ($cnt_counter == 0) {
+    echo "<br/><hr/><h3>No se encontraron emisiones de certificados para los participantes seleccionados.</h3><hr/><br/>";
+    exit;
+}
+
+$cnt_counter_aux = 0;
+while ($rqce2 = fetch($rqce1)) {
+
+    /* certificado id */
+    $codigo = $rqce2['codigo'];
+    
+    
+    /* verficacion de cupon */
+    $rqdcd1 = query("SELECT * FROM cursos_cupones WHERE id='$id_cupon' LIMIT 1 ");
+    $rqdcd2 = fetch($rqdcd1);
+    $detalle_cupon = utf8_decode($rqdcd2['detalle_cupon']);
+    $fecha_expiracion_cupon = $rqdcd2['fecha_expiracion'];
+    $porcentaje_descuento_cupon = $rqdcd2['porcentaje_descuento'];
+  
+   
+
+    $codigo_certificado = $codigo;
+    $cont_titulo = $detalle_cupon;
+    $cont_uno = 'Descuento por el '.$porcentaje_descuento_cupon.' %';
+    $cont_dos =  'CODIGO DE CUPÓN: '.$codigo;
+    $cont_tres =  'Este cupón tiene validez hasta: '. date("d / m / Y",strtotime($fecha_expiracion_cupon));
+
+    $firma1_nombre ='Texto Texto Texto Texto Texto Texto Texto Texto Texto';
+    $firma1_cargo = 'Texto Texto Texto Texto Texto Texto Texto Texto Texto';
+    $firma1_imagen = 'Texto Texto Texto Texto Texto Texto Texto Texto Texto';
+    $firma1_sw_incluir_nombres = "1";
+    $firma1_top_pixeles = 0;
+    $firma2_nombre = 'Texto Texto Texto Texto Texto Texto Texto Texto Texto';
+    $firma2_cargo = 'Texto Texto Texto Texto Texto Texto Texto Texto Texto';
+    $firma2_imagen = 'Texto Texto Texto Texto Texto Texto Texto Texto Texto';
+    $firma2_sw_incluir_nombres = "1";
+    $firma2_top_pixeles = 0;
+
+
+    /* generad de QR */
+    $file = 'qrcode-codigo-cupon-descuento-' . $codigo . '.png';
+    $file_qr_certificado = '../../../imagenes/qrcode/' . $file;
+    if (!is_file($file_qr_certificado)) {
+        copy('../../../imagenes/qrcode/jr-qrcode.png', $file_qr_certificado);
+    }
+    /* nombre del curso */
+    $rqdc1 = query("SELECT titulo,fecha FROM cursos WHERE id='$id_curso' ORDER BY id DESC limit 1 ");
+    $rqdc2 = fetch($rqdc1);
+    $data = $codigo.' | '.$id_participante.' | '.$detalle_cupon.'|'.$porcentaje_descuento_cupon;
+    QRcode::png($data, $file_qr_certificado);
+
+
+//Loading data 
+    $pdf->SetTopMargin(20);
+//$pdf->SetLeftMargin(70);
+    $pdf->SetLeftMargin(0);
+    $pdf->SetRightMargin(10);
+    $pdf->AddPage();
+
+    $pdf->SetAutoPageBreak(false);
+
+    $pdf->Ln(1);
+
+//DATOS
+    $pdf->SetTextColor(16, 43, 75);
+// Arial 12
+    $pdf->SetFont('Arial', 'B', 17);
+/* titulo */
+    
+    $pdf->SetY(90);
+    $pdf->SetX(185);
+    $pdf->MultiCell(400, 20, $cont_titulo, 50, 'C');
+/* Salto de linea */
+    $pdf->SetTextColor(0, 0, 0);
+
+//datos participante
+    /* $pdf->SetFont('Arial', '', 21); */
+    //*$pdf->SetFont('Arial', '', 25);
+    //*$pdf->Cell(0, 450, $receptor_de_certificado, 0, 0, 'C');
+
+//datos certificado
+    $pdf->SetFont('Arial', '', 12);
+    $pdf->SetTextColor(30, 30, 30);
+
+
+    $pdf->SetY(0);
+    $pdf->SetX(160);
+    $pdf->Cell(0, 130, $cont_uno, 0, 0, 'C');
+    $pdf->Ln(4);
+    $pdf->SetFont('Arial', 'B', 22);
+    $pdf->SetTextColor(0, 0, 0);
+
+    $pdf->SetY(0);
+//*$pdf->Cell(0, 0, $cont_dos, 0, 0, 'C');
+    $pdf->SetX(160);
+    $pdf->SetTextColor(13, 81, 96);
+    $pdf->MultiCell(0, 80, $cont_dos, 0, 'C');
+    $pdf->SetTextColor(0, 0, 0);
+//$pdf->Ln(1);
+//$pdf->Cell(0, 30, 'Profesionales, Técnicos y Consultores", con una carga horaria de 8 horas.', 0, 0, 'C');
+
+    /* $pdf->SetY(-180); */
+    $pdf->SetFont('Arial', 'B', 12);
+    $pdf->SetY(-0);
+    $pdf->SetX(160);
+    $pdf->Cell(0, 350, $cont_tres, 0, 0, 'C');
+
+
+
+    $pdf->SetFont('Arial', 'B', 9);
+    $pdf->SetTextColor(0, 0, 0);
+
+    $pdf->SetY(-17);
+    $pdf->SetX(590);
+    $pdf->Cell(200, 0, 'ID de certificado: ' . $codigo, 0, 0, 'C');
+
+    $pdf->SetY(-100);
+    /* codigo QR */
+    /* $pdf->Image($file_qr_certificado, 690, 510, 95, 95); */
+    //$pdf->Image($file_qr_certificado, 350, 40, 100, 100);
+    $pdf->Image($file_qr_certificado, 20, 70, 120, 115);
+    
+    
+    
+    /* logo */
+    $file_qr_certificado = '../../../alt/logotipo-v2.png';
+    $pdf->Image($file_qr_certificado, 20, 20, 150, 50);
+    
+    
+    $pdf->SetFont('Arial', '', 11);
+    $pdf->SetY(190);
+    $pdf->SetX(25);
+    $pdf->MultiCell(550, 14, 'Este cupón constituye un porcentaje de descuento en algún curso relacionado al mencionado en este cupón a realizarse en próximas fechas.', 0, 'L');
+    
+    
+
+
+
+    /* texto solo en impresion multiple */
+    //$pdf->SetY(-17);
+    //$pdf->SetX(50);
+    //$pdf->Cell(100, 0, 'L-' . ++$cnt_counter_aux, 0, 200, 'R');
+}
+
+
+$pdf->Output();
+

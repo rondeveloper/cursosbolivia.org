@@ -1,0 +1,440 @@
+<?php
+/* mensaje */
+$mensaje = '';
+
+/* id_organizador */
+$id_organizador = $get[2];
+
+/* agregar-contenido */
+if (isset_post('agregar-contenido')) {
+    $titulo = post('palabra_reservada');
+    $contenido = post_html('contenido');
+
+    $result = query("INSERT INTO cursos_organizadores_cont_pr("
+            . "id_organizador,"
+            . "titulo,"
+            . "contenido"
+            . ") VALUES("
+            . "'$id_organizador',"
+            . "'$titulo',"
+            . "'$contenido'"
+            . " ) ");
+
+    $mensaje .= '<div class="alert alert-success">
+  <strong>Exito!</strong> registro agregado exitosamente.
+</div>';
+}
+
+
+/* editar-organizador */
+if (isset_post('editar-organizador')) {
+    $id_organizador = post('id_organizador');
+    $nombre_imagen = post('nombre_imagen');
+    $titulo = post('titulo');
+    $titulo_identificador = limpiar_enlace($titulo);
+    $nombre_extendido = post('nombre_extendido');
+    $codigo = post('codigo');
+    $id_departamento = post('id_departamento');
+    $nit = post('nit');
+    $direccion = post('direccion');
+    $telefono = post('telefono');
+    $correo = post('correo');
+    $descripcion = post('descripcion');
+    $google_maps = post_html('google_maps');
+    $estado = post('estado');
+    $nom_img = 'imagen';
+    if (isset_archivo($nom_img)) {
+        $nombre_imagen = time() . archivoName($nom_img);
+        move_uploaded_file(archivo($nom_img), $___path_raiz."contenido/imagenes/organizadores/$nombre_imagen");
+    }
+    query("UPDATE cursos_organizadores SET "
+            . "imagen='$nombre_imagen',"
+            . "nombre_extendido='$nombre_extendido',"
+            . "titulo='$titulo',"
+            . "titulo_identificador='$titulo_identificador',"
+            . "codigo='$codigo',"
+            . "id_departamento='$id_departamento',"
+            . "nit='$nit',"
+            . "direccion='$direccion',"
+            . "telefono='$telefono',"
+            . "correo='$correo',"
+            . "descripcion='$descripcion',"
+            . "google_maps='$google_maps',"
+            . "estado='$estado'"
+            . " WHERE id='$id_organizador' LIMIT 1 ");
+
+    $mensaje .= '<div class="alert alert-success">
+  <strong>Exito!</strong> registro editado correctamente.
+</div>';
+}
+
+/* eliminar-banner */
+if (isset_post('eliminar-banner')) {
+    $id_organizador = post('id_organizador');
+
+    query("UPDATE cursos_organizadores SET "
+            . "estado='0' "
+            . " WHERE id='$id_organizador' LIMIT 1 ");
+
+    $mensaje .= '<div class="alert alert-success">
+  <strong>Exito!</strong> registro fue eliminado correctamente.
+</div>';
+}
+
+/* editor nuevo contenido */
+editorTinyMCE('editor1');
+?>
+<div class="row">
+    <div class="col-mod-12">
+        <ul class="breadcrumb">
+            <?php
+            include_once 'pages/items/item.enlaces_top.php';
+            ?>
+            <li><a href="<?php echo $dominio; ?>">Panel Principal</a></li>
+            <li><a href="cursos-listar.adm">Cursos</a></li>
+            <li class="active">Participantes</li>
+        </ul>
+
+        <div class="form-group pull-right">
+            <button class="btn btn-success" data-toggle="modal" data-target="#MODAL-agregar-organizador">
+                <i class="fa fa-plus"></i> 
+                AGREGAR CONTENIDO
+            </button> &nbsp;&nbsp;
+        </div>
+        <h3 class="page-header"> CONTENIDO DE ORGANIZADOR <i class="fa fa-info-circle animated bounceInDown show-info"></i> </h3>
+        <blockquote class="page-information hidden">
+            <p>
+                Listado de contnido de organizador.
+            </p>
+        </blockquote>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <?php echo $mensaje; ?>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Listado de palabras reservadas para contenido de organizador.
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>PALABRA RESERVADA</th>
+                                <th>CONTENIDO</th>
+                                <th>EDITAR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            $resultado1 = query("SELECT * FROM cursos_organizadores_cont_pr WHERE id_organizador='$id_organizador' $qr_busqueda ORDER BY id ASC ");
+                            if (num_rows($resultado1) == 0) {
+                                echo "<tr><td colspan='4'><b>No hay contenido para palabras reservadas.</b></td></tr>";
+                            }
+                            $cnt = 1;
+                            while ($producto = fetch($resultado1)) {
+                                ?>
+                                <tr>
+                                    <td><?php echo $cnt++; ?></td>
+                                    <td><?php echo $producto['titulo']; ?></td>
+                                    <td><?php echo substr(strip_tags($producto['contenido']),0,150); ?>...</td>
+                                    <td>
+                                        <a href="organizadores-palabras-reservadas-editar/<?php echo $id_organizador; ?>.adm" title="EDITAR">
+                                            <button type="button" class="btn btn-info active"><i class="fa fa-edit"></i></button>
+                                        </a>
+                                        <!-- Modal -->
+                                        <div id="MODAL-editar-organizador-<?php echo $producto['id']; ?>" class="modal modal-info fade" role="dialog">
+                                            <div class="modal-dialog">
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title"><i class="fa fa-edit"></i> EDICI&Oacute;N DE ORGANIZADOR</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="panel panel-default">
+                                                            <form action="" method="post" enctype="multipart/form-data">
+                                                                <div class="panel-body">
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">NUEVO LOGO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="file" class="form-control form-cascade-control" name="imagen" value="" placeholder="Imagen del banner..."/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">NOMBRE EXTENDIDO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="nombre_extendido" value="<?php echo $producto['nombre_extendido']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">NOMBRE</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="titulo" value="<?php echo $producto['titulo']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">CODIGO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="codigo" value="<?php echo $producto['codigo']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">DEPARTAMENTO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <select class="form-control form-cascade-control" name="id_departamento">
+                                                                                    <?php
+                                                                                    $rqd1 = query("SELECT * FROM departamentos WHERE tipo='1' ");
+                                                                                    while ($rqd2 = fetch($rqd1)) {
+                                                                                        $selected = '';
+                                                                                        if ($producto['id_departamento'] == $rqd2['id']) {
+                                                                                            $selected = ' selected="selected" ';
+                                                                                        }
+                                                                                        ?>
+                                                                                        <option value="<?php echo $rqd2['id']; ?>" <?php echo $selected; ?> ><?php echo $rqd2['nombre']; ?></option>
+                                                                                        <?php
+                                                                                    }
+                                                                                    ?>
+                                                                                </select>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">NIT</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="nit" value="<?php echo $producto['nit']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">DIRECCI&Oacute;N</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="direccion" value="<?php echo $producto['direccion']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">TEL&Eacute;FONO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="telefono" value="<?php echo $producto['telefono']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">CORREO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="correo" value="<?php echo $producto['correo']; ?>" required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">DESCRIPCI&Oacute;N</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <textarea class="form-control form-cascade-control" name="descripcion" rows="3" required><?php echo $producto['descripcion']; ?></textarea>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">GOOGLE MAPS</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <input type="text" class="form-control form-cascade-control" name="google_maps" value='<?php echo $producto['google_maps']; ?>' required placeholder="Descripci&oacute;n del organizador..." autocomplete="off"/>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="row">
+                                                                        <div class="form-group">
+                                                                            <label class="col-lg-3 col-md-3 control-label text-primary">ESTADO</label>
+                                                                            <div class="col-lg-9 col-md-9">
+                                                                                <select class="form-control form-cascade-control" name="estado">
+                                                                                    <?php
+                                                                                    $text_select = '';
+                                                                                    if ($producto['estado'] == '1') {
+                                                                                        $text_select = ' selected="selected" ';
+                                                                                    }
+                                                                                    ?>
+                                                                                    <option value="1" <?php echo $text_select; ?> >ACTIVADO</option>
+                                                                                    <?php
+                                                                                    $text_select = '';
+                                                                                    if ($producto['estado'] == '2') {
+                                                                                        $text_select = ' selected="selected" ';
+                                                                                    }
+                                                                                    ?>
+                                                                                    <option value="2" <?php echo $text_select; ?> >DESACTIVADO</option>
+                                                                                </select>
+                                                                                <br/>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="panel-footer">
+                                                                    <input type="hidden" name="id_organizador" value="<?php echo $producto['id']; ?>"/>
+                                                                    <input type="hidden" name="nombre_imagen" value="<?php echo $producto['imagen']; ?>"/>
+                                                                    <input type="submit" name="editar-organizador" class="btn btn-success btn-sm btn-animate-demo" value="ACTUALIZAR DATOS"/>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div id="MODAL-eliminar-banner-<?php echo $producto['id']; ?>" class="modal modal-info fade" role="dialog">
+                                            <div class="modal-dialog">
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title"><i class="fa fa-trash"></i> ELIMINACI&Oacute;N DE ORGANIZADOR</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="panel panel-default">
+                                                            <form action="" method="post">
+                                                                <div class="panel-body">
+
+                                                                    <div class="form-group">
+                                                                        <label class="col-md-12 control-label text-danger">
+                                                                            &iquest; Desea eliminar al organizador ?
+                                                                        </label>
+                                                                        <br/>                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label class="col-lg-2 col-md-3 control-label text-primary">NONBRE</label>
+                                                                        <div class="col-lg-10 col-md-9">
+                                                                            <input type="text" class="form-control form-cascade-control" name="titulo" value="<?php echo $producto['titulo']; ?>" required placeholder="Apellidos y nombres..." disabled=""/>
+                                                                            <br/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label class="col-lg-2 col-md-3 control-label text-primary">NOMBRE EXTENDIDO</label>
+                                                                        <div class="col-lg-10 col-md-9">
+                                                                            <input type="text" class="form-control form-cascade-control" name="nit_ci" value="<?php echo $producto['nombre_extendido']; ?>" required placeholder="N&uacute;mero de NIT o CI..." disabled=""/>
+                                                                            <br/>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="panel-footer">
+                                                                    <input type="hidden" name="id_organizador" value="<?php echo $producto['id']; ?>"/>
+                                                                    <input type="submit" name="eliminar-banner" class="btn btn-danger btn-sm btn-animate-demo" value="ELIMINAR ORGANIZADOR"/>
+                                                                    &nbsp; 
+                                                                    <button type="button" class="btn btn-default btn-sm btn-animate-demo" data-dismiss="modal">CANCELAR</button>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </td>
+                                </tr>
+                                <?php
+                            }
+                            ?>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+
+
+
+
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="MODAL-agregar-organizador" class="modal modal-info fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="fa fa-plus"></i> AGREGAR CONTENIDO PARA PALABRAS RESERVADAS</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    A continuaci&oacute;n ingresa los datos del contenido.
+                </p>
+
+                <div class="panel panel-default">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label class="control-label text-primary">PALABRA RESERVADA</label>
+                                    <div class="">
+                                        <input type="text" class="form-control form-cascade-control" name="palabra_reservada" value="" required placeholder="[IDENTIFICADOR-DE-CONTENIDO]" autocomplete="off"/>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group">
+                                    <label class="control-label text-primary">CONTENIDO</label>
+                                    <div class="">
+                                        <textarea name="contenido" id="editor1" style="width:100% !important;margin:auto;height:400px;" rows="25"><?php echo $curso['contenido']; ?></textarea>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <input type="submit" name="agregar-contenido" class="btn btn-success btn-sm btn-animate-demo" value="AGREGAR CONTENIDO"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+
+    </div>
+</div>

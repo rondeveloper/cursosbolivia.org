@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<html lang="es" class="fa-events-icons-ready js csstransitions csstransforms csstransforms3d">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <base href="https://cursosbolivia.org/" target="_self"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="language" content="es"/>
+        <meta name="robots" content="index,follow"/>
+        <meta name="author" content="CURSOS BOLIVIA"/>
+        <meta name="category" content="General"/>
+        <meta name="rating" content="General"/>
+        <meta name="keywords" content="curso,Curso ADOBE PREMIER presencial en Cochabamba,bolivia,certificado"/>
+        <meta name="title" content="Curso ADOBE PREMIER presencial en Cochabamba" />
+        <meta name="description" content="..."/>
+
+        <title>Curso ADOBE PREMIER presencial en Cochabamba</title>
+
+        <meta property="og:url" content="https://cursosbolivia.org/curso-adobe-premier-presencial-en-cochabamba.html" />
+        <meta property="og:title" content="Curso ADOBE PREMIER presencial en Cochabamba" />
+        <meta property="og:description" content="..." />
+        <meta property="og:site_name" content="CURSOS BOLIVIA" />
+        <meta property="og:image" content="https://cursosbolivia.org/contenido/imagenes/paginas/1705056331premier%2001.jpg" />
+
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:description" content="..."/>
+        <meta name="twitter:title" content="Curso ADOBE PREMIER presencial en Cochabamba"/>
+        <meta name="twitter:site" content="CURSOS BOLIVIA"/>
+        <meta name="twitter:domain" content="https://cursosbolivia.org/"/>
+        <meta name="twitter:creator" content="CURSOS BOLIVIA"/>
+        <link rel="image_src" href="https://cursosbolivia.org/contenido/imagenes/paginas/1705056331premier%2001.jpg"/>
+
+
+        <link href="https://www.cursosbolivia.org/contenido/alt/bootstrap.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/style.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/responsive.v2.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/layout-semiboxed.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/skin-red.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/yamm.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/custom.css" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/alt/jquery.sidr.css" rel="stylesheet"/>
+        <link rel="shortcut icon" type="image/png" href="https://www.cursosbolivia.org/contenido/alt/favicon.png"/>
+
+        <script src="https://www.cursosbolivia.org/contenido/alt/c5f1172444.js.descarga"></script>
+        <link href="https://www.cursosbolivia.org/contenido/alt/c5f1172444.css" media="all" rel="stylesheet"/>
+
+        <link href="https://www.cursosbolivia.org/contenido/css/data-style9.css" media="all" rel="stylesheet"/>
+        <link href="https://www.cursosbolivia.org/contenido/css/individual.css" media="all" rel="stylesheet"/>
+
+        <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '588570369550443');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height='1' width='1' style='display:none'
+  src='https://www.facebook.com/tr?id=588570369550443&ev=PageView&noscript=1'
+/></noscript>
+<!-- End Meta Pixel Code -->        
+        <!--        newt scripts-->
+        <script src="https://www.cursosbolivia.org/contenido/alt/jquery.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/bootstrap.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/jquery.sidr.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/plugins.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/common.js"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/validable.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/footer.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/index.js.descarga"></script>
+        <script src="https://www.cursosbolivia.org/contenido/alt/sidr.js.descarga"></script>
+        
+    </head>
+    <body class="on">
+        <div class="wrapbox">
+            <div style='height:10px;'>&nbsp;</div>
+            <nav class="navbar yamm navbar-fixed-top wowmenu tiny" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo-nav" href="https://cursosbolivia.org/">
+                            <img src="https://www.cursosbolivia.org/contenido/imagenes/14-54e5eee.jpg" style="height:40px;" alt="logo">
+                        </a>
+                    </div>
+                    <ul id="nav" class="nav navbar-nav pull-left">
+    <li class="active">
+        <a href="https://cursosbolivia.org/">Inicio</a>
+    </li>
+    <li class="">
+        <a href="quienes-somos.html">Quienes Somos</a>
+    </li>
+    <li class="">
+        <a href="cursos-virtuales.html">Cursos virtuales</a>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categorias
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                            <li><a href="categoria/sector-publico.html">Sector público</a></li>
+                                <li><a href="categoria/sicoes-empresas-y-consultores.html">Sicoes Empresas y Consultores</a></li>
+                        </ul>
+    </li>
+<!--    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Departamentos
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                            <li>
+                    <a href="la-paz/" title="Cursos y capacitaciones en La Paz - Bolivia">
+                        La Paz                    </a>
+                </li>
+                                <li>
+                    <a href="cochabamba/" title="Cursos y capacitaciones en Cochabamba - Bolivia">
+                        Cochabamba                    </a>
+                </li>
+                                <li>
+                    <a href="santa-cruz/" title="Cursos y capacitaciones en Santa Cruz - Bolivia">
+                        Santa Cruz                    </a>
+                </li>
+                                <li>
+                    <a href="chuquisaca/" title="Cursos y capacitaciones en Chuquisaca - Bolivia">
+                        Chuquisaca                    </a>
+                </li>
+                                <li>
+                    <a href="potosi/" title="Cursos y capacitaciones en Potosi - Bolivia">
+                        Potosi                    </a>
+                </li>
+                                <li>
+                    <a href="oruro/" title="Cursos y capacitaciones en Oruro - Bolivia">
+                        Oruro                    </a>
+                </li>
+                                <li>
+                    <a href="pando/" title="Cursos y capacitaciones en Pando - Bolivia">
+                        Pando                    </a>
+                </li>
+                                <li>
+                    <a href="beni/" title="Cursos y capacitaciones en Beni - Bolivia">
+                        Beni                    </a>
+                </li>
+                                <li>
+                    <a href="tarija/" title="Cursos y capacitaciones en Tarija - Bolivia">
+                        Tarija                    </a>
+                </li>
+                        </ul>
+    </li>-->
+    <li class="">
+        <a href="comunicados.html">Comunicados</a>
+    </li>
+        <li class="">
+        <a href="contacto.html">Cont&aacute;cto</a>
+    </li>
+</ul>
+<ul id="nav" class="nav navbar-nav pull-right">
+    <li title="Notificaciones">
+        <a class="dropdown-toggle" data-toggle="dropdown" ><i class="fa fa-bell"></i></a>
+        <ul class="dropdown-menu">
+                        <li id="ajaxbox-notification-state">
+                                    <a ><i class="fa fa-close"></i> NOTIFICACIONES DES-ACTIVADAS</a>
+                                </li>
+            <li id="ajaxbox-notification-msm">
+                                    <a style="cursor: pointer;" onclick="cambia_estado_notificaciones('', '1');"><i class="fa fa-refresh"></i> Activar notificaciones</a>
+                                </li>
+            <li><a href="notificaciones.html"><i class="fa fa-list"></i> Notificaciones recibidas</a></li>
+        </ul>
+    </li>
+
+            <li class="active">
+            <a href="https://plataforma.cursosbolivia.org/registro-de-usuarios.html" class="top-boton-user">REGISTRATE</a>
+        </li>
+        <li class="active">
+            <a href="https://plataforma.cursosbolivia.org/" class="top-boton-user">INGRESA</a>
+        </li>
+        </ul>
+                </div>	
+            </nav>
+            <div id="mobile-header" class="hidden-md hidden-lg">
+                <a id="simple-menu" class="menu-button" href="https://cursosbolivia.org/#sidr">Toggle menu</a>
+            </div>
+            <div id="sidr" class="hidden-md hidden-lg sidr left" style="transition: left 0.1s ease-in-out;">
+                <a class="sidr_close pull-right" href="https://cursosbolivia.org/#" style="padding:5px;"><i class="icon-remove-sign text-contrast"></i></a>
+                <ul>
+    <li><a href="https://cursosbolivia.org/"><i class="fa fa-home"></i> Inicio</a></li>
+    <li>
+        <a href="quienes-somos.html"><i class="fa fa-tv"></i> Quienes Somos</a>
+    </li>
+    <li>
+        <a href="cursos-virtuales.html"><i class="fa fa-street-view"></i> Cursos virtuales</a>
+    </li>
+    <li class="groupheader">
+        <a href="#" class="disabled_menu"><i class="fa fa-list"></i> Categorias</a>
+        <span class="icon-chevron-right text-contrast headerbutton"></span>
+        <ul>
+                            <li><a href="categoria/sector-publico.html">Sector público</a></li>
+                                <li><a href="categoria/sicoes-empresas-y-consultores.html">Sicoes Empresas y Consultores</a></li>
+                        </ul>
+    </li>
+<!--    <li class="groupheader">
+        <a href="#" class="disabled_menu"><i class="fa fa-map-o"></i> Departamentos</a>
+        <span class="icon-chevron-right text-contrast headerbutton"></span>
+        <ul>
+                            <li>
+                    <a href="la-paz/" title="Cursos y capacitaciones en La Paz - Bolivia">
+                        La Paz                    </a>
+                </li>
+                                <li>
+                    <a href="cochabamba/" title="Cursos y capacitaciones en Cochabamba - Bolivia">
+                        Cochabamba                    </a>
+                </li>
+                                <li>
+                    <a href="santa-cruz/" title="Cursos y capacitaciones en Santa Cruz - Bolivia">
+                        Santa Cruz                    </a>
+                </li>
+                                <li>
+                    <a href="chuquisaca/" title="Cursos y capacitaciones en Chuquisaca - Bolivia">
+                        Chuquisaca                    </a>
+                </li>
+                                <li>
+                    <a href="potosi/" title="Cursos y capacitaciones en Potosi - Bolivia">
+                        Potosi                    </a>
+                </li>
+                                <li>
+                    <a href="oruro/" title="Cursos y capacitaciones en Oruro - Bolivia">
+                        Oruro                    </a>
+                </li>
+                                <li>
+                    <a href="pando/" title="Cursos y capacitaciones en Pando - Bolivia">
+                        Pando                    </a>
+                </li>
+                                <li>
+                    <a href="beni/" title="Cursos y capacitaciones en Beni - Bolivia">
+                        Beni                    </a>
+                </li>
+                                <li>
+                    <a href="tarija/" title="Cursos y capacitaciones en Tarija - Bolivia">
+                        Tarija                    </a>
+                </li>
+                        </ul>
+    </li>-->
+    <li class="">
+        <a href="comunicados.html"><i class="fa fa-map-o"></i> Comunicados</a>
+    </li>
+        <li>
+        <a href="contacto.html"><i class="fa fa-comments"></i> Cont&aacute;cto</a>
+    </li>
+    <li class="groupheader">
+        <a href="#" class="disabled_menu"><i class="fa fa-group"></i> Cuenta</a>
+        <span class="icon-chevron-right text-contrast headerbutton"></span>
+        <ul>
+                            <li><a href="https://plataforma.cursosbolivia.org/registro-de-usuarios.html">Registro de usuarios</a></li>
+                <li><a href="https://plataforma.cursosbolivia.org/">Ingreso de usuarios</a></li>
+                        </ul>
+    </li>
+</ul>
+            </div>
+
+
+
+<style>
+    .img-pag-static{
+        max-width: 90%;
+        border-radius: 5px;
+        border: 1px solid #dadada;
+        padding: 1px;
+    }
+    .btn-copy-clipboard {
+        background: #eff2fc;
+        padding: 2px 7px;
+        border-radius: 4px;
+        border: 1px solid #a1b7c2;
+        color: #7d7d8e;
+        box-shadow: 1px 1px 1px 0px #bebebe;
+        cursor: pointer;
+    }
+
+    @media (max-width: 700px) {
+        .TituloContenidoCursosinLinea h1 {
+            font-size: 14pt !important;
+            text-align: center;
+            line-height: 1.2;
+        }
+    }
+</style>
+
+<div class="wrapsemibox course-self" style="margin-top: 60px;">
+
+    <section class="container">
+        <div style="height:10px"></div>
+        <div class="row">
+            <div class="col-md-9" style="padding-right:20px"><br>
+                <div id="">
+                    <div class="TituloContenidoCursosinLinea">
+                        <h1>Curso ADOBE PREMIER presencial en Cochabamba</h1>
+                    </div>
+                    <div>
+                        <img src="https://www.cursosbolivia.org/contenido/imagenes/paginas/1705056331premier 01.jpg" style="width: 100%;border: 1px solid #d4d4d4;margin: 10px 0px;" title="Curso ADOBE PREMIER presencial en Cochabamba"/>
+                    </div>
+                    <div style="height:5px"></div>
+                    <div style=" background-color:#F6F6F6;padding:13px 10px 7px 5px; border-bottom:1px solid #999; border-top:1px solid #999;">  
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                                                    <div class="row">
+                                        <div class="col-md-3 col-xs-3 Titulo_texto"> Fecha</div>
+                                        <div class="col-md-9 col-xs-9 Titulo_texto1"> <strong>:</strong>&nbsp; Martes, 23 de Enero de 2024</div>
+                                        <div style="height:25px"></div>
+                                    </div>
+                                                                <div class="row">
+                                    <div class="col-md-3 col-xs-3 Titulo_texto">Duraci&oacute;n</div>
+                                    <div class="col-md-9 col-xs-9 Titulo_texto1"><strong>:</strong>&nbsp; del 23 de Enero al 22 de Febrero</div>
+                                    <div style="height:25px"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-3 Titulo_texto">Modalidad</div>
+                                    <div class="col-md-9 col-xs-9 Titulo_texto1"> : &nbsp;Presencial</div>
+                                    <div style="height:25px"></div>
+                                </div>
+
+                                
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-3 Titulo_texto">Whatsapp</div>
+                                                                        <div class="col-md-9 col-xs-9 Titulo_texto1"> : &nbsp; <b class="btn-copy-clipboard" onclick="copyToClipboard('https://wa.me/59167080077')"><i class="fa fa-copy"></i></b> &nbsp; <a href='https://wa.me/59167080077?text=Hola%2C%20tengo%20interes%20en%20el%20curso%3A%20CURSO%20PRESENCIAL%20ADOBRE%20PREMIER' target="_blank">https://wa.me/59167080077</a></div>
+                                    <div style="height:25px"></div>
+                                </div>
+                                                                    <div class="row">
+                                        <div class="col-md-3 col-xs-3 Titulo_texto">Ciudad</div>
+                                        <div class="col-md-9 col-xs-9 Titulo_texto1"> : &nbsp;Cochabamba</div>
+                                        <div style="height:25px"></div>
+                                    </div>
+                                    
+                                                                </div>
+                            
+                        </div>
+                    </div>
+                    <div style="height:20px"></div>
+
+                </div>
+                
+                
+                
+                <div id="contentInfo" style="display:none;">
+                    <div>*Curso ADOBE PREMIER presencial en Cochabamba*</div>
+                    <div><br></div>
+                                        <div>*Fecha:* &nbsp; Martes, 23 de Enero de 2024</div>
+                    <div><br></div>
+                                        <div>*Duraci&oacute;n:* &nbsp; del 23 de Enero al 22 de Febrero</div>
+                    <div><br></div>
+                                        <div>*Modalidad:* &nbsp;Presencial</div>
+                                        <div><br></div>
+                    <div>*Detalle completo del curso:* &nbsp; https://cursosbolivia.org/82/</div>
+                    <div><br></div>
+                                        <div><br></div>
+                </div>
+
+                <!----------------------------------------------------------------->
+                <!----------------------------------------------------------------->
+
+                                
+                <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+                
+                
+
+                
+
+
+                <div class="cont-course">
+                         
+                    <button class="accordion active"><i class="icon-group text-contrast"></i> Presentaci&oacute;n</button>
+                    <div class="panel show text-cont-curso" style="text-align: justify;">
+                        <p class="Titulo_texto1"></p>
+                                                
+                                                    
+                            <!-- direcciones -->
+                            <div style="font-size: 12pt;margin-top: 10px;margin-bottom: 50px;padding-top: 10px;line-height: 1.8;color: #333;">
+                                                                    <p><strong><span style="color: #ff0000;">COCHABAMBA:</span></strong>&nbsp; <span style="font-weight: 500;">Final Calama lateral UMSS frente a los futbolínes calle Julian Maria Lopez Nº112</span> (Horario de 08:30 a 12:30 y 14:00 a 18:00  de Lunes a Viernes Sábados de 09:00 a 13:00) <span style="color: #ff0000;">M&oacute;vil 67080077</span></p>
+                                                            </div>
+                        
+                            <style>
+        .img-mod-pay {
+            width: 80px;
+            height: 70px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .img-mod-pay:hover {
+            width: 70px;
+            height: 60px;
+            padding: 5px;
+            background: #8bdc77;
+            transition: .3s;
+        }
+    </style>
+    <script>
+        function show_form_pay(data) {
+            $('#CONTENT-formpay').html('Cargando...');
+            $('#COLLAPSE-formpay').collapse();
+            $.ajax({
+                url: 'https://cursosbolivia.org/contenido/paginas/ajax/ajax.curso.show_form_pay.php',
+                data: {
+                    cod: '82',
+                    data: data
+                },
+                type: 'POST',
+                dataType: 'html',
+                success: function(data) {
+                    $('#CONTENT-formpay').html(data);
+                }
+            });
+        }
+    </script>
+    <div class="text-center" style="font-size:9pt;border:1px solid #c7c7c7;">
+        FORMAS DE PAGO:
+    </div>
+    <div class="text-center" style="background: #f0f0f0;padding: 10px 0px;border: 1px solid #d8d8d8;border-top: 0px;">
+        <img src="contenido/imagenes/bancos/tigo-money.jpg" class="img-mod-pay" onclick="show_form_pay('tigomoney');" />
+        <!--                            <img src="contenido/imagenes/bancos/visa.jpg" class="img-mod-pay" onclick="show_form_pay('visa');"/>
+                            <img src="contenido/imagenes/bancos/mastercard.jpg" class="img-mod-pay" onclick="show_form_pay('mastercard');"/>-->
+                    <img src="contenido/imagenes/bancos/136543Banco-union.gif" class="img-mod-pay" onclick="show_form_pay('1');" />
+            </div>
+    <div style="font-size:10pt;border: 1px solid #c7c7c7;border-top: 0px;" class="text-center">
+        (haz clic en la imagen para ver detalles)
+    </div>
+    <div id="COLLAPSE-formpay" class="collapse">
+        <div id="CONTENT-formpay" style="border: 1px solid #cbcbcb;border-top: 0px;padding: 20px 30px;"></div>
+    </div>
+    <br>
+    <br>
+                        
+                                                <div class="fb-like" data-href="https://www.facebook.com/cursoswebbolivia/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                        <div class="fb-share-button" data-href="https://cursosbolivia.org/curso-adobe-premier-presencial-en-cochabamba.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                        <br/>
+                        <br/>
+                    </div>                    
+
+                                            <button class="accordion active"><i class="icon-pencil text-contrast"></i> Ubicaci&oacute;n por Google Maps</button>
+                        <div class="panel show">
+                            <p class="Titulo_texto1"> </p>
+                            <iframe style="width: 100% !important;border: 1px solid #e1e1e1;margin-bottom: 10px;margin-top: 5px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.3532013392905!2d-66.15585018797269!3d-17.394829383424813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f21571d34a963%3A0xc897ad721415048c!2sNEMABOL!5e0!3m2!1ses-419!2sbo!4v1705057713901!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
+                    
+
+                    <br/>
+                    <br/>
+                    <br/>
+
+                </div>
+                                    <br/>
+                    <div class="alert alert-info">
+                        <strong>Mensaje:</strong> El curso solicitado ya fu&eacute; finalizado en fechas anteriores, proximamente tendremos m&aacute;s cursos similares en esta ciudad.
+                    </div>
+                    <p>'Curso ADOBE PREMIER presencial en Cochabamba' fu&eacute; concluido exitosamente, proximamente tendremos m&aacute;s cursos similares en esta ciudad, para consultas comuniquese a info@nemabol.com, a continuaci&oacute;n se listan los cursos actualmente vigentes.</p>
+
+                    <style>
+                        .cont-course{
+                            display: none;
+                        }
+                    </style>
+                    <div class="clear"></div>
+                    <div class="row">
+                                            </div>
+                    
+            </div>
+
+
+
+            <div class="col-md-3">
+                <br>
+                <div style=" background-color:#EEEEEE; padding:7px 12px 10px 12px; color:#000">
+                    <h4 style="color:#289a0d" align="center">ORGANIZADOR</h4>
+                </div>
+                <div style=" background-color:#F6F6F6; border-radius:7px; padding:7px 12px 10px 12px; color:#000">
+                                        <img src="contenido/imagenes/organizadores/1539194271DJHWnmEXUAEB4fE.png" style="width:100%;"/>
+                    <h4 class="text-left">NEMABOL - GEN-CBA</h4>
+                    <p class="text-left">
+                        <a href="organizador/nemabol.html" class="btn btn-lg btn-block btn-primary">
+                            <i class="icon-list text-contrast"></i> Ver perfil de organizador
+                        </a>
+                    </p>
+                </div>
+                <br>
+                <div style=" background-color:#EEEEEE; padding:7px 12px 10px 12px; color:#000">
+                    <h4 style="color:#289a0d" align="center">Formas de incripci&oacute;n</h4>
+                </div>
+                <div style=" background-color:#F6F6F6; border-radius:7px; padding:7px 12px 10px 12px; color:#000">
+                    <p>
+                        - Inscripci&oacute;n en Oficinas<br>
+                        - Inscripci&oacute;n online<br>
+                    </p>
+                    <hr/>
+                    <p class=" text-right">
+                                            </p>
+                </div>
+                <br>
+
+                                <div style=" background-color:#EEEEEE; padding:7px 12px 10px 12px; color:#000">
+                    <h4 style="color:#289a0d" align="center">Comparte el curso</h4>
+                </div>
+                <div style=" background-color:#F6F6F6; border-radius:7px; padding:7px 12px 10px 12px; color:#000; text-align: center;">
+                    <div class="fb-share-button" data-href="https://cursosbolivia.org/curso-adobe-premier-presencial-en-cochabamba.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                    <br>
+                    <div style="height:7px"></div>
+                </div>
+                <br>
+                <div style=" background-color:#EEEEEE; padding:7px 12px 10px 12px; color:#000">
+                    <h4 style="color:#289a0d" align="center">Unete al grupo</h4>
+                </div>
+                                     <a target="_blank" href="https://www.facebook.com/groups/756303315625817"><img src="https://cursosbolivia.org/contenido/imagenes/images/Grupo-Fac.gif " alt="grupo faceboock infosiscon" class="img-thumbnail"></a>
+                <div style=" background-color:#F6F6F6; border-radius:7px; padding:7px 12px 10px 12px; color:#000; text-align: center;">
+                    <a target="_blank" href="https://www.facebook.com/groups/756303315625817" class="fb-xfbml-parse-ignore btn btn-primary" style="border-radius: 8px;background-color:#3d75ef;"><i style="background:#fff;padding:4px;border-radius: 50%;width:21px;height: 21px;" class="fa fa-facebook text-primary"></i> UNIRME</a>
+                    <div style="height:7px"></div>
+                </div>
+                <br>
+                <div style=" background-color:#EEEEEE; padding:7px 12px 10px 12px; color:#000">
+                    <h4 style="color:#289a0d" align="center">Buscador</h4>
+                </div>
+                <div style=" background-color:#F6F6F6; border-radius:7px; padding:7px 12px 10px 12px; color:#000; text-align: center;">
+                    <p>Busca el curso que necesitas</p>
+                    <form action="buscador.html" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="buscar" class="form-control" value="" placeholder="..."/>
+                            </div>
+                            <div class="col-md-12">
+                                <select name="departamento" id="select_departamento" class="form-control" onchange="actualiza_ciudades();">
+                                    <option value="0">Todos los departamentos</option>
+                                                                            <option value="3">La Paz</option>
+                                                                                <option value="1">Cochabamba</option>
+                                                                                <option value="4">Santa Cruz</option>
+                                                                                <option value="6">Chuquisaca</option>
+                                                                                <option value="2">Potosi</option>
+                                                                                <option value="8">Oruro</option>
+                                                                                <option value="7">Pando</option>
+                                                                                <option value="9">Beni</option>
+                                                                                <option value="5">Tarija</option>
+                                                                        </select>
+                            </div>
+                            <div class="col-md-12">
+                                <select name="ciudad" id="select_ciudad" class="form-control">
+                                    <option value="0">Todas las ciudades</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-danger" value="BUSCAR"/>
+                            </div>
+                        </div>
+                    </form>
+
+                    <br>
+                    <div style="height:7px"></div>
+                </div>
+
+                <br>
+                <div style=" background-color:#EEEEEE; padding:7px 12px 10px 12px; color:#000">
+                    <h4 style="color:#289a0d" align="center">&Uacute;nete</h4>
+                </div>
+                <div style=" background-color:#F6F6F6; border-radius:7px; padding:7px 12px 10px 12px; color:#000; text-align: center;">
+                    <p>Ay&uacute;danos a superar los 100 mil likes en nuestra p&aacute;gina en facebook</p>
+                    <a href="https://www.facebook.com/cursoswebbolivia" target="_blank" style="    background: #1877f2;
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12pt;"><i class="icon-facebook text-contrast"></i> Pagina Oficial</a>
+                    <br>
+                    <br>
+                    <p>&Uacute;nete a nuestro grupo</p>
+                    <a href="https://www.facebook.com/groups/grupocursosbolivia" target="_blank" style="    background: #1877f2;
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12pt;"><i class="icon-facebook text-contrast"></i> Grupo Oficial</a>
+                    <br>
+                    <br>
+                    <div style="height:7px"></div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+<div id="proximo_inioio_curso" class="proximo_inioio_curso course-self">
+    <section class="recent-projects-home topspace30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <div class="TituloIndexB">
+                        <h2>Otros cursos que te pueden interesar</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <hr style="border:1px solid #ccc">
+                </div>
+                                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html" title="">
+                                <img src="contenido/imagenes/paginas/1678379008LEY_843_2492_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html" title="" class="EnlaceCurso">2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM</a>
+                            <div class="texto_lista_curso" align="justify">2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM 2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html" title="" class="EnlaceCurso">2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">2 Cursos Ley 843  y Ley 2492 Consultoria Impuestos Nacionales Virtual y/o ZOOM ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="2-cursos-ley-843-y-ley-2492-consultoria-impuestos-nacionales-virtual-y-o-zoom.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html" title="">
+                                <img src="contenido/imagenes/paginas/1683295877EXCEL_Mesa de trabajo 1.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html" title="" class="EnlaceCurso">✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)</a>
+                            <div class="texto_lista_curso" align="justify">✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07) ✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html" title="" class="EnlaceCurso">✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07)</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">✅ 3x1 Cursos Excel Basico Medio Avanzado Macros con VB ✅(Virtual 24/07) ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="✅-3x1-cursos-excel-basico-medio-avanzado-macros-con-vb-✅-virtual-24-07-.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-atencion-al-cliente-modalidad-virtual.html" title="">
+                                <img src="contenido/imagenes/paginas/1678740632ATENCION_AL_CLIENTE_1.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-atencion-al-cliente-modalidad-virtual.html" title="" class="EnlaceCurso">Curso atención al cliente - modalidad Virtual</a>
+                            <div class="texto_lista_curso" align="justify">Curso atención al cliente - modalidad Virtual Curso atención al cliente - modalidad Virtual...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-atencion-al-cliente-modalidad-virtual.html" title="" class="EnlaceCurso">Curso atención al cliente - modalidad Virtual</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso atención al cliente - modalidad Virtual ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-atencion-al-cliente-modalidad-virtual.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-virtual-de-primeros-auxilios.html" title="">
+                                <img src="contenido/imagenes/paginas/1678740063PRIMEROS_AUXILIOS_Mesa de trabajo 1.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-virtual-de-primeros-auxilios.html" title="" class="EnlaceCurso">Curso virtual de primeros auxilios</a>
+                            <div class="texto_lista_curso" align="justify">Curso virtual de primeros auxilios Curso virtual de primeros auxilios...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-virtual-de-primeros-auxilios.html" title="" class="EnlaceCurso">Curso virtual de primeros auxilios</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso virtual de primeros auxilios ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-virtual-de-primeros-auxilios.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-virtual-relaciones-humanas-y-publicas.html" title="">
+                                <img src="contenido/imagenes/paginas/1678393077RELACIONES_HUMANAS_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-virtual-relaciones-humanas-y-publicas.html" title="" class="EnlaceCurso">Curso virtual Relaciones Humanas y Publicas</a>
+                            <div class="texto_lista_curso" align="justify">Curso virtual Relaciones Humanas y Publicas Curso virtual Relaciones Humanas y Publicas...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-virtual-relaciones-humanas-y-publicas.html" title="" class="EnlaceCurso">Curso virtual Relaciones Humanas y Publicas</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso virtual Relaciones Humanas y Publicas ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-virtual-relaciones-humanas-y-publicas.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-virtual-ley-3131.html" title="">
+                                <img src="contenido/imagenes/paginas/1678391237LEY_3131_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-virtual-ley-3131.html" title="" class="EnlaceCurso">Curso virtual Ley 3131</a>
+                            <div class="texto_lista_curso" align="justify">Curso virtual Ley 3131 Curso virtual Ley 3131...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-virtual-ley-3131.html" title="" class="EnlaceCurso">Curso virtual Ley 3131</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso virtual Ley 3131 ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-virtual-ley-3131.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html" title="">
+                                <img src="contenido/imagenes/paginas/16783865421178_475_1152_004_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html" title="" class="EnlaceCurso">4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 </a>
+                            <div class="texto_lista_curso" align="justify">4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178  4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 ...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html" title="" class="EnlaceCurso">4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178 </a>
+                            <div class="hidden-md texto_lista_curso" align="justify">4 Cursos virtuales Ley 475, Ley 1152 y Ley 004 y Ley 1178  ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="4-cursos-virtuales-ley-475-ley-1152-y-ley-004-y-ley-1178-.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-virtual-vsiaf-activos-fijos.html" title="">
+                                <img src="contenido/imagenes/paginas/1678377250VSIAF_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-virtual-vsiaf-activos-fijos.html" title="" class="EnlaceCurso">Curso virtual VSIAF - Activos Fijos</a>
+                            <div class="texto_lista_curso" align="justify">Curso virtual VSIAF - Activos Fijos Curso virtual VSIAF - Activos Fijos...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-virtual-vsiaf-activos-fijos.html" title="" class="EnlaceCurso">Curso virtual VSIAF - Activos Fijos</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso virtual VSIAF - Activos Fijos ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-virtual-vsiaf-activos-fijos.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-virtual-ley-1152-sistema-unico-de-salud.html" title="">
+                                <img src="contenido/imagenes/paginas/1678373026LEY_1152_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-virtual-ley-1152-sistema-unico-de-salud.html" title="" class="EnlaceCurso">Curso virtual Ley 1152  Sistema Unico de Salud</a>
+                            <div class="texto_lista_curso" align="justify">Curso virtual Ley 1152  Sistema Unico de Salud Curso virtual Ley 1152  Sistema Unico de Salud...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-virtual-ley-1152-sistema-unico-de-salud.html" title="" class="EnlaceCurso">Curso virtual Ley 1152  Sistema Unico de Salud</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso virtual Ley 1152  Sistema Unico de Salud ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-virtual-ley-1152-sistema-unico-de-salud.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html" title="">
+                                <img src="contenido/imagenes/paginas/1678370591LEY_2027_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html" title="" class="EnlaceCurso">Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)</a>
+                            <div class="texto_lista_curso" align="justify">Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7) Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html" title="" class="EnlaceCurso">Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7)</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso Ley 2027  🎁 Estatuto del Funcionario Público (Virtual 24/7) ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-ley-2027-🎁-estatuto-del-funcionario-publico-virtual-24-7-.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="curso-ley-1178-safco-virtual-.html" title="">
+                                <img src="contenido/imagenes/paginas/1677470812noticia-ley-1178.jpeg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="curso-ley-1178-safco-virtual-.html" title="" class="EnlaceCurso">Curso Ley 1178 SAFCO virtual </a>
+                            <div class="texto_lista_curso" align="justify">Curso Ley 1178 SAFCO virtual  Curso Ley 1178 SAFCO virtual ...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="curso-ley-1178-safco-virtual-.html" title="" class="EnlaceCurso">Curso Ley 1178 SAFCO virtual </a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso Ley 1178 SAFCO virtual  ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="curso-ley-1178-safco-virtual-.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="4-cursos-virtuales-salmi-sial-soaps-snisve.html" title="">
+                                <img src="contenido/imagenes/paginas/16772783604cursossalud.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="4-cursos-virtuales-salmi-sial-soaps-snisve.html" title="" class="EnlaceCurso">4 Cursos virtuales Salmi - Sial - Soaps SnisVe</a>
+                            <div class="texto_lista_curso" align="justify">4 Cursos virtuales Salmi - Sial - Soaps SnisVe 4 Cursos virtuales Salmi - Sial - Soaps SnisVe...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="4-cursos-virtuales-salmi-sial-soaps-snisve.html" title="" class="EnlaceCurso">4 Cursos virtuales Salmi - Sial - Soaps SnisVe</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">4 Cursos virtuales Salmi - Sial - Soaps SnisVe ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="4-cursos-virtuales-salmi-sial-soaps-snisve.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="cursos-virtual-word-y-excel.html" title="">
+                                <img src="contenido/imagenes/paginas/1676435301noticia word excel.jpeg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="cursos-virtual-word-y-excel.html" title="" class="EnlaceCurso">Cursos virtual  Word y Excel</a>
+                            <div class="texto_lista_curso" align="justify">Cursos virtual  Word y Excel Cursos virtual  Word y Excel...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="cursos-virtual-word-y-excel.html" title="" class="EnlaceCurso">Cursos virtual  Word y Excel</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Cursos virtual  Word y Excel ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="cursos-virtual-word-y-excel.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="manejo-basico-de-herramientas-ofimaticas-word-excel-power-point-y-operador-de-computacion-con-windows-10.html" title="">
+                                <img src="contenido/imagenes/paginas/1683296673OFFICE_1200px.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="manejo-basico-de-herramientas-ofimaticas-word-excel-power-point-y-operador-de-computacion-con-windows-10.html" title="" class="EnlaceCurso">Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10</a>
+                            <div class="texto_lista_curso" align="justify">Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10 Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="manejo-basico-de-herramientas-ofimaticas-word-excel-power-point-y-operador-de-computacion-con-windows-10.html" title="" class="EnlaceCurso">Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Manejo básico de Herramientas Ofimáticas (Word, Excel, Power Point) y  Operador de Computación con Windows 10 ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="manejo-basico-de-herramientas-ofimaticas-word-excel-power-point-y-operador-de-computacion-con-windows-10.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html" title="">
+                                <img src="contenido/imagenes/paginas/1678375485LEY_1178_843_2492_1200px.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html" title="" class="EnlaceCurso">3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual</a>
+                            <div class="texto_lista_curso" align="justify">3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual 3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html" title="" class="EnlaceCurso">3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">3 Cursos Ley 1178 - Ley 2492 y Ley 843 Virtual ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="3-cursos-ley-1178-ley-2492-y-ley-843-virtual.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="-curso-quechua-basico-virtual.html" title="">
+                                <img src="contenido/imagenes/paginas/1680649301QUECHUA_Mesa de trabajo 1.png" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="-curso-quechua-basico-virtual.html" title="" class="EnlaceCurso"> Curso QUECHUA BASICO virtual</a>
+                            <div class="texto_lista_curso" align="justify"> Curso QUECHUA BASICO virtual  Curso QUECHUA BASICO virtual...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="-curso-quechua-basico-virtual.html" title="" class="EnlaceCurso"> Curso QUECHUA BASICO virtual</a>
+                            <div class="hidden-md texto_lista_curso" align="justify"> Curso QUECHUA BASICO virtual ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">VIRTUAL</div>
+                                <div class="tit_horas">Disponible</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="-curso-quechua-basico-virtual.html">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                        <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <a href="https://cursosbolivia.org/sicoes/" title="">
+                                <img src="contenido/imagenes/paginas/1705974987SICOES_2_CLASES_Mesa de trabajo 1.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-sm-8 col-md-8">
+                            <a href="https://cursosbolivia.org/sicoes/" title="" class="EnlaceCurso">Curso SICOES empresas y consultores en vivo por ZOOM</a>
+                            <div class="texto_lista_curso" align="justify">Curso SICOES empresas y consultores en vivo por ZOOM Curso SICOES empresas y consultores en vivo por ZOOM...</div>
+                        </div>
+                        <div class="hidden-sm hidden-md hidden-lg col-xs-7">
+                            <a href="https://cursosbolivia.org/sicoes/" title="" class="EnlaceCurso">Curso SICOES empresas y consultores en vivo por ZOOM</a>
+                            <div class="hidden-md texto_lista_curso" align="justify">Curso SICOES empresas y consultores en vivo por ZOOM ...</div>
+                        </div>  
+                                                    <div class="col-xs-3 col-sm-2  col-md-2 " align="center">
+                                <div class="tit_duracion hidden-xs">FECHA</div>
+                                <div class="tit_horas">31 Enero</div>
+                                <a class="btn btn-default orange tit_ver_mas" href="https://cursosbolivia.org/sicoes/">Ver m&aacute;s</a>
+                            </div>
+                                                </div>
+                    <hr style="border:1px solid #ccc">
+                                </div>
+        </div>
+    </section>
+</div>
+
+
+
+<!-- Modal -->
+<div id="MODAL-shareEmail" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">ENVIAR INFORMACI&Oacute;N POR CORREO</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Envia la informaci&oacute;n de este curso a un amigo por correo electr&oacute;nico mediante nuestra plataforma
+                </p>
+                <div>
+                    <div class="boxForm">
+                        <h5>INGRESA EL CORREO A NOTIFICAR</h5>
+                        <hr/>
+                        <form action="" class="form-horizontal validable" id="contactform" method="post" enctype="application/x-www-form-urlencoded" autocomplete="Off">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control required string" type="email" name="email" placeholder="Correo electr&oacute;nico..." required="">
+                                </div>
+                                <div class="col-sm-12">
+                                    <input class="form-control required string" type="text" name="nombre" placeholder="Recomendado por..." required="">
+                                </div>
+                            </div>   
+                            <!--                            <div class="form-group">
+                                                            <div class="col-md-12 text-center">
+                                                                <div style="width:300px;margin:auto;">
+                                                                    <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
+                                                                    <div class="g-recaptcha" data-sitekey="6LcNOxgTAAAAAOIHv-MOGQ-9JMshusUgy6XTmJzD"></div>
+                                                                </div> 
+                                                            </div>
+                                                        </div>-->
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <input type="submit" name="ingresar" class="btn btn-success" value="ENVIAR INFORMACI&Oacute;N"/>
+                                </div>
+                            </div>
+                            <hr/>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- send_static_view -->
+<script>
+    function send_static_view(dat) {
+        $.ajax({
+            url: 'contenido/paginas/ajax/ajax.send_static_view.php',
+            data: {dat: dat},
+            type: 'POST',
+            dataType: 'html',
+            success: function(data) {
+                console.log(data);
+            }
+        });
+    }
+</script>
+
+<script>
+    function actualiza_ciudades() {
+        $("#select_ciudad").html('<option>Cargando...</option>');
+        var id_departamento = $("#select_departamento").val();
+        $.ajax({
+            url: 'contenido/paginas/ajax/ajax.actualiza_ciudades.php',
+            data: {id_departamento: id_departamento},
+            type: 'POST',
+            dataType: 'html',
+            success: function(data) {
+                $("#select_ciudad").html(data);
+            }
+        });
+    }
+</script>
+
+<script>
+    function copyToClipboard_PRE() {
+        var container = document.createElement('div');
+        container.innerHTML = document.getElementById("contentInfo").innerHTML;
+        container.style.position = 'fixed';
+        container.style.pointerEvents = 'none';
+        container.style.opacity = 0;
+        var activeSheets = Array.prototype.slice.call(document.styleSheets).filter(function(sheet) {
+            return !sheet.disabled;
+        });
+        document.body.appendChild(container);
+        window.getSelection().removeAllRanges();
+        var range = document.createRange();
+        range.selectNode(container);
+        window.getSelection().addRange(range);
+        document.execCommand('copy');
+        for (var i = 0; i < activeSheets.length; i++)
+            activeSheets[i].disabled = true;
+        document.execCommand('copy');
+        for (var i = 0; i < activeSheets.length; i++)
+            activeSheets[i].disabled = false;
+        document.body.removeChild(container);
+    }
+    function copyToClipboard(contentToCopy = null) {
+        alert('Se ha copiado la informacion del curso al portapapeles (Ctrl + C)');
+        var container = document.createElement('div');
+        if(contentToCopy!=null){
+            contentToCopy;
+            container.innerHTML = contentToCopy;
+        }else{
+            container.innerHTML = document.getElementById("contentInfo").innerHTML;
+        }
+        //container.style.position = 'fixed';
+        //container.style.pointerEvents = 'none';
+        //container.style.opacity = 0;
+        var activeSheets = Array.prototype.slice.call(document.styleSheets).filter(function(sheet) {
+            return !sheet.disabled;
+        });
+        document.body.appendChild(container);
+        window.getSelection().removeAllRanges();
+        var range = document.createRange();
+        range.selectNode(container);
+        window.getSelection().addRange(range);
+        document.execCommand('copy');
+        for (var i = 0; i < activeSheets.length; i++)
+            //activeSheets[i].disabled = true;
+        document.execCommand('copy');
+        for (var i = 0; i < activeSheets.length; i++)
+            //activeSheets[i].disabled = false;
+        document.body.removeChild(container);
+    }
+    function shareFacebook() {
+        FB.ui({
+            method: 'share',
+            href: 'https://cursosbolivia.org/curso-adobe-premier-presencial-en-cochabamba.html'
+        }, function(response) {
+        });
+    }
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2&appId=2070955676476906';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+    <style>
+        .wrapsemibox {
+            z-index: auto !important;
+        }
+        @media (min-width: 768px){
+            .modal-dialog {
+                width: 900px;
+                margin: 30px auto;
+            }
+        }
+        .hook{
+            background: url('https://www.cursosbolivia.org/contenido/imagenes/images/back_reg_popup.jpg') #121e2c;
+            height: 640px;
+            float: left;
+        }
+        .cont-regg{
+            float: left;
+            min-height:610px;
+        }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .hook{
+                background-image: url('https://d2ycj993f2qxkw.cloudfront.net/assets/onboard/domestika-onboard-6@2x-074842a7e1a94854ccd5614eb7e3f2ab659452713930a76f3434f985a63e2e07.jpg');
+            }
+        }
+        .btn-facebook{
+            color: #FFF;
+            background-color: #3B5998;
+            border-color: #FFF;
+        }
+        .btn-google{
+            margin-top: 10px;
+            color: #FFF;
+            background-color: #dd4c39;
+            border-color: #FFF;
+        }
+        .btn-facebook:hover,.btn-google:hover{
+            color: #EEE;
+            border-color: gray;
+        }
+    </style>
+    
+
+<section id="TextoConsultasPie" class="TextoConsultasPie"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 hidden-xs hidden-sm">
+                <br>                
+                Informes y consultas : &nbsp;<i class="icon-phone"></i> &nbsp;
+                &nbsp;       | &nbsp; 
+                <img src="https://www.cursosbolivia.org/contenido/alt/icono_whatsap.png"> 
+                &nbsp; 67080077                     | &nbsp;  &nbsp; 
+                <a href="https://www.facebook.com/cursosvirtualesenbolivia" target="_blank" title="CURSOS BOLIVIA / Facebook Cursos y capacitaciones en Bolivia">
+                    <img src="https://www.cursosbolivia.org/contenido/alt/icono-facebook.png"> <span style="color:#FFF;font-size: 11pt;">Facebook</span>
+                </a>
+                <br><br>            
+            </div>
+            <div class="col-md-12 hidden-md hidden-lg">
+            </div>
+            <div class="col-md-12 hidden-md hidden-lg">
+                <br>
+                <img src="contenido/alt/icono_whatsap.png"> 67080077            </div>
+            <div class="col-md-12 hidden-md hidden-lg">
+                <br>
+                <a href="https://www.facebook.com/cursosvirtualesenbolivia" target="_blank" title="CURSOS BOLIVIA / Facebook Cursos y capacitaciones en Bolivia">
+                    <img src="https://www.cursosbolivia.org/contenido/alt/icono-facebook.png">
+                </a>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <p class="text-center">
+                    Cursos y capacitaciones en toda Bolivia.                </p>
+                            </div>
+                    </div>
+    </div>
+    <p id="back-top" style="display: none;">
+        <a href="https://cursosbolivia.org/#top"><span></span></a>
+    </p>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-5 hidden-sm hidden-xs">
+                    <p class="pull-left">&copy; CURSOS BOLIVIA 2024   Cochabamba - Bolivia</p>
+                </div>
+                <div class="col-xs-12 hidden-sm col-md-7 hidden-xs ">
+                    <ul class="footermenu pull-right">
+                        <li><a href="https://licitaciones.com.bo/">Licitaciones</a></li>
+                        <li><a href="https://infosiscon.com/consultorias-bolivia.html">Consultorias</a></li>
+                        <li><a href="https://cursosbolivia.org/">Cursos Bolivia</a></li>
+                        <li><a href="https://www.vpshostingbolivia.com/">VPS Hosting Bolivia</a></li>
+                        <li><a target="_blank" href="https://infosiscon.com/noticias.html">NOTICIAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12  hidden-md hidden-lg">
+                    <p class="pull-left">&copy; CURSOS BOLIVIA 2024   Cochabamba - Bolivia</p>
+                </div>
+                <div class="col-xs-12  hidden-md hidden-lg" style="padding-top: 5px;margin-top: 5px;border-top:1px solid #FFF;">
+                    <div class="col-xs-6 text-center"> <a href="contacto.html" class="EnlacePoliticas">Contacto</a></div>
+                    <div class="col-xs-6 text-center"> <a href="quienes-somos.html" class="EnlacePoliticas">Quienes Somos</a></div>
+                    <br/>
+                </div>
+            </div>
+        </div>
+            </div>            
+</section>
+</div>
+
+<!--previous scripts-->
+    <script>
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ')
+                    c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0)
+                    return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+    </script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117245747-1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117245747-1');
+</script>
+
+
+<!--Notificaciones-->
+<script>
+    function guardaToken(token) {
+        //alert('Token:' + token);
+        $.ajax({
+            url: 'contenido/paginas/ajax/ajax.instant.saveToken.php',
+            data: {token: token},
+            type: 'POST',
+            dataType: 'html',
+            success: function(data) {
+                //alert('Token: guardado : ' + token);
+            }
+        });
+    }
+</script>
+<script>
+    function cambia_estado_notificaciones(token, state) {
+        $("#ajaxbox-notification-msm").html("Cargando...");
+        if (token === '') {
+            location.href='notificaciones.html';
+        } else {
+            $.ajax({
+                url: 'contenido/paginas/ajax/ajax.instant.cambia_estado_notificaciones.php',
+                data: {token: token, state: state},
+                type: 'POST',
+                dataType: 'html',
+                success: function(data) {
+                    $("#ajaxbox-notification-state").html(data);
+                    $("#ajaxbox-notification-msm").html("");
+                }
+            });
+        }
+    }
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+    var config = {
+        apiKey: "AIzaSyDVaOYZYo_6QzuWqu9LHkgROukGGdlDL70",
+        authDomain: "cursosbo-220916.firebaseapp.com",
+        messagingSenderId: "1057058715628"
+    };
+    firebase.initializeApp(config);
+
+    const messaging = firebase.messaging();
+    messaging.requestPermission()
+            .then(function() {
+                //MsgElem.innerHTML = "Notification permission granted.";
+                console.log("Notification permission granted.");
+
+                // get the token in the form of promise
+                return messaging.getToken();
+            })
+            .then(function(token) {
+                //TokenElem.innerHTML = "token is : " + token;
+                guardaToken(token);
+            })
+            .catch(function(err) {
+                //ErrElem.innerHTML = ErrElem.innerHTML + "; " + err;
+                console.log("Unable to get permission to notify.", err);
+            });
+
+    messaging.onMessage(function(payload) {
+        console.log("Message received. ", payload);
+        //NotisElem.innerHTML = NotisElem.innerHTML + JSON.stringify(payload);
+        displayNotification(payload);
+    });
+</script>
+<script>
+    function displayNotification(payload) {
+        if (Notification.permission === 'granted') {
+            var options = {
+                body: payload["data"]["gcm.notification.text"],
+                icon: payload["data"]["gcm.notification.image"]
+            };
+            var notif = new Notification(payload["data"]["gcm.notification.text"], options);
+            notif.onclick = function(event) {
+                event.preventDefault(); // Previene al buscador de mover el foco a la pesta�a del Notification
+                window.open(payload["data"]["gcm.notification.url"], '_blank');
+                notif.close();
+            };
+            notif.show();
+        }
+    }
+</script>
+
+
+
+<style>
+    .whatsappme {
+        position: fixed;
+        z-index: 1000;
+        right: 20px;
+        bottom: 20px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        color: #262626;
+        transform: scale3d(0,0,0);
+        transition: transform .3s ease-in-out;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+    }
+    .whatsappme--left {
+        right: auto;
+        left: 20px;
+    }
+    .whatsappme--show {
+        transform: scale3d(1,1,1);
+        transition: transform .5s cubic-bezier(.18,.89,.32,1.28);
+    }
+    .whatsappme--left .whatsappme__button {
+        right: auto;
+        left: 8px;
+    }
+    .whatsappme--dialog .whatsappme__button {
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+    }
+    .whatsappme--dialog .whatsappme__button {
+        background-color: #128c7e;
+        transition: background-color .2s linear;
+    }
+
+    .whatsappme__button {
+        position: absolute;
+        z-index: 2;
+        bottom: 8px;
+        right: 8px;
+        height: 60px;
+        min-width: 60px;
+        max-width: 95vw;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 30px;
+        box-shadow: 1px 6px 24px 0 rgba(7,94,84,.24);
+        cursor: pointer;
+        transition: background-color .2s linear;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .whatsappme__button svg {
+        width: 36px;
+        height: 36px;
+        margin: 12px 12px;
+    }
+    .whatsappme__badge.whatsappme__badge--in{
+        animation:badge--in .5s cubic-bezier(.27,.9,.41,1.28) 1 both
+    }
+    .whatsappme__badge.whatsappme__badge--out{
+        animation:badge--out .4s cubic-bezier(.215,.61,.355,1) 1 both
+    }
+    .whatsappme__badge {
+        position: absolute;
+        top: -4px;
+        right: -4px;
+        width: 20px;
+        height: 20px;
+        border: none;
+        border-radius: 50%;
+        background: #e82c0c;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        box-shadow: none;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .whatsappme--left .whatsappme__box {
+        right: auto;
+        left: 0;
+    }
+    .whatsappme--dialog .whatsappme__box {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+        transition: opacity .2s ease-out,transform 0s linear;
+    }
+    .whatsappme__box {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        width: calc(100vw - 40px);
+        max-width: 400px;
+        min-height: 280px;
+        padding-bottom: 60px;
+        border-radius: 32px;
+        background: #ede4dd url(contenido/imagenes/images/background-wapp.webp) center repeat-y;
+        background-size: 100% auto;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,.5);
+        overflow: hidden;
+        transform: scale3d(0,0,0);
+        opacity: 0;
+        transition: opacity .4s ease-out,transform 0s linear .3s;
+    }
+    .whatsappme__header {
+        float: none;
+        display: block;
+        position: static;
+        width: 100%;
+        height: 70px;
+        padding: 0 26px;
+        margin: 0;
+        background-color: #2e8c7d;
+        color: rgba(255,255,255,.5);
+    }
+    .whatsappme__message {
+        position: relative;
+        min-height: 80px;
+        padding: 20px 2px 20px 0;
+        margin: 34px 26px;
+        border-radius: 32px;
+        background-color: #fff;
+        color: #4a4a4a;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+    }
+    .whatsappme__close {
+        display: flex;
+        position: absolute;
+        top: 18px;
+        right: 24px;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: #000;
+        color: #fff;
+        text-align: center;
+        opacity: .4;
+        cursor: pointer;
+        transition: opacity .3s ease-out;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .whatsappme svg path {
+        fill: currentColor!important;
+    }
+    .whatsappme__header svg {
+        width: 120px;
+        height: 100%;
+    }
+    .whatsappme__close svg {
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: auto;
+    }
+    .whatsappme__message__wrap {
+        max-height: calc(100vh - 270px);
+        padding: 0 20px 0 22px;
+        overflow: auto;
+    }
+    .whatsappme__message:before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 30px;
+        left: -18px;
+        width: 18px;
+        height: 18px;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA1CAYAAADlE3NNAAAEr0lEQVRo3t2aT0gjVxzHf++9mcn8zWhW6bpELWzcogFNaRar7a4tBNy2WATbHpacpdZ6redeZE+9CL02B1ktXsRD/xwsilhoSwsqag/xYK09hCQlmCiTf28vGRnGmZhE183MFx5vmGQy7zO/P/P7PYLAHUIAQCqDAwDPxMREG3IpHL+zs/MZcgkYAgAMAIwOl8lkYm6xGgYAFgAEAGgZHx9/vVwun7nJJTkAEAGgdW9v73NKKXWLSzIA4AEAGQDazs/P/3ALnNEl1a2trY9oRW6wmu6SEgC0ZrPZn9wCp2dIHgCU1dXVtymlZafDIatEksvlfqYGueG9xgOAcnBw8JSa5GR3vIi1aDTaUSwWj5wOZ3RHPUN6U6nUN9RCTnZHDwDI+/v745TSkpPhrOpHcWlpqbdcLieojZwGpseZMDo66svn87/RKnIaGAsAfCAQ8J6dnX1Pr5DjwABAzmazMVqDHAd2enr6La1RjgGLRCJqLpeL0TrUjFDGrMgCAD8/P38vn8//QutUs1pLT/fC5ubmQKFQOKANqNmspbuhBwDEZDL5BaX0lDaoZoK62NxZXFzs1DRthV5TrxrKGFue/v5+KZ1Of1kul5P0BtQUUAAgxOPx9wuFwl/0BvWq3O8C6vDw8F1N036gL0G3ZaVLUEdHRxFN036kL1E3DWMHxAEAPzc3dyedTk+XSqUdegu6CRijy5mBPLOzs2oikfhU07RFSmmG3qKuaxkdxuhy/MzMjDeRSHyiadrz2wYyClUBMh9bzRfAu7u7PX6//z1RFB9zHBcBALUZKoRqUMgEgyvHeHt7+353d/cjQRBGWJZ9jBDqaMYKHKpYBAEAXltbawsGg2FFUd7iOO4hIeQhQuiOEzpdOzCSTCaftLS0fEUIGXbiHiBjU5njVCr1sc/nW6wkDcduS1u1HKRUKv2KMR4ABwvbAWKMA+BwYbsasFgs/uMWuEtxd3x8/J3b4C4Ag8Hg83g8/iyfz//n5IRi1eZzla00HgA8oijyDMNwlFJCCGH0axiGQQAAXq+XyLLMeL1eRlEURpZlRpIkhud5oigK297eLvl8Prm1tVVSFEWSJEkWRVESBMGrqupriqLcFQThLsaYu612n6vUip4KMFv5HJssjhooEi5laoZh0NjYWNvw8PC9np6ejkAg8MDv9w+oqnrfxsNqhgNTh2wE1MGYChyyWGA9RYJVFWTM3MhwjMPhsDw9PT0QDocHOjs731RV9Y1rv+cMlb4Oiy3garWW1b2sPMfceZgHmZqa6pycnPywr6/vA47jfPXAWbU0xOCOqE44u2K8Wl9oBUfMa+rq6hIWFhbGBwcHn9pBohogcRWwRiCRTUiACQ6ZYpxY9JAkFAopy8vLM4FAYKyRrgA1GGf1JperLGgEM4cNG4vF3olGo18TQkT9JsRmAdQw66NsGlbn7Ibdd0um2XzOblz6/ZWVlX8JIb8PDQ090gFJDU+e2sBeZ1hBU9NcqvIQzDMFALq+vp7GGP85MjLyBCHE1tPO1LP4eq4FG/hqnlGyeSiwsbHxfygUOu7t7Y00059JUY3ZHFm8k1lT0cGfnJw8c0ojepWFzd6CMpnM3y8AJPEkZ9khO4IAAAAASUVORK5CYII=);
+        background-size: 100%;
+    }
+
+
+    .whatsappme--dialog .whatsappme__button svg {
+        margin: 12px 11px 12px 13px;
+    }
+    .whatsappme--dialog .whatsappme__button__open, .whatsappme__button__send {
+        display: none;
+    }
+
+    .whatsappme--dialog .whatsappme__button__send, .whatsappme__button__open {
+        display: block;
+    }
+
+    .whatsappme .whatsappme__button__send path {
+        fill: none!important;
+        stroke: #fff!important;
+        animation: wame_plain 6s 0s ease-in-out infinite;
+    }
+    .whatsappme .whatsappme__button__send path.wame_chat {
+        animation-name: wame_chat;
+    }
+    @keyframes wame_plain{
+        5%{stroke-dashoffset:0;}
+        45%{stroke-dashoffset:0;}
+        50%{stroke-dashoffset:1096.67;}
+        100%{stroke-dashoffset:1096.67;}
+    }
+    @keyframes wame_chat{
+        50%{stroke-dashoffset:1019.22}
+        55%{stroke-dashoffset:0}
+        95%{stroke-dashoffset:0}
+    }
+
+    @keyframes badge--in{
+        from{opacity:0;transform:translateY(50px)}
+        to{opacity:1;transform:translateY(0)}
+    }
+    @keyframes badge--out{
+        from{opacity:1;transform:translateY(0)}
+        to{opacity:0;transform:translateY(-20px)}
+    }
+
+    .bxtxt-selfpage{
+        width: 125px;
+        height: 100%;
+        float: right;
+        padding: 23px 0px;
+        font-weight: bold;
+        font-size: 10pt;
+    }
+
+</style>
+<div id="box-wamsm" class="whatsappme whatsappme--left" data-settings="{&quot;telephone&quot;:&quot;34722518077&quot;,&quot;mobile_only&quot;:false,&quot;button_delay&quot;:3,&quot;whatsapp_web&quot;:false,&quot;message_text&quot;:&quot;Hola\n\u00bfEn qu\u00e9 podemos ayudarte?&quot;,&quot;message_delay&quot;:0,&quot;message_badge&quot;:true,&quot;message_send&quot;:&quot;Hola, necesito informaci\u00f3n sobre Runbenguo&quot;}">
+    <div class="whatsappme__button" onclick="show_wamsm();">
+        <svg class="whatsappme__button__open" viewBox="0 0 24 24">
+        <path fill="#fff" d="M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0 4.686 4.686 4.686 12.283 0 16.97a12.004 12.004 0 0 1-13.754 2.299l-5.814.735a.392.392 0 0 1-.438-.44l.748-5.788A12.002 12.002 0 0 1 3.517 3.517zm3.61 17.043l.3.158a9.846 9.846 0 0 0 11.534-1.758c3.843-3.843 3.843-10.074 0-13.918-3.843-3.843-10.075-3.843-13.918 0a9.846 9.846 0 0 0-1.747 11.554l.16.303-.51 3.942a.196.196 0 0 0 .219.22l3.961-.501zm6.534-7.003l-.933 1.164a9.843 9.843 0 0 1-3.497-3.495l1.166-.933a.792.792 0 0 0 .23-.94L9.561 6.96a.793.793 0 0 0-.924-.445 1291.6 1291.6 0 0 0-2.023.524.797.797 0 0 0-.588.88 11.754 11.754 0 0 0 10.005 10.005.797.797 0 0 0 .88-.587l.525-2.023a.793.793 0 0 0-.445-.923L14.6 13.327a.792.792 0 0 0-.94.23z"></path>
+        </svg>
+        <svg class="whatsappme__button__send" viewBox="0 0 400 400" fill="none" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-width="33" onclick="window.open('https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20el%20curso%3A%20Curso%20ADOBE%20PREMIER%20presencial%20en%20Cochabamba');">
+        <path class="wame_plain" stroke-dasharray="1096.67" stroke-dashoffset="1096.67" d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427"></path>
+        <path class="wame_chat" stroke-dasharray="1019.22" stroke-dashoffset="1019.22" d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316"></path>
+        </svg>
+        <div id="badge-wamsm" class="whatsappme__badge whatsappme__badge--in">1</div>
+    </div>
+    <div class="whatsappme__box">
+        <div class="whatsappme__header">
+            <svg viewBox="0 0 120 28"><path fill="#fff" fill-rule="evenodd" d="M117.2 17c0 .4-.2.7-.4 1-.1.3-.4.5-.7.7l-1 .2c-.5 0-.9 0-1.2-.2l-.7-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1l.7-.7a2 2 0 0 1 1.1-.3 2 2 0 0 1 1.8 1l.4 1a5.3 5.3 0 0 1 0 2.3zm2.5-3c-.1-.7-.4-1.3-.8-1.7a4 4 0 0 0-1.3-1.2c-.6-.3-1.3-.4-2-.4-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11H110v13h2.7v-4.5c.4.4.8.8 1.3 1 .5.3 1 .4 1.6.4a4 4 0 0 0 3.2-1.5c.4-.5.7-1 .8-1.6.2-.6.3-1.2.3-1.9s0-1.3-.3-2zm-13.1 3c0 .4-.2.7-.4 1l-.7.7-1.1.2c-.4 0-.8 0-1-.2-.4-.2-.6-.4-.8-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1 .1-.3.4-.5.7-.7a2 2 0 0 1 1-.3 2 2 0 0 1 1.9 1l.4 1a5.4 5.4 0 0 1 0 2.3zm1.7-4.7a4 4 0 0 0-3.3-1.6c-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11h-2.6v13h2.7v-4.5c.3.4.7.8 1.2 1 .6.3 1.1.4 1.7.4a4 4 0 0 0 3.2-1.5c.4-.5.6-1 .8-1.6.2-.6.3-1.2.3-1.9s-.1-1.3-.3-2c-.2-.6-.4-1.2-.8-1.6zm-17.5 3.2l1.7-5 1.7 5h-3.4zm.2-8.2l-5 13.4h3l1-3h5l1 3h3L94 7.3h-3zm-5.3 9.1l-.6-.8-1-.5a11.6 11.6 0 0 0-2.3-.5l-1-.3a2 2 0 0 1-.6-.3.7.7 0 0 1-.3-.6c0-.2 0-.4.2-.5l.3-.3h.5l.5-.1c.5 0 .9 0 1.2.3.4.1.6.5.6 1h2.5c0-.6-.2-1.1-.4-1.5a3 3 0 0 0-1-1 4 4 0 0 0-1.3-.5 7.7 7.7 0 0 0-3 0c-.6.1-1 .3-1.4.5l-1 1a3 3 0 0 0-.4 1.5 2 2 0 0 0 1 1.8l1 .5 1.1.3 2.2.6c.6.2.8.5.8 1l-.1.5-.4.4a2 2 0 0 1-.6.2 2.8 2.8 0 0 1-1.4 0 2 2 0 0 1-.6-.3l-.5-.5-.2-.8H77c0 .7.2 1.2.5 1.6.2.5.6.8 1 1 .4.3.9.5 1.4.6a8 8 0 0 0 3.3 0c.5 0 1-.2 1.4-.5a3 3 0 0 0 1-1c.3-.5.4-1 .4-1.6 0-.5 0-.9-.3-1.2zM74.7 8h-2.6v3h-1.7v1.7h1.7v5.8c0 .5 0 .9.2 1.2l.7.7 1 .3a7.8 7.8 0 0 0 2 0h.7v-2.1a3.4 3.4 0 0 1-.8 0l-1-.1-.2-1v-4.8h2V11h-2V8zm-7.6 9v.5l-.3.8-.7.6c-.2.2-.7.2-1.2.2h-.6l-.5-.2a1 1 0 0 1-.4-.4l-.1-.6.1-.6.4-.4.5-.3a4.8 4.8 0 0 1 1.2-.2 8.3 8.3 0 0 0 1.2-.2l.4-.3v1zm2.6 1.5v-5c0-.6 0-1.1-.3-1.5l-1-.8-1.4-.4a10.9 10.9 0 0 0-3.1 0l-1.5.6c-.4.2-.7.6-1 1a3 3 0 0 0-.5 1.5h2.7c0-.5.2-.9.5-1a2 2 0 0 1 1.3-.4h.6l.6.2.3.4.2.7c0 .3 0 .5-.3.6-.1.2-.4.3-.7.4l-1 .1a21.9 21.9 0 0 0-2.4.4l-1 .5c-.3.2-.6.5-.8.9-.2.3-.3.8-.3 1.3s.1 1 .3 1.3c.1.4.4.7.7 1l1 .4c.4.2.9.2 1.3.2a6 6 0 0 0 1.8-.2c.6-.2 1-.5 1.5-1a4 4 0 0 0 .2 1H70l-.3-1v-1.2zm-11-6.7c-.2-.4-.6-.6-1-.8-.5-.2-1-.3-1.8-.3-.5 0-1 .1-1.5.4a3 3 0 0 0-1.3 1.2v-5h-2.7v13.4H53v-5.1c0-1 .2-1.7.5-2.2.3-.4.9-.6 1.6-.6.6 0 1 .2 1.3.6.3.4.4 1 .4 1.8v5.5h2.7v-6c0-.6 0-1.2-.2-1.6 0-.5-.3-1-.5-1.3zm-14 4.7l-2.3-9.2h-2.8l-2.3 9-2.2-9h-3l3.6 13.4h3l2.2-9.2 2.3 9.2h3l3.6-13.4h-3l-2.1 9.2zm-24.5.2L18 15.6c-.3-.1-.6-.2-.8.2A20 20 0 0 1 16 17c-.2.2-.4.3-.7.1-.4-.2-1.5-.5-2.8-1.7-1-1-1.7-2-2-2.4-.1-.4 0-.5.2-.7l.5-.6.4-.6v-.6L10.4 8c-.3-.6-.6-.5-.8-.6H9c-.2 0-.6.1-.9.5C7.8 8.2 7 9 7 10.7c0 1.7 1.3 3.4 1.4 3.6.2.3 2.5 3.7 6 5.2l1.9.8c.8.2 1.6.2 2.2.1.6-.1 2-.8 2.3-1.6.3-.9.3-1.5.2-1.7l-.7-.4zM14 25.3c-2 0-4-.5-5.8-1.6l-.4-.2-4.4 1.1 1.2-4.2-.3-.5A11.5 11.5 0 0 1 22.1 5.7 11.5 11.5 0 0 1 14 25.3zM14 0A13.8 13.8 0 0 0 2 20.7L0 28l7.3-2A13.8 13.8 0 1 0 14 0z"></path></svg>
+            <div class="bxtxt-selfpage">CURSOS BOLIVIA</div>
+            <div class="whatsappme__close" onclick="close_wamsm();">
+                <svg viewBox="0 0 24 24"><path fill="#fff" d="M24 2.4L21.6 0 12 9.6 2.4 0 0 2.4 9.6 12 0 21.6 2.4 24l9.6-9.6 9.6 9.6 2.4-2.4-9.6-9.6L24 2.4z"></path></svg>
+            </div>
+        </div>
+        <div class="whatsappme__message">
+            <div class="whatsappme__message__wrap">
+                                    <div class="whatsappme__message__content">
+                        Hola
+                        <br/>
+                        &iquest;Quieres m&aacute;s informaci&oacute;n de este curso?
+                        <br/>
+                        <br/>
+                        <img src="https://cursosbolivia.org/contenido/imagenes/paginas/1705056331premier 01.jpg" class="img-pag-static" style="width: 100%;"/>
+                        <br/>
+                        <br/>
+                        Presiona el boton inferior
+                    </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function start_wamsm() {
+        $("#box-wamsm").addClass("whatsappme--show");
+    }
+    function show_wamsm() {
+        window.open('https://api.whatsapp.com/send?phone=59167080077&text=Hola%2C%20tengo%20interes%20en%20el%20curso%3A%20Curso%20ADOBE%20PREMIER%20presencial%20en%20Cochabamba');
+        /*
+        $("#box-wamsm").addClass("whatsappme--dialog");
+        $("#badge-wamsm").removeClass("whatsappme__badge--in");
+        $("#badge-wamsm").addClass("whatsappme__badge--out");
+        */
+    }
+    function close_wamsm() {
+        $("#box-wamsm").removeClass("whatsappme--dialog");
+    }
+    setTimeout('start_wamsm()', 2000);
+</script>
+
+
+<!-- Modal general -->
+<div id="MODAL-general" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="title-MODAL-general"></h4>
+      </div>
+      <div class="modal-body" id="body-MODAL-general">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+

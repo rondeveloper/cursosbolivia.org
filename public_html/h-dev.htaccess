@@ -1,0 +1,36 @@
+
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^cursos.bo
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) http://www.cursos.bo/$1 [R=301,L]
+
+RewriteRule ^(.*).html?$ index.php?seccion=$1
+RewriteRule ^(.*).adm?$ admin.php?seccion=$1
+RewriteRule ^(.*).ext?$ contenido/paginas/procesos/externos/controlador.php?id=$1
+RewriteRule ^(.*).encrypt?$ contenido/paginas/procesos/externos_encrypt/principal.php?id=$1
+RewriteRule ^(.*).img?$ contenido/configuracion/imagen.php?seccion=$1
+RewriteRule ^(.*).estilo?$ contenido/configuracion/css.php?seccion=$1
+RewriteRule ^(.*).impresion?$ contenido/paginas/procesos/controlador_impresion.php?seccion=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ $1.php
+
+options -Indexes
+IndexIgnore *
+
+
+
+

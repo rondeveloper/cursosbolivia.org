@@ -1,0 +1,4250 @@
+.list_table{
+    min-width:700px; padding:10px;
+}
+
+.blockmenu{
+    line-height:16px;
+}
+
+.blockmenu a{
+    display:block;
+    padding:0px 3px 0px 10px;
+}
+
+.blockmenu a:hover{
+    background-color:#F0F0F0;
+}
+
+
+.blockmenu h3{
+    color:#24940a;
+    font-size:16px;
+}
+
+
+.blockmenu .titulo{
+    color:#444;
+    font-size:13px;
+    font-weight:500;
+}
+
+.blockmenu .txt{
+
+    color:#666;
+    font-size:11px;
+}
+
+
+
+.blockmenu a.otros{
+
+    display:block;
+    padding:0px 3px 0px 10px;
+
+}
+
+.blockmenu a.otros:hover{
+
+    background-color:transparent;
+}
+
+
+.blockmenu img{
+    border:1px #AAA solid;
+}
+
+.blockmenu img:hover{
+    border:1px #FFFFFF solid;
+}
+
+
+/*----------------------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+*/
+
+
+
+
+
+
+
+.TituloIndexW h2 {
+
+    font-size:23px !important;
+
+    color:#000;
+
+    letter-spacing:1px;
+
+    text-transform:none;
+
+    margin-bottom: 0;
+
+    margin-top: 0;
+
+    font-weight: normal;
+
+}
+
+
+
+.TituloIndexW h2:after {
+
+    content: '';
+
+    margin-top: 15px;
+
+    width: 200px;
+
+    border-top: 2px solid #F7880E;
+
+    display: block;
+
+}
+
+
+
+
+
+
+
+.TituloIndexWhite h2 {
+
+
+
+    color:#fff;
+
+
+
+    letter-spacing:1px;
+
+
+
+    text-transform:none;
+
+
+
+    margin-bottom: 0;
+
+
+
+    margin-top: 0;
+
+
+
+    font-weight: normal;
+
+
+
+}
+
+
+
+.TituloIndexWhite h2:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 15px;
+
+
+
+    width: 200px;
+
+
+
+    border-top: 2px solid #F7880E;
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+/**********/
+
+.cpagosweb input[type="text"]::-moz-placeholder{
+    color:#000;
+}
+
+
+
+.cpagosweb input[type="text"]::-webkit-input-placeholder{
+    color:#000;
+}
+
+
+
+.cpagosweb input[type="text"]:-ms-input-placeholder{
+    color:#000;
+}
+
+.cpagosweb a{
+
+    color:#003EB0;
+    font-size: 15px;
+}
+
+.cpagosweb a:hover{
+    color:#003EB0;
+    text-decoration: underline;
+}
+/******/
+
+.cabecera input[type="text"]::-moz-placeholder{
+
+
+
+    color:#fff;
+
+
+
+}
+
+
+
+.cabecera input[type="text"]::-webkit-input-placeholder{
+
+
+
+    color:#fff;
+
+
+
+}
+
+
+
+.cabecera input[type="text"]:-ms-input-placeholder{
+
+
+
+    color:#fff;
+
+
+
+}
+
+
+
+
+
+
+
+.PieIndexW h4 {
+
+
+
+    color:#fff;
+
+
+
+    letter-spacing:1px;
+
+
+
+    text-transform:none;
+
+
+
+    margin-bottom: 0;
+
+
+
+    margin-top: 0;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+.PieIndexW h4:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 5px;
+
+
+
+    width: 150px;
+
+
+
+    /*    border-top: 2px solid #F7880E;*/
+    border-top: 2px solid #2aac0b;
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+.TituloIndexW.text-center h2:after {
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.TituloArea h3:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 5px;
+
+
+
+    /* width: 250px; */
+    width: auto;
+
+
+
+    border-top: 2px solid #009aff;
+
+
+
+    display: block;
+
+
+
+    padding-bottom:20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.TituloArea.text-center h3:after {
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+
+
+
+
+.TituloIzquierdo h3:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 5px;
+
+
+
+    width: 180px;
+
+
+
+    border-top: 2px solid #F7880E;
+
+
+
+    text-transform:none;
+
+
+
+    font-weight: normal;
+
+
+
+    display: block;
+
+
+
+    padding-bottom:20px;
+
+
+
+}
+
+
+
+
+
+
+
+.TituloIzquierdo.h3:after {
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#proximo_cursor_iniciar{
+
+
+
+    background-color:#ccc;
+
+
+
+}
+
+
+
+
+
+
+
+#por_que_nosotros{
+
+
+
+    background-color:#103959;
+
+
+
+}
+
+
+
+#TextoLogoPie{
+
+
+
+    color: #fff;
+
+
+
+    font-size: 0.875em;
+
+
+
+    text-align:center;
+
+
+
+}
+
+
+
+#proximo_inioio_curso{
+
+
+
+    background-color:#DDDDDD;
+
+
+
+}
+
+
+
+#TextoConsultasPie{
+
+
+
+    background-color:#258fad;
+
+
+
+    color:#FFF;
+
+
+
+    text-align:center;
+
+
+
+    font-size:12pt;
+
+
+
+}
+
+
+
+
+
+
+
+#IconoPermiso{
+
+
+
+    background-color:#F7F7F7;
+
+
+
+    font-size:9pt;
+
+
+
+}
+
+
+
+.cuadro{
+
+
+
+    padding:5px; border:1px solid #999;
+
+
+
+}
+
+
+
+
+
+
+
+.cuadro1{
+
+
+
+    padding:5px; border:1px solid #f0f0f0;
+
+
+
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------- LINK FOOTER ----*/
+
+
+
+A.EnlaceMenu{
+
+
+
+    font-size:10pt; /* 11 pts */
+
+
+
+    color: #fff;
+
+
+
+    line-height:12pt;  /* 13pts*/
+
+
+
+    text-align: left;
+
+
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A.EnlaceMenu:hover {
+
+
+
+    color: #FA7607;
+
+
+
+    text-decoration:none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+A.EnlaceOpcion{
+
+
+
+    font-size:10pt; /* 11 pts */
+
+
+
+    color: #000;
+
+
+
+    line-height:12pt;  /* 13pts*/
+
+
+
+    text-align: left;
+
+
+
+    text-decoration: none;
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+A.EnlaceOpcion:hover {
+
+
+
+    color: #FC0;
+
+
+
+    text-decoration:none;
+
+
+
+}
+
+
+
+
+
+
+
+/*LIstado de curso */
+
+
+
+A.EnlaceCurso{
+
+    font-size:14pt; /* 11 pts */
+
+    color: #0579C2;
+
+    line-height:14pt;  /* 13pts*/
+
+    text-align: left;
+
+    text-decoration: none;
+
+    font-weight: normal;
+
+}
+
+A.EnlaceCurso:hover {
+
+    color: #034C9B;
+
+    text-decoration:none;
+
+}
+
+
+
+
+
+A.Enlace_Curso_Main{
+
+    font-size:15pt; /* 11 pts */
+
+    color: #000;
+
+    line-height:20pt;  /* 13pts*/
+
+    text-align: left;
+
+    text-decoration: none;
+
+    font-weight: normal;
+
+}
+
+A.Enlace_Curso_Main:hover {
+
+    color: #034C9B;
+
+    text-decoration:none;
+
+}
+
+
+
+
+
+
+
+/*LIstado de curso Slider */
+
+
+
+A.EnlaceCursoSlider{
+
+    font-size:12pt; /* 11 pts */
+
+    color: #000;
+
+    line-height:12pt;  /* 13pts*/
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+A.EnlaceCursoSlider:hover {
+
+    color: #FC0;
+
+    text-decoration:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------*/
+
+
+
+.tam{
+
+
+
+    font-size:15pt; /* 11 pts */
+
+
+
+}
+
+
+
+.TituloMenu{
+
+
+
+    font-size:14px; /* 11 pts */
+
+
+
+    color: #000;
+
+
+
+    text-align: left;
+
+
+
+    text-decoration: none;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+.TituloMenuTexto{
+
+
+
+    color:#666;
+
+
+
+    font-size:12px;
+
+
+
+}
+
+
+
+.TituloIndexB h2 {
+
+    font-size:23px !important;
+
+    color:#000;
+
+    letter-spacing:1px;
+
+    text-transform:none;
+
+    margin-bottom: 0;
+
+    margin-top: 0;
+
+    font-weight: normal;
+
+}
+
+
+
+.TituloIndexB h2:after {
+
+    content: '';
+
+    margin-top: 15px;
+
+    width: 200px;
+
+    border-top: 3px solid #F7880E;
+
+    display: block;
+
+}
+
+
+
+.TituloCatalogo h2 {
+    color:#000;
+    letter-spacing:1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+
+
+.TituloCatalogo h2:after {
+    content: '';
+    margin-top: 15px;
+    width: 200px;
+    border-top: 3px solid #F7880E;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.TituloContenidoCurso h2 {
+
+
+
+    color: #FF9900;
+
+
+
+    letter-spacing:1px;
+
+
+
+    text-transform:none;
+
+
+
+    margin-bottom: 0;
+
+
+
+    margin-top: 0;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+.TituloContenidoCurso h2:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 15px;
+
+
+
+    width: 300px;
+
+
+
+    border-top: 2px solid #FF9900;
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+.TituloContenidoCursosinLinea h2 {
+
+
+
+    color: #175d96;
+
+
+
+    letter-spacing:1px;
+
+
+
+    text-transform:none;
+
+
+
+    margin-bottom: 0;
+
+
+
+    margin-top: 0;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+.TituloContenidoCursosinLinea h2:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 20px;
+
+
+
+    /*    width: 300px;
+
+
+
+      border-top: 2px solid #FF9900;*/
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+.Titulo_texto  {
+
+
+
+    color: #000;
+
+
+
+    font-size:15px;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+.Titulo_texto1  {
+    color: #000;
+    font-size:12px;
+}
+
+
+.TituloIndexB.text-center h2:after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------------------*/
+
+.ColorWhite input[placeholder] {
+    border: 1px solid green;
+}
+
+
+
+/*----------------------------*/
+
+
+
+
+
+
+
+
+
+.TituloIndexO h2 {
+
+    font-size:23px !important;
+
+    color:#fff;
+
+    letter-spacing:1px;
+
+    text-transform:none;
+
+    margin-bottom: 0;
+
+    margin-top: 0;
+
+    font-weight: normal;
+
+}
+
+
+
+.TituloIndexO h2:after {
+
+
+
+    content: '';
+
+
+
+    margin-top: 15px;
+
+
+
+    width: 200px;
+
+
+
+    border-top: 2px solid #fff;
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+.TituloIndexO.text-center h2:after {
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*<!--------------EFECTO DE CUADRO DE CATALATOLOGO DE CURSOS HOME-------------------->*/
+
+
+
+.efecto:hover
+
+
+
+{
+
+
+
+    -webkit-transform: scale(1.2);
+
+
+
+    -ms-transform: scale(1.2);
+
+
+
+    transform: scale(1.2);
+
+
+
+}
+
+
+
+/*<!--------------------------------------------------------------------------------->*/
+
+
+
+
+
+
+
+.space_img
+
+
+
+{
+
+
+
+    padding:5px;
+
+
+
+}
+
+
+
+.orange{
+
+
+
+    /*    background-color:#F90;*/
+    background-color:#2aab0a;
+
+
+
+
+    border-radius:5px;
+
+
+
+}
+
+
+
+.colorLetra{
+
+    color:#000;
+
+    text-transform: none;
+
+    font-weight: bold;
+
+}
+
+
+
+/*+++++++++++++ BTN BUSCADOR ++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+.btn-buscador {
+
+
+
+    color:#fff;
+
+
+
+    background-color:#318CB8;
+
+
+
+    border:0;
+
+
+
+}
+
+
+
+.btn-buscador:hover {
+
+
+
+    background:#FFB901;
+
+
+
+    color:#fff;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.input-buscador {
+
+
+
+    color:#fff;
+
+
+
+    background-color:#1B78BA;
+
+
+
+    border:0;
+
+
+
+}
+
+
+
+/*+++++++++++++ PARA CALENDARIO FRONT ++++++++++++++++++++++++++++++*/
+
+
+
+.lblcalendar{
+
+
+
+    font-size:17px;
+
+
+
+    font-weight:bold;
+
+
+
+    padding-top:5px;
+
+
+
+    text-align:right;
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+
+
+
+
+.calendar{
+
+
+
+}
+
+
+
+
+
+
+
+.calendar th {
+
+
+
+    /*	font-size:14px;
+
+
+
+            background:none;
+
+
+
+            border-bottom:0 !Important;
+
+
+
+            font-weight:normal;
+
+
+
+            color: #fff;
+
+
+
+    */
+
+
+
+    padding: 10px 8px;
+
+
+
+    text-align: left;
+
+
+
+    border-bottom: 2px solid #ff7c00;
+
+
+
+    /*font-family: "Source Sans Pro", sans-serif;*/
+
+
+
+    font-size: 12px;
+
+
+
+    background: #eee;
+
+
+
+    color: #333;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.calendar td{
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+.td_color{
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+.td_color2{
+
+
+
+    color:#277092;
+
+
+
+    font-weight:500;
+
+
+
+}
+
+
+
+
+
+
+
+.paquete_agregar {
+
+
+
+    background-image: url(agregar.png);
+
+
+
+    background-position: right 5px;
+
+
+
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+
+
+
+
+.paquete_quitar {
+
+
+
+    background-image: url(quitar.png);
+
+
+
+    background-position: right 5px;
+
+
+
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+
+
+
+
+.labelAgregarQuitar {
+
+
+
+    float: right;
+
+
+
+    cursor: pointer;
+
+
+
+    width: 54px;
+
+
+
+    position: relative;
+
+
+
+    left: 2px;
+
+
+
+}
+
+
+
+
+
+
+
+.table-paquete {
+
+
+
+    background-color:#FFF;
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+
+
+
+
+.table-paquete th{
+
+
+
+    background-color:#4A6DA8;
+
+
+
+    color:#FFF;
+
+
+
+}
+
+
+
+.table-paquete a{
+
+
+
+    font-size:15px;
+
+
+
+    color:#FFF;
+
+
+
+}
+
+
+
+
+
+
+
+.table-paquete a:hover{
+
+
+
+    color:#CCC;
+
+
+
+}
+
+
+
+.centro{
+
+
+
+    text-align:center;
+
+
+
+}
+
+
+
+.tachado{
+
+
+
+    text-decoration:line-through;
+
+
+
+}
+
+
+
+.paquetealert{
+
+
+
+    font-size:13px;
+
+
+
+}
+
+
+
+.txtformaspago{
+
+
+
+    font-size:15px;
+
+
+
+    font-weight:500;
+
+
+
+    text-align:center;
+
+
+
+    color:#000;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paqcurso{
+
+
+
+    margin-bottom:0px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.paqcurso input[type="checkbox"]{
+    width:30px; height:14px; display:inline;
+}
+
+.pagosweb input[type="radio"]{
+    width:30px; height:14px; display:inline;
+}
+
+.pagosweb input[type="checkbox"]{
+    width:30px; height:14px; display:inline;
+}
+
+.pagosweb .txtlabel{
+    font-weight:bold;
+    padding-top: 4px;
+    color: #444;
+    vertical-align:top;
+}
+
+.pagosweb .txtcurso{
+    vertical-align:top;
+    font-weight:normal;
+}
+
+.paqcurso .txtcurso{
+    vertical-align:top;
+    font-weight:normal;
+}
+
+
+
+
+
+
+
+/*.table-striped > tbody > tr:nth-of-type(odd) {
+
+
+
+  background-color: #E8F1F8;
+
+
+
+}
+
+
+
+
+
+
+
+.table-bordered {
+
+
+
+  border: 1px solid #328AA4;
+
+
+
+  border-collapse: separate;
+
+
+
+  border-spacing:3px;
+
+
+
+
+
+
+
+}
+
+
+
+.table-bordered > tbody > tr > th{ border: 2px solid #1B78BA;
+
+
+
+}
+
+
+
+
+
+
+
+.table-bordered  th{
+
+
+
+        background-color:#06002C;
+
+
+
+        color:#FFF;
+
+
+
+        text-align:center;
+
+
+
+}*/
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px 5px 8px 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+.cuadros_contacto{
+
+
+
+
+
+
+
+    padding:30px 15px 30px 20px;
+
+
+
+    background-color:#DDDDDD;
+
+
+
+    color:#333;
+
+
+
+    border-radius:20px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cuadros_whyus{
+
+
+
+    font-size:12px;
+
+
+
+    margin-left:10px;
+
+
+
+    padding:40px 15px 30px 20px;
+
+
+
+    background-color:#0E3758;
+
+
+
+    color:#FFF;
+
+
+
+    border-radius:5%;
+
+
+
+}
+
+
+
+
+
+
+
+.cuadros_whyus a{
+
+
+
+    display:block;
+
+
+
+    color:#FFF;
+
+
+
+    padding-left:50px;
+
+
+
+    padding-top:8px;
+
+
+
+}
+
+
+
+.cuadros_whyus a:hover{
+
+
+
+    color:#F7880E;
+
+
+
+}
+
+
+
+
+
+
+
+.cuadros_whyus .active{
+
+
+
+    color:#F7880E;
+
+
+
+}
+
+
+
+
+
+
+
+.whyus_icon1{
+
+
+
+    background-image:url(ico-pc.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon2{
+
+
+
+    background-image:url(ico-cert.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon3{
+
+
+
+    background-image:url(ico-tes.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon4{
+
+
+
+    background-image:url(ico-cli.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon5{
+
+
+
+    background-image:url(ico-gru.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon6{
+
+
+
+    background-image:url(ico-gar.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon7{
+
+
+
+    background-image:url(ico-taller.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+.whyus_icon8{
+
+
+
+    background-image:url(ico-bolsa.png); background-repeat:no-repeat; height:55px;
+
+
+
+}
+
+
+
+
+
+
+
+input,textarea {
+
+
+
+    background-image:none;
+
+
+
+    border:1px solid #ccc;
+
+
+
+    padding:3px;
+
+
+
+    margin-bottom:15px;
+
+
+
+    font-size:13px;
+
+
+
+    width:100%;
+
+
+
+}
+
+
+
+
+
+
+
+.cuadro_formreserva{
+
+
+
+    background-color:#F6F6F6; border-radius:7px; padding:15px 12px 30px 12px;
+
+    color:#000;
+
+
+
+}
+
+
+
+
+
+
+
+#mensajeBookTxt{
+
+
+
+    font-size:16px;
+
+
+
+    font-weight:bold;
+
+
+
+    color:#003EB0;
+
+
+
+    padding:3px;
+
+
+
+    display:block;
+
+
+
+    text-align:center;
+
+
+
+    padding-bottom:10px;
+
+
+
+}
+
+
+
+/*** margen image map **/
+
+
+
+.imagemap {
+
+
+
+    margin-right: 5px;
+
+
+
+}
+
+
+
+/*** margen image map **/
+
+
+
+
+
+
+
+.boxForm {
+
+
+
+    background:#DDDDDD;
+
+
+
+    padding: 22px;
+
+
+
+    border-radius:17px 17px 17px 17px !Important;
+
+
+
+}
+
+
+
+
+
+
+
+.form-control[readonly]{
+
+
+
+    background-color:#FFF;
+
+
+
+    color:#888;
+
+
+
+}
+
+
+
+
+
+
+
+.label_txt{
+
+
+
+    padding:7px;
+
+
+
+    background-color:#E9E9E9;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer input,.footer textarea,.footer input[type="text"] {
+
+
+
+    background-color:#FFF;
+
+
+
+    border:1px solid #d0d0d0;
+
+
+
+    font-size:12px;
+
+
+
+    margin-bottom:2px;
+
+
+
+    color:#444;
+
+
+
+    padding:10px;
+
+
+
+}
+
+
+
+.footer input[type="text"]::-moz-placeholder{
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+.footer input[type="text"]::-webkit-input-placeholder{
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+.footer input[type="text"]:-ms-input-placeholder{
+
+
+
+    color:#333;
+
+
+
+}
+
+
+
+/*.footer input,.footer textarea,.footer input[type="text"] {
+
+
+
+        background-color:#FFF;
+
+
+
+        border:1px solid #FFF;
+
+
+
+        font-size:12px;
+
+
+
+        margin-bottom:2px;
+
+
+
+        color:#444;
+
+
+
+        padding:10px;
+
+
+
+}*/
+
+
+
+.footer .btn {
+
+
+
+    /*    background:#E88711;
+        border:1px solid #E88711;*/
+
+    background: #23a20b;
+    border: 1px solid #11e8b6;
+
+
+
+    text-shadow:none;
+
+
+
+    padding:6px 12px;
+
+
+
+    font-size:13px;
+
+
+
+    color:#FFF;
+
+
+
+}
+
+
+
+
+
+
+
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nosotrosCirc div{ margin:0;
+
+
+
+                   height:145px;
+
+
+
+                   width:135px;
+
+
+
+                   font-size:18px;
+
+
+
+                   text-align:center;
+
+
+
+                   display:block;
+
+
+
+}
+
+
+
+.nosotrosCirc div a span{
+
+
+
+    height:139px;
+
+
+
+    display:block;
+
+
+
+    -webkit-transition:background-position .1s ease-in;
+
+
+
+    -moz-transition:background-position .1s ease-in;
+
+
+
+    -o-transition:background-position .1s ease-in;
+
+
+
+    transition:background-position .1s ease-in;
+
+
+
+}
+
+
+
+
+
+
+
+.nosotrosCirc div.usPlat a span{ background:url(sprite-por-que-elegirnos.png)no-repeat -450px -10px; }
+
+
+
+.nosotrosCirc div.usPlat a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -450px -154px; }
+
+
+
+
+
+
+
+div.usPC a span{ background:url(sprite-por-que-elegirnos.png) no-repeat -10px -10px; }
+
+
+
+.nosotrosCirc div.usPC a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -10px -154px; }
+
+
+
+
+
+
+
+
+
+
+
+.nosotrosCirc div.usClientes a span{ background:url(sprite-por-que-elegirnos.png)  no-repeat -1321px -10px; }
+
+
+
+.nosotrosCirc div.usClientes a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -1321px -154px; }
+
+
+
+
+
+
+
+.nosotrosCirc div.usTest a span{ background:url(sprite-por-que-elegirnos.png) no-repeat -742px -10px; }
+
+
+
+.nosotrosCirc div.usTest a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -742px -154px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nosotrosCirc div.usGrupos a span{ background:url(sprite-por-que-elegirnos.png) no-repeat -303px -10px; }
+
+
+
+.nosotrosCirc div.usGrupos a span:hover{ background:url(sprite-por-que-elegirnos.png)no-repeat -303px -154px; }
+
+
+
+
+
+
+
+
+
+
+
+/*.nosotrosCirc div.usIso a span{ background:url(sprite-por-que-elegirnos.png)no-repeat -1175px -10px; }
+
+
+
+.nosotrosCirc div.usIso a span:hover{ background:url(sprite-por-que-elegirnos.png no-repeat -1175px -154px; }
+
+
+
+
+
+
+
+.nosotrosCirc div.usGarant a span{ background:url((sprite-por-que-elegirnos.png) no-repeat -1031px -10px; }
+
+
+
+.nosotrosCirc div.usGarant a span:hover{ background:url((sprite-por-que-elegirnos.png) no-repeat -1031px -154px; }
+
+
+
+*/
+
+
+
+
+
+
+
+.nosotrosCirc div.usTaller a span{ background:url(sprite-por-que-elegirnos.png) no-repeat -1465px -10px; }
+
+
+
+.nosotrosCirc div.usTaller a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -1465px -154px; }
+
+
+
+
+
+
+
+
+
+
+
+.nosotrosCirc div.usCert a span{ background:url(sprite-por-que-elegirnos.png) no-repeat -157px -10px; }
+
+
+
+.nosotrosCirc div.usCert a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -157px -154px; }
+
+
+
+
+
+
+
+
+
+
+
+.nosotrosCirc div.usEmp a span{ background:url(sprite-por-que-elegirnos.png)no-repeat -597px -10px; }
+
+
+
+.nosotrosCirc div.usEmp a span:hover{ background:url(sprite-por-que-elegirnos.png) no-repeat -597px -154px; }
+
+
+
+.tipsoTip{ display:none !important; }
+
+
+
+
+
+
+
+
+
+
+
+#paquetes{
+
+
+
+}
+
+
+
+
+
+
+
+.txtcuotas{
+    padding-top:20px;
+    text-align:right;
+    font-size:14px;
+    color:#333;
+}
+
+
+
+.txtcosto{
+    padding-top:10px;
+    text-align:right;
+    font-size:26px;
+    color:#333;
+    font-weight:500;
+}
+
+
+
+#paquetes .txtmoneda{
+    padding-top:10px;
+    text-align:right;
+    font-size:20px;
+    color:#333;
+    font-weight:500;
+}
+
+
+
+.txthoras{
+    padding-top:10px;
+    text-align:right;
+    font-size:20px;
+    color:#333;
+    font-weight:500;
+}
+
+
+
+
+
+
+
+.txtcurso a{
+
+
+
+    color:#000;
+
+
+
+    text-decoration: none;
+
+
+
+    vertical-align:top;
+
+
+
+    font-weight:normal;
+
+
+
+}
+
+
+
+.txtcurso a:hover{
+
+
+
+    color:#808080;
+
+
+
+    text-decoration: none;
+
+
+
+    vertical-align:top;
+
+
+
+    font-weight:normal;
+
+
+
+}
+
+
+
+
+
+
+
+.mapster_tooltip {
+
+
+
+    z-index:1000;
+
+
+
+}
+
+
+
+/*+++++++++++++ CALENDARIO ++++++++++++++++++++++*/
+
+.oculto{
+
+
+
+}
+
+
+
+
+
+
+
+/*+++++++++++ PARA MENU SIDR *******************************/
+
+
+
+ul li {
+
+    /*    list-style-type: square;*/
+
+}
+
+
+
+.menu-button {
+
+    display: block;
+
+    position: absolute;
+
+    top: 14px;
+
+    right: 10px;
+
+    background: url(menu.gif) no-repeat;
+
+    overflow: hidden;
+
+    width: 34px;
+
+    height: 31px;
+
+    text-indent: -9999px;
+
+    z-index:9999;
+
+}
+
+
+
+.menu-button.right {
+
+    right: 20px;
+
+    left: auto;
+
+}
+
+
+
+.menu-button.bottom {
+
+    top: 100px;
+
+}
+
+
+
+.menu-button.fixed {
+
+    position: fixed;
+
+}
+
+
+
+#overlay {
+
+    position: absolute;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    bottom: 0;
+
+    right: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: transparent;
+
+    z-index: 999998;
+
+    display: none;
+
+}
+
+
+
+.sidr-open #overlay {
+
+    display: block;
+
+}
+
+
+
+/* Settings for fullwidth */
+
+.sidr.fullwidth {
+
+    width: 100%;
+
+}
+
+
+
+.sidr.left.fullwidth {
+
+    left: -100%;
+
+}
+
+
+
+.sidr.right.fullwidth {
+
+    right: -100%;
+
+}
+
+/* END Settings for fullwidth */
+
+
+
+
+
+#mobile-header {
+
+    display: none;
+
+}
+
+
+
+
+
+.texto_lista_curso{
+
+    font-size:10pt !important;
+
+    color: #000;
+
+    line-height:16pt;
+
+    text-align:justify;
+
+
+
+}
+
+
+
+.tit_duracion{
+
+    font-size:9pt !important;
+
+    color: #000;
+
+    line-height:10pt;
+
+    text-align:center;
+
+    font-weight: bold;
+
+}
+
+
+
+.tit_horas{
+
+    font-size:20pt !important;
+
+    color: #000;
+
+    line-height:30pt;
+
+    text-align:center;
+
+    font-weight: bold;
+
+}
+
+
+
+.tit_ver_mas{
+
+    font-size:9pt !important;
+
+    color: #fff;
+
+    line-height:15pt;
+
+    text-align:center;
+
+    font-weight: bold;
+
+}
+
+/********************************************/
+
+/********************************************/
+
+
+
+.TituloIndexTit h2 {
+
+    padding-top:10px;
+
+    font-size:24px;
+
+    color:#000;
+
+    letter-spacing:1px;
+
+    text-transform:none;
+
+    margin-bottom: 0;
+
+    margin-top: 0;
+
+    font-weight: bold;
+
+}
+
+
+
+.TituloIndexTit h2:after {
+
+    content: '';
+
+    margin-top: 15px;
+
+    display: block;
+
+}
+
+
+
+/********************************************/
+
+/********************************************/
+
+
+
+.txt_curso_cal{
+
+}
+
+.ajusta_form_contacto{
+    margin-right:30px;
+}
+
+/*****************************/
+
+ul.footermenu {
+    list-style: none;
+    margin-top: 8px;
+}
+.copyright {
+    color: #fff;
+    font-size: 10px;
+    /*    background-color:#E79021;*/
+    background-color:#24a20c;
+}
+
+.copyright p {
+    line-height: 50px;
+    margin: 0px;
+}
+
+A.EnlacePoliticas{
+    font-size:9pt;
+    color: #fff;
+    line-height:15pt;
+    text-align: left;
+    text-decoration: none;
+}
+A.EnlacePoliticas:hover {
+    color: #ccc;
+    text-decoration:none;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px)
+{
+    .copyright ul.footermenu li a {
+        color: #fff;
+        height: 50px;
+        font-size:10px;
+        line-height:15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px)
+{
+
+    .pull-left {
+        color:#fff;
+        font-size:11px;
+        text-align:center;
+    }
+
+
+    .copyright ul.footermenu li a {
+        color: #000;
+        height: 100px;
+        font-size:7px;
+        line-height:10px;
+    }
+    .copyright {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .copyright p {
+        line-height: 17px;
+        margin: 0px;
+        text-align:center
+    }
+    A.EnlacePoliticas{
+        font-size:8pt;
+        color: #fff;
+        line-height:15pt;
+        text-align: left;
+        text-decoration: none;
+    }
+    A.EnlacePoliticas:hover {
+        color: #ccc;
+        text-decoration:none;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 736px)
+{
+
+    #menu_politica{visibility:visible;}
+
+    .pull-left {
+        color:#fff;
+        font-size:13px;
+        text-align:center;
+    }
+
+
+    .copyright ul.footermenu li a {
+        color: #fff;
+        height: 100px;
+        font-size:10px;
+        line-height:15px;
+    }
+    .copyright {
+        color: #fff;
+        font-size: 12px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    A.EnlacePoliticas{
+        font-size:10pt;
+        color: #fff;
+        line-height:15pt;
+        text-align: left;
+        text-decoration: none;
+    }
+    A.EnlacePoliticas:hover {
+        color: #ccc;
+        text-decoration:none;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 960px)
+{
+    #menu_politica{ visibility: hidden;}
+
+    .pull-left {
+        color:#fff;
+        font-size:13px;
+        text-align:center;
+    }
+
+    .copyright p {
+        line-height: 15px;
+        margin: 0px;
+    }
+
+    .copyright ul.footermenu li a {
+        color: #fff;
+        height: 100px;
+        font-size:10px;
+        line-height:15px;
+    }
+    .copyright {
+        color: #fff;
+        font-size: 12px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    A.EnlacePoliticas{
+        font-size:10pt;
+        color: #fff;
+        line-height:15pt;
+        text-align: left;
+        text-decoration: none;
+    }
+    A.EnlacePoliticas:hover {
+        color: #ccc;
+        text-decoration:none;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 979px){
+
+    .copyright ul.footermenu li a {
+        color: #fff;
+        height: 50px;
+        font-size:10px;
+        line-height:15px;
+    }
+
+    body {
+        font-family:'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size:9px;
+        line-height:15px;
+        overflow-y:hidden;
+    }
+
+    #mobile-header {
+        display: block;
+    }
+
+
+
+    .pull-left {
+        font-size:10px;
+    }
+
+    .colorLetra{
+        font-size:10pt;
+        color:#000;
+        text-transform: none;
+        line-height:9pt;
+        font-weight: bold;
+    }
+
+    a.smallFont, span.smallFont, td.smallFont{
+
+        font-size:9pt;
+
+    }
+
+    .paquete_agregar {
+
+        background-image: url(blank.png);
+
+    }
+
+
+
+    .paquete_quitar {
+
+        background-image: url(blank.png);
+
+    }
+
+
+
+    /*+++++++++++++ CALENDARIO ++++++++++++++++++++++*/
+
+    .oculto{
+
+        display: none !important;
+
+        clear: none !important;
+
+    }
+
+    .carousel-indicators{
+
+        display: none !important;
+
+        clear: none !important;
+
+
+
+    }
+
+
+
+
+
+    /******************************************************/
+
+    /******************************************************/
+
+
+
+    .TituloIndexB h2 {
+
+        font-size:20px;
+
+        color:#000;
+
+        letter-spacing:1px;
+
+        text-transform:none;
+
+        margin-bottom: 0;
+
+        margin-top: 0;
+
+        font-weight: normal;
+
+    }
+
+
+
+    .TituloIndexB h2:after {
+
+        content: '';
+
+        margin-top: 15px;
+
+        width: 200px;
+
+        border-top: 3px solid #F7880E;
+
+        display: block;
+
+    }
+
+    /************************************/
+
+    .TituloIndexTit h2 {
+
+        font-size:18px;
+
+        color:#000;
+
+        letter-spacing:1px;
+
+        text-transform:none;
+
+        margin-bottom: 0;
+
+        margin-top: 0;
+
+        font-weight: bold;
+
+    }
+
+
+
+    .TituloIndexTit h2:after {
+
+        content: '';
+
+        margin-top: 15px;
+
+        display: block;
+
+    }
+
+
+
+
+
+
+
+
+
+    /********************/
+
+
+
+
+
+    .TituloIndexW h2 {
+
+        font-size:20px;
+
+
+
+        color:#000;
+
+
+
+        letter-spacing:1px;
+
+
+
+        text-transform:none;
+
+
+
+        margin-bottom: 0;
+
+
+
+        margin-top: 0;
+
+
+
+        font-weight: normal;
+
+
+
+    }
+
+
+
+    .TituloIndexW h2:after {
+
+
+
+        content: '';
+
+
+
+        margin-top: 15px;
+
+
+
+        width: 200px;
+
+
+
+        border-top: 2px solid #F7880E;
+
+
+
+        display: block;
+
+
+
+    }
+
+
+
+    /******************************/
+
+
+
+    .PieIndexW h4 {
+
+        font-size:16px;
+
+
+
+        color:#fff;
+
+
+
+        letter-spacing:1px;
+
+
+
+        text-transform:none;
+
+
+
+        margin-bottom: 0;
+
+
+
+        margin-top: 0;
+
+
+
+        font-weight: bold;
+
+
+
+    }
+
+
+
+    .PieIndexW h4:after {
+
+
+
+        content: '';
+
+
+
+        margin-top: 5px;
+
+
+
+        width: 150px;
+
+
+
+        border-top: 2px solid #F7880E;
+
+
+
+        display: block;
+
+
+
+    }
+
+
+
+    /******************************/
+
+
+
+
+
+    .TituloIndexB h2 {
+
+        font-size:20px !important;
+
+
+
+        color:#000;
+
+
+
+        letter-spacing:1px;
+
+
+
+        text-transform:none;
+
+
+
+        margin-bottom: 0;
+
+
+
+        margin-top: 0;
+
+
+
+        font-weight: normal;
+
+
+
+    }
+
+
+
+    .TituloIndexB h2:after {
+
+
+
+        content: '';
+
+
+
+        margin-top: 15px;
+
+
+
+        width: 200px;
+
+
+
+        border-top: 3px solid #F7880E;
+
+
+
+        display: block;
+
+
+
+    }
+
+    /***************************/
+
+
+
+
+
+    A.EnlaceCurso{
+        font-size:8pt;
+        color: #0579C2;
+        line-height:8pt;
+        text-align: left;
+        text-decoration: none;
+    }
+
+
+
+    A.EnlaceCurso:hover {
+        color: #034C9B;
+        text-decoration:none;
+    }
+
+
+
+
+
+    A.Enlace_Curso_Main{
+
+        font-size:8pt;
+
+        color: #000;
+
+        line-height:9pt;
+
+        text-align: left;
+
+        text-decoration: none;
+
+        font-weight: bold;
+
+    }
+
+
+
+    A.Enlace_Curso_Main:hover {
+
+        color: #034C9B;
+
+        text-decoration:none;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    A.EnlaceCursoB{
+
+        font-size:7pt;
+
+        color: #000;
+
+        /* line-height:8pt;*/
+
+        text-align: left;
+
+        text-decoration: none;
+
+    }
+
+
+
+    A.EnlaceCursoB:hover {
+
+        color: #000;
+
+        text-decoration:none;
+
+    }
+
+
+
+
+
+    A.EnlaceTabla{
+
+        font-size:9pt;
+
+        color: #000;
+
+        line-height:8pt;
+
+        text-align: left;
+
+        text-decoration: none;
+
+    }
+
+
+
+    A.EnlaceTabla:hover {
+
+        color: #000;
+
+        text-decoration:none;
+
+    }
+
+
+
+    .TituloTabla{
+
+        font-size:8pt !important;
+
+        color: #fff;
+
+        line-height:9pt;
+
+        text-align:left;
+
+
+
+    }
+
+
+
+
+
+    .texto_lista_curso{
+
+        font-size:7pt !important;
+
+        color: #999;
+
+        line-height:7pt;
+
+        text-align:justify;
+
+
+
+    }
+
+
+
+
+
+    .tit_duracion{
+
+        font-size:9pt !important;
+
+        color: #000;
+
+        line-height:10pt;
+
+        text-align:center;
+
+        font-weight: bold;
+
+    }
+
+
+
+    .tit_horas{
+
+        font-size:11pt !important;
+
+        color: #000;
+
+        line-height:15pt;
+
+        text-align:center;
+
+
+
+    }
+
+    .tit_ver_mas{
+
+        font-size:6pt !important;
+
+        color: #fff;
+
+        text-align:center;
+
+        font-weight: bold;
+
+    }
+
+
+
+    .tam{
+
+
+
+        font-size:9pt; /* 11 pts */
+
+
+
+    }
+
+
+
+
+
+
+
+    /***************************/
+
+    .TituloContenidoCursosinLinea h2 {
+
+        font-size:18pt;
+
+        line-height:22pt !important;
+
+        color: #FF9900;
+
+        letter-spacing:1px;
+
+        text-transform:none;
+
+        font-weight: bold;
+
+    }
+
+    /*******************************/
+
+
+
+    .Titulo_texto  {
+
+        font-size:9pt !important;
+
+        color: #000;
+
+        font-weight: bold;
+
+
+
+    }
+
+
+
+    .Titulo_texto1  {
+
+        color: #000;
+
+        font-size:9pt !important;
+
+    }
+
+
+
+    /*********************************/
+
+
+
+    .TituloIndexWhite h2 {
+
+        font-size:20px !important;
+
+        color:#fff;
+
+
+
+        letter-spacing:1px;
+
+
+
+        text-transform:none;
+
+
+
+        margin-bottom: 0;
+
+
+
+        margin-top: 0;
+
+
+
+        font-weight: normal;
+
+
+
+    }
+
+
+
+    .TituloIndexWhite h2:after {
+
+
+
+        content: '';
+
+
+
+        margin-top: 15px;
+
+
+
+        width: 200px;
+
+
+
+        border-top: 2px solid #F7880E;
+
+
+
+        display: block;
+
+
+
+    }
+
+
+
+    /***************************/
+
+
+
+    .TituloCatalogo h2 {
+        padding-top:50px;
+        font-size:20px !important;
+        color:#000;
+        letter-spacing:1px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-weight: normal;
+        text-align:center;
+
+
+    }
+
+
+
+    .TituloCatalogo h2:after {
+        content: '';
+        margin-top: 15px;
+        width: 200px;
+        border-top: 3px solid #F7880E;
+        display: block;
+    }
+
+
+
+    /*********************************/
+
+
+
+
+
+    .TituloIzquierdo h3:after {
+
+        font-size:10px !important;
+
+
+
+        content: '';
+
+        margin-top: 5px;
+
+        width: 180px;
+
+        border-top: 2px solid #F7880E;
+
+        text-transform:none;
+
+        font-weight: normal;
+
+        display: block;
+
+        padding-bottom:20px;
+
+
+
+    }
+
+
+
+    .TituloIzquierdo.h3:after {
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+
+
+
+
+
+
+    /******************************************************/
+
+    /******************************************************/
+
+
+
+
+
+    .PieIndexW h4 {
+
+
+
+        margin-top: 10px;
+
+
+
+
+
+    }
+
+
+
+    .TituloArea h3 {
+
+
+
+        margin-top: 35px;
+
+        margin-bottom: -10px;
+
+
+
+    }
+
+
+
+    .txt_curso_cal{
+
+        font-size:11px;
+
+    }
+
+
+
+    .ajusta_form_contacto{
+
+        margin-right:0px;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .paquete_agregar {
+
+        background-image: url(blank.png);
+
+    }
+
+
+
+    .paquete_quitar {
+
+        background-image: url(blank.png);
+
+    }
+
+
+
+
+
+}
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 992px) {
+
+    .paquete_agregar {
+
+        background-image: url(blank.png);
+
+    }
+
+
+
+    .paquete_quitar {
+
+        background-image: url(blank.png);
+
+    }
+
+}
+
+
+
+
+
+.correct_slide{
+
+    margin-top:-52px !Important;
+
+}
+
+/* Boton descargas */
+
+
+
+.buttonpdf {
+
+    line-height:30px;
+
+    background:#ffffff;
+
+    color:#808080;
+
+    padding:0px 3px;
+
+    margin-left:-3px;
+
+    border: 1px solid #DDDDDD;
+
+    border-radius: 3px;
+
+    display:inline-block;
+
+    min-width:170px;
+
+}
+
+.buttonpdf:hover,.buttoncolor:hover {
+
+    background:#EFEFEF;
+
+    color: #808080;
+
+}
+
+
+
+.color-others {
+
+    color: #FF9900;
+
+}
+
+.color-others:hover {
+
+    color: #FF9900;
+
+}
+
+/* Popover Body */
+
+.popover {
+    font-size: 10px;
+    width:352px;
+    max-width: 352px;
+    text-align:justify;
+    color:#333;
+}
+.box_titulo_carrera{
+    color:#000;
+    font-size:13px !important;
+    line-height: inherit;
+    font-weight: bold;
+}
+
+/* Popover nuevo**/
+.box {
+    display:block;
+    width:200px;
+    height:100px;
+    background-color:#DDD;
+}
+#pop {
+    padding:0px 0px;
+}
+#example {
+    position:relative;
+}
+
+#mapCustom {
+    width: 850px;  
+}
+
+#mapCustom div.relative {
+    position: absolute;
+    /*border: 1px solid #73AD21;*/
+}
+
+.map-responsive {
+    max-width:850px;
+    overflow-x:hidden;
+}
+
+
+.errorchk{
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
+    box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);    
+}
+
+.clearer {
+    clear: both !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    height: 0 !important;
+}

@@ -1,0 +1,79 @@
+.h1-container-home h1{
+    background: #258fad;
+    border-radius: 7px;
+    font-size: 16pt;
+    color: #FFF;
+    padding: 8px 0px;
+    border-bottom: 2px solid #1b5b77;
+    text-align: center;
+    margin-bottom: 25px;
+    clear: both;
+}
+.buttonlink {
+    background: #0072bb;
+}
+.wowmenu.tiny {
+    background: #f7f7f7 !important;
+}
+.navbar-nav>li>a {
+    color: #735348 !important
+}
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:focus {
+    background-color: #efe9e7;
+    border-bottom: 7px solid #998282;
+}
+.navbar-nav>li.active>a:hover {
+    color: #FFF !important;
+    background-color: #efe9e7 !important;
+    border-bottom: 7px solid #998282 !important;
+}
+.rojo {
+    background-color: #ff9201;
+}
+.top-boton-user {
+    color: #fff !important;
+    background: #dcdcdc !important;
+    border-radius: 5px !important;
+    padding: 3px 20px !important;
+    margin: 4px;
+    border-bottom: 1px solid #8bc34a !important;
+    margin-top: 3px !important;
+}
+.copyright {
+    background-color: #8a7e7a;
+}
+.footer {
+    color: #998282;
+    background-color: #f7f7f7;
+}
+#TextoConsultasPie {
+    background-color: #afafaf;
+}
+.titulo-second-f1-a {
+    background: #8a7e7a;
+    border-bottom: 2px solid #029587;
+}
+.h1-container-home h1 {
+    background: #8a7e7a;
+    border-bottom: 2px solid #029587;
+}
+
+.navbar>.container .navbar-brand img{
+    height: 120px !important;
+    width: 145px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 9px 1px #998282;
+    margin-top: -5px;
+}
+.TituloContenidoCursosinLinea h1 {
+    margin-top: 40px;
+    border-top: 1px solid #d0d0d0;
+    padding-top: 10px;
+}
+.TituloArea h3 {
+    margin-top: 70px;
+}
+
+.box-label-ciudad {
+    background: rgb(255 146 1 / 92%);
+}
