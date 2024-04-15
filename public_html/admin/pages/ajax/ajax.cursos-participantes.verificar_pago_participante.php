@@ -12,9 +12,10 @@ if (!isset_administrador()) {
 $id_participante = post('id_participante');
 $id_administrador = administrador('id');
 
-$rqcr1 = query("SELECT id_curso FROM cursos_participantes WHERE id='$id_participante' ORDER BY id DESC limit 1 ");
+$rqcr1 = query("SELECT id_curso, id_proceso_registro FROM cursos_participantes WHERE id='$id_participante' ORDER BY id DESC limit 1 ");
 $rqcr2 = fetch($rqcr1);
 $id_curso = $rqcr2['id_curso'];
+$id_proceso_registro = $rqcr2['id_proceso_registro'];
 
 if (isset_post('sw_verificar')) {
     $rqverif1 = query("SELECT id FROM rel_pagosverificados WHERE id_participante='$id_participante' ORDER BY id DESC limit 1 ");
@@ -51,6 +52,7 @@ if (isset_post('sw_verificar')) {
                 type: 'POST',
                 dataType: 'html',
                 success: function(data) {
+                    showPopupRegistroExitosoParticipante();
                     $("#ajaxcont-verifpago-" + id_participante).html(data);
                     lista_participantes('<?php echo $id_curso; ?>', 0);
                 }
@@ -63,7 +65,11 @@ if (isset_post('sw_verificar')) {
             $("#ajaxcont-verifpago-"+id_participante).html(conttext);
         }
     </script>
-
+    <script>
+        function showPopupRegistroExitosoParticipante() {
+            window.open('<?php echo $dominio; ?>pago-verificado/R00<?php echo $id_proceso_registro; ?>.html', 'popup', 'width=700,height=500');
+        }
+    </script>
 <?php
 }
 ?>
