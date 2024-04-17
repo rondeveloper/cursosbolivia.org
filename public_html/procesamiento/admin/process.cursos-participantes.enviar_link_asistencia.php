@@ -27,7 +27,7 @@ $correo_administrador = $rqddad2['email'];
 $id_participante = post('id_participante');
 
 /* registros */
-$rqdr1 = query("SELECT correo, nombres, apellidos, id_curso FROM cursos_participantes WHERE id='1' ORDER BY id DESC limit 1");
+$rqdr1 = query("SELECT correo, nombres, apellidos, id_curso FROM cursos_participantes WHERE id='$id_participante' ORDER BY id DESC limit 1");
 $rqdr2 = fetch($rqdr1);
 
 $correo_participante = $rqdr2['correo'];
