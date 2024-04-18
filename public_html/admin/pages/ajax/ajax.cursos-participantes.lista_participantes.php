@@ -151,6 +151,25 @@ AND p.id_curso='$id_curso'
 AND p.estado='1' $qr_busqueda $qr_turno $qr_pago 
 ORDER BY p.id DESC ");
 
+if (isset_post('pago')) {
+    if(post('pago') == 'asistentes'){
+    $qr_pago = " AND p.id_proceso_registro AND pr.sw_pago_enviado='1' ";
+    $resultado1 = query("SELECT 
+        p.*,
+        (pr.id)dr_id_proceso_registro,
+        pr.codigo,pr.fecha_registro,pr.celular_contacto,pr.correo_contacto,pr.id_modo_pago,pr.id_emision_factura,pr.monto_deposito,pr.imagen_deposito,pr.razon_social,pr.nit,pr.cnt_participantes,pr.id_cobro_khipu,pr.sw_pago_enviado,pr.id_administrador,pr.imagen_matricula,
+        (d.nombre)dr_nombre_departamento,(mp.titulo)dr_modo_pago,(rvp.id)dr_id_verifpago 
+        FROM cursos_participantes p 
+        INNER JOIN cursos_proceso_registro pr ON p.id_proceso_registro=pr.id 
+        LEFT JOIN departamentos d ON p.id_departamento=d.id 
+        LEFT JOIN modos_de_pago mp ON p.id_modo_pago=mp.id 
+        LEFT JOIN rel_pagosverificados rvp ON rvp.id_participante=p.id 
+        WHERE p.id IN (select id_participante from cursos_asistencia) 
+        AND p.id_curso='$id_curso' 
+        AND p.estado='1' $qr_busqueda $qr_turno $qr_pago 
+        ORDER BY p.id DESC ");
+    }
+}
 /* contador */
 $cnt = num_rows($resultado1);
 

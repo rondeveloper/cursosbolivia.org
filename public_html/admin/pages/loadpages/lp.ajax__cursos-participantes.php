@@ -379,6 +379,9 @@ echo $mensaje;
                         <a onclick="$('#inputbuscador').val('no-id');VAR_modo_de_pago = 'gratuito';
                                 lista_participantes(VAR_id_curso, 0);
                                 lista_participantes_eliminados(VAR_id_curso, 0);" id="btnmodopago-gratuito" class="btnmodopago btn btn-sm btn-default" style="font-size: 8pt;"><i class="fa fa-list"></i> GRATUITOS</a>
+                                 <a onclick="$('#inputbuscador').val('no-id');VAR_modo_de_pago = 'asistentes';
+                                lista_participantes(VAR_id_curso, 0);
+                                lista_participantes_eliminados(VAR_id_curso, 0);" id="btnmodopago-asistentes" class="btnmodopago btn btn-sm btn-default" style="font-size: 8pt;"><i class="fa fa-list"></i>C/Asistencia</a>
                     </div>
                     <?php
                     $sw_turnos = false;
