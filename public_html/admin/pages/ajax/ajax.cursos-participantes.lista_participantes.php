@@ -1183,6 +1183,14 @@ if ($sw_habilitacion_procesos) {
                         <br/>
                         <br/>
                     <?php } ?>
+                    <br>
+                    <?php if(true){ ?>
+                        <h4 style='background:#257990;color:#FFF;padding:5px 7px;text-align:center;border-radius: 7px;'>CORREO DE ASISTENCIA</h4>
+                        <br/>
+                        <b onclick="enviar_link_asistencia();" class="btn btn-md btn-default"> <i class="fa fa-group"></i> Env&iacute;o multiple de link de asistencia</b>
+                        <br/>
+                        <br/>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -1292,6 +1300,23 @@ if ($sw_habilitacion_procesos) {
 }
 ?>
     
+<!-- enviar_link_asistencia -->
+<script>
+    function enviar_link_asistencia() {
+        $("#TITLE-modgeneral").html('ENVIO DE LINK DE ASISTENCIA');
+        $("#AJAXCONTENT-modgeneral").html('Cargando...');
+        $("#MODAL-modgeneral").modal('show');
+        $.ajax({
+                url: 'pages/ajax/ajax.cursos-participantes.enviar_link_asistencia.php',
+                data: {id_curso: '<?php echo $id_curso; ?>'},
+                type: 'POST',
+                dataType: 'html',
+                success: function (data) {
+                    $("#AJAXCONTENT-modgeneral").html(data);
+                }
+        });
+    }
+</script>
 
 <!-- clic_action_wap -->
 <script>
