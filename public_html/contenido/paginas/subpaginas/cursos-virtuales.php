@@ -1,4 +1,6 @@
-<?php ?>
+<?php 
+  $sw_mostrar_precios = $__CONFIG_MANAGER->getSw('sw_mostrar_precios');
+?>
 <style>
                 .buttonlink {
                     background: #36bd15;
@@ -112,7 +114,9 @@
                         </div>
                     </div>
                     <div class="box-label-ciudad"><?php echo strtoupper($ciudad_curso); ?></div>
-                    <div class="box-label-costo"><?php echo $costo_curso; ?> Bs</div>
+                    <?php if($sw_mostrar_precios){ ?>
+                       <div class="box-label-costo"><?php echo $costo_curso; ?> Bs</div>
+                    <?php } ?>
                 </div>
                 <!----->
                 <div class="blog-post-short list-group-item">
@@ -122,7 +126,11 @@
                             </div>
                         </div>
                         <div class="row hi ">	  
-                            <div class="col-xs-6 col-sx-6 hi "><i class="icon-money"></i> Inversi&oacute;n: <?php echo $costo_curso; ?> Bs</div>
+                            <div class="col-xs-6 col-sx-6 hi ">
+                           <?php if($sw_mostrar_precios){ ?>
+                                <i class="icon-money"></i> Inversi&oacute;n: <?php echo $costo_curso; ?> Bs
+                           <?php } ?>
+                            </div>
                             <div class="col-md-6 col-sx-6 hi " align="right"><i class="icon-screenshot"></i> <?php echo $texto_descuento; ?></div>
                             
                             <div class="col-md-6 col-sx-6 hi "><i class="icon-calendar"></i> <?php echo $fecha_curso; ?></div>
