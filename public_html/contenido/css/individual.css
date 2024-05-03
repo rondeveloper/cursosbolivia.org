@@ -77,3 +77,16 @@
 .box-label-ciudad {
     background: rgb(255 146 1 / 92%);
 }
+
+.box-label-costo_no_mostrar{
+    position: relative;
+    top: -30px;
+    float: left;
+    padding: 4px 0px;
+    border-top: 1px solid #f7f7f700;
+}
+
+
+
+
+
