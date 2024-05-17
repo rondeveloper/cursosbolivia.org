@@ -35,10 +35,6 @@ $codigo_de_registro = "R00$id_proceso_registro";
 
 ?>
 
-<script>
-    fbq('track', 'Purchase', {currency: "BOB", value: <?= (int)$monto_deposito ?>});
-</script>
-
 <style>
     .titulo-pagreg{
         background: #DDD;

@@ -141,10 +141,6 @@ if (is_uploaded_file($_FILES[$name_fila_matricula]['tmp_name'])) {
 }
 ?>
 
-<script>
-    fbq('track', 'Purchase', {currency: "BOB", value: <?= (int)$monto_deposito ?>});
-</script>
-
 <style>
     .titulo-pagreg{
         background: #DDD;

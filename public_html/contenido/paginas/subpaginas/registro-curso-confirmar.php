@@ -9,10 +9,6 @@ $curso = fetch($rq1);
 
 ?>
 
-<script>
-    fbq('track', 'Purchase', {currency: "BOB", value: <?= (int)$curso['costo'] ?>});
-</script>
-
 <div style="height:140px"></div>
 <div class="wrapsemibox">
     <section class="container">
