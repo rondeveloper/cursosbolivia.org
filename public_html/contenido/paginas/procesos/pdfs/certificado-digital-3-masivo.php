@@ -257,12 +257,19 @@ while ($rqce2 = fetch($rqcev1)) {
     //$pdf->SetXY(370, 470);
     //$signataire = "TheTUTOR";
     //$pdf->Cell(350, 19, $signataire, "T", 0, 'C');
-
-
+ 
+     // imagen con o sin R.M.
+     $fecha_emision = $rqe2['fecha_emision'];
+     $imagen_certificado = 'imagen';
+     $f_limite = '2024-11-20';
+     $date = $fecha_emision;
+     if(strtotime($date) < strtotime($f_limite)){
+     $imagen_certificado = 'imagen_sin_rm';
+     }
     /* IMAGEN BACKGROUND */
-    $rqdfc1 = query("SELECT imagen FROM certificados_imgfondo WHERE id='$id_fondo_digital' LIMIT 1 ");
+    $rqdfc1 = query("SELECT $imagen_certificado FROM certificados_imgfondo WHERE id='$id_fondo_digital' LIMIT 1 ");
     $rqdfc2 = fetch($rqdfc1);
-    $file_imagen_background = '../../../imagenes/cursos/certificados/'.$rqdfc2['imagen'];
+    $file_imagen_background = '../../../imagenes/cursos/certificados/'.$rqdfc2[$imagen_certificado];
     $pdf->Image($file_imagen_background, 0, 0, 800, 620);
 
 
