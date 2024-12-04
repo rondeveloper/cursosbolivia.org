@@ -36,24 +36,48 @@ if (isset_post('crear-fondo')) {
     $descripcion = post('descripcion');
     $modo = post('modo');
     /* archivo fondo */
-    $tag_image = 'imagen';
+    $tag_image = 'imagen1';
+    $tag_image2 = 'imagen2';
+    $imagen = '';
+    $imagen2 = '';
     if (is_uploaded_file($_FILES[$tag_image]['tmp_name'])) {
         $carpeta_destino = $___path_raiz . 'contenido/imagenes/cursos/certificados/';
         $ext = strtolower(pathinfo($_FILES[$tag_image]['name'], PATHINFO_EXTENSION));
-        if (in_array($ext, array('png'))) {
+        if (true || in_array($ext, array('png'))) {
             $imagen = 'cert-'.$modo.'-'.substr(md5(rand(999, 99999)),5,4).'.'.$ext;
             move_uploaded_file($_FILES[$tag_image]['tmp_name'], $carpeta_destino . $imagen);
-            query("INSERT INTO certificados_imgfondo (descripcion,imagen,modo,estado) VALUES ('$descripcion','$imagen','$modo','1')");
-        $mensaje .= '<div class="alert alert-success">
-  <strong>EXITO</strong> el registro fue agregado correctamente.
-</div>';
+            // query("INSERT INTO certificados_imgfondo (descripcion,imagen,modo,estado) VALUES ('$descripcion','$imagen','$modo','1')");
+//         $mensaje .= '<div class="alert alert-success">
+//   <strong>EXITO</strong> el registro fue agregado correctamente.
+// </div>';
         } else {
             $sw_proceder = false;
-            $mensaje .= '<br><div class="alert alert-danger">
-<strong>ERROR</strong> el formato de archivo no esta permitido [' . $ext . '] formatos permitidos: png
-</div>';
+//             $mensaje .= '<br><div class="alert alert-danger">
+// <strong>ERROR</strong> el formato de archivo no esta permitido [' . $ext . '] formatos permitidos: png
+// </div>';
         }
     }
+
+    if (is_uploaded_file($_FILES[$tag_image2]['tmp_name'])) {
+        $carpeta_destino = $___path_raiz . 'contenido/imagenes/cursos/certificados/';
+        $ext = strtolower(pathinfo($_FILES[$tag_image2]['name'], PATHINFO_EXTENSION));
+        if (true || in_array($ext, array('png'))) {
+            $imagen2 = 'cert-'.$modo.'-'.substr(md5(rand(999, 99999)),5,4).'.'.$ext;
+            move_uploaded_file($_FILES[$tag_image2]['tmp_name'], $carpeta_destino . $imagen2);
+//         $mensaje .= '<div class="alert alert-success">
+//   <strong>EXITO</strong> el registro fue agregado correctamente.
+// </div>';
+        } else {
+            $sw_proceder = false;
+//             $mensaje .= '<br><div class="alert alert-danger">
+// <strong>ERROR</strong> el formato de archivo no esta permitido [' . $ext . '] formatos permitidos: png
+// </div>';
+        }
+    }
+    query("INSERT INTO certificados_imgfondo (descripcion,imagen,imagen_sin_rm,modo,estado) VALUES ('$descripcion','$imagen','$imagen2','$modo','1')");
+    $mensaje .= '<div class="alert alert-success">
+    <strong>EXITO</strong> el registro fue agregado correctamente.
+  </div>';
 }
 
 /* editar fondo */
@@ -61,15 +85,18 @@ if (isset_post('editar-fondo')) {
     $id_fondo = post('id_fondo');
     $descripcion = post('descripcion');
     $imagen = post('imagen_previo');
+    $imagen2 = post('imagen_previo2');
     $modo = post('modo');
     $estado = post('estado');
     
     /* archivo fondo */
     $tag_image = 'imagen';
+    
+    $tag_image2 = 'imagen2';
     if (is_uploaded_file($_FILES[$tag_image]['tmp_name'])) {
         $carpeta_destino = $___path_raiz . 'contenido/imagenes/cursos/certificados/';
         $ext = strtolower(pathinfo($_FILES[$tag_image]['name'], PATHINFO_EXTENSION));
-        if (in_array($ext, array('png'))) {
+        if (true || in_array($ext, array('png'))) {
             $imagen = 'cert-'.$modo.'-'.substr(md5(rand(999, 99999)),5,4).'.'.$ext;
             move_uploaded_file($_FILES[$tag_image]['tmp_name'], $carpeta_destino . $imagen);
             $rqdprsend1 = query("SELECT imagen FROM certificados_imgfondo WHERE id='$id_fondo' limit 1 ");
@@ -77,17 +104,38 @@ if (isset_post('editar-fondo')) {
             if(file_exists($carpeta_destino . $rqdprsend2['imagen']) && $rqdprsend2['imagen']!=""){
                 unlink($carpeta_destino . $rqdprsend2['imagen']);
             }
-        $mensaje .= '<div class="alert alert-success">
-  <strong>EXITO</strong> el registro fue agregado correctamente.
-</div>';
+//         $mensaje .= '<div class="alert alert-success">
+//   <strong>EXITO</strong> el registro fue agregado correctamente.
+// </div>';
         } else {
             $sw_proceder = false;
-            $mensaje .= '<br><div class="alert alert-danger">
-<strong>ERROR</strong> el formato de archivo no esta permitido [' . $ext . '] formatos permitidos: png
-</div>';
+//             $mensaje .= '<br><div class="alert alert-danger">
+// <strong>ERROR</strong> el formato de archivo no esta permitido [' . $ext . '] formatos permitidos: png
+// </div>';
         }
     }
-    query("UPDATE certificados_imgfondo SET descripcion='$descripcion', imagen='$imagen', modo='$modo', estado='$estado' WHERE id='$id_fondo' ORDER BY id DESC limit 1 ");
+    if (is_uploaded_file($_FILES[$tag_image2]['tmp_name'])) {
+        $carpeta_destino = $___path_raiz . 'contenido/imagenes/cursos/certificados/';
+        $ext = strtolower(pathinfo($_FILES[$tag_image2]['name'], PATHINFO_EXTENSION));
+        if (true || in_array($ext, array('png'))) {
+            $imagen2 = 'cert-'.$modo.'-'.substr(md5(rand(999, 99999)),5,4).'.'.$ext;
+            move_uploaded_file($_FILES[$tag_image2]['tmp_name'], $carpeta_destino . $imagen2);
+            $rqdprsend1 = query("SELECT imagen_sin_rm FROM certificados_imgfondo WHERE id='$id_fondo' limit 1 ");
+            $rqdprsend2 = fetch($rqdprsend1);
+            if(file_exists($carpeta_destino . $rqdprsend2['imagen_sin_rm']) && $rqdprsend2['imagen_sin_rm']!=""){
+                unlink($carpeta_destino . $rqdprsend2['imagen_sin_rm']);
+            }
+//         $mensaje .= '<div class="alert alert-success">
+//   <strong>EXITO</strong> el registro fue agregado correctamente.
+// </div>';
+        } else {
+            $sw_proceder = false;
+//             $mensaje .= '<br><div class="alert alert-danger">
+// <strong>ERROR</strong> el formato de archivo no esta permitido [' . $ext . '] formatos permitidos: png
+// </div>';
+        }
+    }
+    query("UPDATE certificados_imgfondo SET descripcion='$descripcion', imagen='$imagen', imagen_sin_rm='$imagen2', modo='$modo', estado='$estado' WHERE id='$id_fondo' ORDER BY id DESC limit 1 ");
     $mensaje .= '<div class="alert alert-success">
   <strong>EXITO</strong> el registro fue modificado correctamente.
 </div>';
@@ -133,6 +181,7 @@ $cnt = 1;
                             <th style="font-size:10pt;">Fondo</th>
                             <th style="font-size:10pt;">Descripci&oacute;n</th>
                             <th style="font-size:10pt;">Imagen</th>
+                            <th style="font-size:10pt;">Imagen Sin R.M.</th>
                             <th style="font-size:10pt;">Estado</th>
                             <th style="font-size:10pt;">Acci&oacute;n</th>
                         </tr>
@@ -161,6 +210,21 @@ $cnt = 1;
                                         ?>
                                         <a href="<?php echo $dominio_www; ?>contenido/imagenes/cursos/certificados/<?php echo $producto['imagen']; ?>" target="_blank">
                                             <img src='<?php echo $dominio_www; ?>contenido/imagenes/cursos/certificados/<?php echo $producto['imagen']; ?>' style='width:120px;height:auto;border:1px solid #DDD;border-radius:5px;'/>
+                                            <br>
+                                            Ver imagen
+                                        </a>
+                                        <?php
+                                    }
+                                    ?>
+                                </td>
+                                <td class="text-center" style="padding: 5px;">
+                                    <?php
+                                    if ($producto['imagen_sin_rm']=='image2' || $producto['imagen_sin_rm']=='') {
+                                        echo "<b>Sin imagen</b>";
+                                    } else {
+                                        ?>
+                                        <a href="<?php echo $dominio_www; ?>contenido/imagenes/cursos/certificados/<?php echo $producto['imagen_sin_rm']; ?>" target="_blank">
+                                            <img src='<?php echo $dominio_www; ?>contenido/imagenes/cursos/certificados/<?php echo $producto['imagen_sin_rm']; ?>' style='width:120px;height:auto;border:1px solid #DDD;border-radius:5px;'/>
                                             <br>
                                             Ver imagen
                                         </a>
@@ -234,6 +298,33 @@ $cnt = 1;
                                                         <?php
                                                         $url_img = $dominio_www."contenido/imagenes/cursos/certificados/" . $producto['imagen'];
                                                         if ($producto['imagen']=='') {
+                                                            echo "<b>Sin imagen de firma!</b>";
+                                                        } else {
+                                                            ?>
+                                                            <br/>
+                                                            <img src='<?php echo $url_img; ?>' style='width:100%;border:1px solid #DDD;border-radius:5px;'/>
+                                                            <?php
+                                                        }
+                                                        ?>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3 text-right">
+                                                        <span class="input-group-addon"><b>Imagen Sin R.M.:</b></span>
+                                                    </div>
+                                                    <div class="col-md-9 text-left">
+                                                        <input type="hidden" class="form-control" name="imagen_previo2" value='<?php echo $producto['imagen_sin_rm']; ?>'/>
+                                                        <input type="file" class="form-control" name="imagen2" value='' accept="image/png"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3 text-right">
+                                                        <span class="input-group-addon"><b>Img. Sin R.M. actual:</b></span>
+                                                    </div>
+                                                    <div class="col-md-9 text-left">
+                                                        <?php
+                                                        $url_img = $dominio_www."contenido/imagenes/cursos/certificados/" . $producto['imagen_sin_rm'];
+                                                        if ($producto['imagen_sin_rm']=='') {
                                                             echo "<b>Sin imagen de firma!</b>";
                                                         } else {
                                                             ?>
@@ -341,7 +432,15 @@ $cnt = 1;
                                 <span class="input-group-addon"><b>Imagen:</b></span>
                             </div>
                             <div class="col-md-9 text-left">
-                                <input type="file" class="form-control" name="imagen" required="" accept="image/png"/>
+                                <input type="file" class="form-control" name="imagen1" accept="image/png"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 text-right">
+                                <span class="input-group-addon"><b>Imagen Sin R.M.:</b></span>
+                            </div>
+                            <div class="col-md-9 text-left">
+                                <input type="file" class="form-control" name="imagen2" accept="image/png"/>
                             </div>
                         </div>
                         <hr/>
