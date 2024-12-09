@@ -28,7 +28,7 @@ if(isset_post('input-buscar')){
         }
         $horarios = $rc2['horarios'];
         if ($rc2['imagen_gif'] == '') {
-            $url_imagen_curso = $dominio_www . "contenido/imagenes/paginas/" . $rc2['imagen'];
+            $url_imagen_curso = $dominio_www . "contenido/imagenes/paginas/medium-" . $rc2['imagen'];
         } else {
             $url_imagen_curso = $dominio_www . "contenido/imagenes/paginas/" . $rc2['imagen_gif'];
         }

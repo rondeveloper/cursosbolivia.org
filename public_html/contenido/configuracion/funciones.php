@@ -1108,22 +1108,22 @@ function getContenidoCurso($curso, $sw_mostrar_precios = true) {
 
     $htm_imagen1 = '';
     if ($curso['imagen'] !== '') {
-        $url_img = $dominio_www."contenido/imagenes/paginas/" . str_replace('+','%20',urlencode($curso['imagen']));
+        $url_img = $dominio_www."contenido/imagenes/paginas/large-" . str_replace('+','%20',urlencode($curso['imagen']));
         $htm_imagen1 = '<img src="' . $url_img . '" class="img-pag-static"/>';
     }
     $htm_imagen2 = '';
     if ($curso['imagen2'] !== '') {
-        $url_img = $dominio_www."contenido/imagenes/paginas/" . str_replace('+','%20',urlencode($curso['imagen2']));
+        $url_img = $dominio_www."contenido/imagenes/paginas/large-" . str_replace('+','%20',urlencode($curso['imagen2']));
         $htm_imagen2 = '<img src="' . $url_img . '" class="img-pag-static"/>';
     }
     $htm_imagen3 = '';
     if ($curso['imagen3'] !== '') {
-        $url_img = $dominio_www."contenido/imagenes/paginas/" . str_replace('+','%20',urlencode($curso['imagen3']));
+        $url_img = $dominio_www."contenido/imagenes/paginas/large-" . str_replace('+','%20',urlencode($curso['imagen3']));
         $htm_imagen3 = '<img src="' . $url_img . '" class="img-pag-static"/>';
     }
     $htm_imagen4 = '';
     if ($curso['imagen4'] !== '') {
-        $url_img = $dominio_www."contenido/imagenes/paginas/" . str_replace('+','%20',urlencode($curso['imagen4']));
+        $url_img = $dominio_www."contenido/imagenes/paginas/large-" . str_replace('+','%20',urlencode($curso['imagen4']));
         $htm_imagen4 = '<img src="' . $url_img . '" class="img-pag-static"/>';
     }
     $htm_archivo1 = '';
@@ -1879,3 +1879,8 @@ require_once __DIR__.'/../utilidades/HashUtil.php';
 
 /* FUNCIONES: EMAILUTIL CLASS */
 require_once __DIR__.'/../utilidades/EmailUtil.php';
+
+/* FUNCIONES: UTIL IMAGE UPLOADER */
+require_once __DIR__.'/../utilidades/UploadImageUtil.php';
+
+
