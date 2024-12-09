@@ -169,23 +169,11 @@ if (isset_post('editar-curso')) {
         }
     }
 
-    if (isset_archivo('imagen')) {
-        $imagen = time() . str_replace("'", "", archivoName('imagen'));
-        move_uploaded_file(archivo('imagen'), $___path_raiz."contenido/imagenes/paginas/$imagen");
-        //sube_imagen(archivo('imagen'), $___path_raiz."contenido/imagenes/paginas/$imagen");
-    }
-    if (isset_archivo('imagen2')) {
-        $imagen2 = time() . str_replace("'", "", archivoName('imagen2'));
-        move_uploaded_file(archivo('imagen2'), $___path_raiz."contenido/imagenes/paginas/$imagen2");
-    }
-    if (isset_archivo('imagen3')) {
-        $imagen3 = time() . str_replace("'", "", archivoName('imagen3'));
-        move_uploaded_file(archivo('imagen3'), $___path_raiz."contenido/imagenes/paginas/$imagen3");
-    }
-    if (isset_archivo('imagen4')) {
-        $imagen4 = time() . str_replace("'", "", archivoName('imagen4'));
-        move_uploaded_file(archivo('imagen4'), $___path_raiz."contenido/imagenes/paginas/$imagen4");
-    }
+    $imagen = UploadImageUtil::uploadCourseImage('imagen', $id_curso, '1', $imagen);
+    $imagen2 = UploadImageUtil::uploadCourseImage('imagen2', $id_curso, '2', $imagen2);
+    $imagen3 = UploadImageUtil::uploadCourseImage('imagen3', $id_curso, '3', $imagen3);
+    $imagen4 = UploadImageUtil::uploadCourseImage('imagen4', $id_curso, '4', $imagen4);
+    
     if (isset_archivo('imagen_gif')) {
         $imagen_gif = time() . str_replace("'", "", archivoName('imagen_gif'));
         move_uploaded_file(archivo('imagen_gif'), $___path_raiz."contenido/imagenes/paginas/$imagen_gif");

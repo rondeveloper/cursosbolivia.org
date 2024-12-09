@@ -136,6 +136,38 @@ $cnt = $total_registros - (($vista - 1) * $registros_a_mostrar);
     </div>
 </div>
 
+<?php
+/*
+$ress = query("SELECT id,imagen,imagen2,imagen3,imagen4 FROM cursos WHERE estado='0' ORDER BY id DESC limit 500,500 ");
+$cntt = 1;
+while ($producto = fetch($ress)) {
+    $imagen = $producto['imagen'];
+    $imagen2 = $producto['imagen2'];
+    $imagen3 = $producto['imagen3'];
+    $imagen4 = $producto['imagen4'];
+    if ($imagen !== '') redimenImage($imagen);
+    if ($imagen2 !== '') redimenImage($imagen2);
+    if ($imagen3 !== '') redimenImage($imagen3);
+    if ($imagen4 !== '') redimenImage($imagen4);
+    echo "<hr>".$cntt++."__ $imagen , $imagen2 , $imagen3  $imagen4 <br>";
+}
+function redimenImage($img_name) {
+    global $___path_raiz;
+    $sizes = [
+        'small' => 90,
+        'medium' => 380,
+        'large' => 730
+    ];
+    $img_path = $___path_raiz."contenido/imagenes/paginas/" . $img_name;
+    foreach ($sizes as $sizeName => $newWidth) {
+        $ruta_destino =  $___path_raiz."contenido/imagenes/paginas/" . $sizeName . "-" . $img_name;
+        UploadImageUtil::resizeImage($img_path, $ruta_destino, $newWidth);
+    }
+    return $img_name;
+}
+*/
+?>
+
 <div class="row">
     <div class="col-md-12">
 

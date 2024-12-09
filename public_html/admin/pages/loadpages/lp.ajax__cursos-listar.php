@@ -578,7 +578,7 @@ $cnt = $total_registros - ( ($vista - 1) * $registros_a_mostrar );
                                 if ($curso['dr_estado_curso'] == 3) {
                                     $tr_class .= ' tr_curso_eliminado';
                                 }
-                                $url_img_curso = $dominio_www."contenido/imagenes/paginas/" . $curso['imagen'];
+                                $url_img_curso = $dominio_www."contenido/imagenes/paginas/small-" . $curso['imagen'];
                                 $modalidad_del_curso = $curso['dr_modalidad_curso'];
                                 ?>
                                 <tr class="<?php echo $tr_class; ?>">
