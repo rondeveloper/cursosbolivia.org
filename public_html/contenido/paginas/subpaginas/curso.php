@@ -47,15 +47,15 @@ if ($curso_nombre_departamento !== $curso_nombre_ciudad) {
 }
 
 /* imagen principal del curso */
-$url_imagen_principal = $dominio_www."contenido/imagenes/paginas/" . $curso['imagen'];
+$url_imagen_principal = $dominio_www."contenido/imagenes/paginas/large-" . $curso['imagen'];
 
 
 
 $htm_imagen1 = '';
 if ($curso['imagen'] !== '') {
-    $url_img = "contenido/imagenes/paginas/" . $curso['imagen'];
+    $url_img = "contenido/imagenes/paginas/medium-" . $curso['imagen'];
     if (file_exists($url_img)) {
-        $url_img = $dominio . "contenido/imagenes/paginas/" . $curso['imagen'];
+        $url_img = $dominio . "contenido/imagenes/paginas/medium-" . $curso['imagen'];
     } else {
         $url_img = "https://www.infosiscon.com/" . "contenido/imagenes/paginas/" . $curso['imagen'];
     }
@@ -64,9 +64,9 @@ if ($curso['imagen'] !== '') {
 
 $htm_imagen2 = '';
 if ($curso['imagen2'] !== '') {
-    $url_img = "contenido/imagenes/paginas/" . $curso['imagen2'];
+    $url_img = "contenido/imagenes/paginas/medium-" . $curso['imagen2'];
     if (file_exists($url_img)) {
-        $url_img = $dominio . "contenido/imagenes/paginas/" . $curso['imagen2'];
+        $url_img = $dominio . "contenido/imagenes/paginas/medium-" . $curso['imagen2'];
     } else {
         $url_img = "https://www.infosiscon.com/" . "contenido/imagenes/paginas/" . $curso['imagen2'];
     }
@@ -74,9 +74,9 @@ if ($curso['imagen2'] !== '') {
 }
 $htm_imagen3 = '';
 if ($curso['imagen3'] !== '') {
-    $url_img = "contenido/imagenes/paginas/" . $curso['imagen3'];
+    $url_img = "contenido/imagenes/paginas/medium-" . $curso['imagen3'];
     if (file_exists($url_img)) {
-        $url_img = $dominio . "contenido/imagenes/paginas/" . $curso['imagen3'];
+        $url_img = $dominio . "contenido/imagenes/paginas/medium-" . $curso['imagen3'];
     } else {
         $url_img = "https://www.infosiscon.com/" . "contenido/imagenes/paginas/" . $curso['imagen3'];
     }
@@ -84,9 +84,9 @@ if ($curso['imagen3'] !== '') {
 }
 $htm_imagen4 = '';
 if ($curso['imagen4'] !== '') {
-    $url_img = "contenido/imagenes/paginas/" . $curso['imagen4'];
+    $url_img = "contenido/imagenes/paginas/medium-" . $curso['imagen4'];
     if (file_exists($url_img)) {
-        $url_img = $dominio . "contenido/imagenes/paginas/" . $curso['imagen4'];
+        $url_img = $dominio . "contenido/imagenes/paginas/medium-" . $curso['imagen4'];
     } else {
         $url_img = "https://www.infosiscon.com/" . "contenido/imagenes/paginas/" . $curso['imagen4'];
     }
@@ -943,10 +943,7 @@ if(num_rows($qrtm1)>0){
                             $titulo_de_curso = $rc2['titulo'];
                             $departamento_curso = $rc2['departamento'];
                             $fecha_curso = fecha_curso($rc2['fecha']);
-                            $url_imagen_curso = "contenido/imagenes/paginas/" . $rc2['imagen'];
-                            if (!file_exists("contenido/imagenes/paginas/" . $rc2['imagen'])) {
-                                $url_imagen_curso = "https://www.infosiscon.com/contenido/imagenes/paginas/" . $rc2['imagen'];
-                            }
+                            $url_imagen_curso = "contenido/imagenes/paginas/small-" . $rc2['imagen'];
                             $url_pagina_curso = "" . $rc2['titulo_identificador'] . ".html";
                             ?>
                             <div class="col-xs-6 col-sm-6 col-md-6" align="left">
@@ -1271,10 +1268,7 @@ if(num_rows($qrtm1)>0){
                 while ($rc2 = fetch($rc1)) {
                     $titulo_de_curso = $rc2['titulo'];
                     $fecha_de_curso = fecha_corta($rc2['fecha']);
-                    $url_imagen_curso = "contenido/imagenes/paginas/" . $rc2['imagen'];
-                    if (!file_exists("contenido/imagenes/paginas/" . $rc2['imagen'])) {
-                        $url_imagen_curso = "https://www.infosiscon.com/contenido/imagenes/paginas/" . $rc2['imagen'];
-                    }
+                    $url_imagen_curso = "contenido/imagenes/paginas/small-" . $rc2['imagen'];
                     $url_pagina_curso = "" . $rc2['titulo_identificador'] . ".html";
                     $rqenc1 = query("SELECT e.enlace FROM rel_cursoenlace r INNER JOIN enlaces_cursos e ON e.id=r.id_enlace WHERE r.id_curso='".$rc2['id']."' AND r.estado=1 ");
                     if(num_rows($rqenc1)>0){

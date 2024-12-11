@@ -53,10 +53,7 @@
             }
             $horarios = $rc2['horarios'];
             if ($rc2['imagen_gif'] == '') {
-                $url_imagen_curso = "contenido/imagenes/paginas/" . $rc2['imagen'];
-                if (!file_exists("contenido/imagenes/paginas/" . $rc2['imagen'])) {
-                    $url_imagen_curso = "https://www.infosiscon.com/contenido/imagenes/paginas/" . $rc2['imagen'];
-                }
+                $url_imagen_curso = "contenido/imagenes/paginas/medium-" . $rc2['imagen'];
             } else {
                 $url_imagen_curso = "contenido/imagenes/paginas/" . $rc2['imagen_gif'];
             }
