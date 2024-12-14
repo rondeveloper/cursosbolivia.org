@@ -1062,7 +1062,8 @@ function subfijo_NL($xx) {
 function getIDcert($cod_i_ciudad) {
     $sw_id_notfounded = true;
     do {
-        $certificado_id = $cod_i_ciudad . str_replace(array('1','0','5'),array('R','T','K'), str_pad(rand(1, 99999), 5, "0", STR_PAD_LEFT));
+        $certificado_id =  "CB".str_pad(rand(1, 99999), 5, "0", STR_PAD_LEFT);
+        // $certificado_id = $cod_i_ciudad . str_replace(array('1','0','5'),array('R','T','K'), str_pad(rand(1, 99999), 5, "0", STR_PAD_LEFT));
         $rqv1 = query("SELECT count(1) AS total FROM cursos_emisiones_certificados WHERE certificado_id='$certificado_id' LIMIT 1 ");
         $rqv2 = fetch($rqv1);
         if ($rqv2['total'] == 0) {

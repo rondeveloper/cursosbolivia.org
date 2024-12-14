@@ -137,35 +137,45 @@ $cnt = $total_registros - (($vista - 1) * $registros_a_mostrar);
 </div>
 
 <?php
-/*
-$ress = query("SELECT id,imagen,imagen2,imagen3,imagen4 FROM cursos WHERE estado='0' ORDER BY id DESC limit 500,500 ");
-$cntt = 1;
-while ($producto = fetch($ress)) {
-    $imagen = $producto['imagen'];
-    $imagen2 = $producto['imagen2'];
-    $imagen3 = $producto['imagen3'];
-    $imagen4 = $producto['imagen4'];
-    if ($imagen !== '') redimenImage($imagen);
-    if ($imagen2 !== '') redimenImage($imagen2);
-    if ($imagen3 !== '') redimenImage($imagen3);
-    if ($imagen4 !== '') redimenImage($imagen4);
-    echo "<hr>".$cntt++."__ $imagen , $imagen2 , $imagen3  $imagen4 <br>";
-}
-function redimenImage($img_name) {
-    global $___path_raiz;
-    $sizes = [
-        'small' => 90,
-        'medium' => 380,
-        'large' => 730
-    ];
-    $img_path = $___path_raiz."contenido/imagenes/paginas/" . $img_name;
-    foreach ($sizes as $sizeName => $newWidth) {
-        $ruta_destino =  $___path_raiz."contenido/imagenes/paginas/" . $sizeName . "-" . $img_name;
-        UploadImageUtil::resizeImage($img_path, $ruta_destino, $newWidth);
-    }
-    return $img_name;
-}
-*/
+
+// ini_set('memory_limit', '-1');
+// ini_set('max_execution_time', '1100'); 
+// $ress = query("SELECT id,imagen,imagen2,imagen3,imagen4 FROM cursos WHERE estado IN (0,1,2) ORDER BY id DESC LIMIT 50,7");
+// $cntt = 1;
+// while ($producto = fetch($ress)) {
+//     $imagen = $producto['imagen'];
+//     $imagen2 = $producto['imagen2'];
+//     $imagen3 = $producto['imagen3'];
+//     $imagen4 = $producto['imagen4'];
+//     if ($imagen !== '') redimenImage($imagen);
+//     if ($imagen2 !== '') redimenImage($imagen2);
+//     if ($imagen3 !== '') redimenImage($imagen3);
+//     if ($imagen4 !== '') redimenImage($imagen4);
+//     echo "<hr>".$cntt++."__ $imagen , $imagen2 , $imagen3  $imagen4 <br>";
+// }
+// function redimenImage($img_name) {
+//     global $___path_raiz;
+//     $sizes = [
+//         'small' => 90,
+//         'medium' => 380,
+//         'large' => 730
+//     ];
+//     $img_path = $___path_raiz."contenido/imagenes/paginas/" . $img_name;
+//     if(file_exists($img_path)){
+      
+//     foreach ($sizes as $sizeName => $newWidth) {
+//         $ruta_destino =  $___path_raiz."contenido/imagenes/paginas/" . $sizeName . "-" . $img_name;
+//         try {
+//             UploadImageUtil::resizeImage($img_path, $ruta_destino, $newWidth);
+//         } catch (Exception $error) {
+//             echo 'error detectado '.$error;
+//         }
+       
+//     }
+//     return $img_name;
+//     }
+// }
+
 ?>
 
 <div class="row">

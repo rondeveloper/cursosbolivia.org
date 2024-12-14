@@ -183,6 +183,7 @@ while ($rqce2 = fetch($rqce1)) {
 
     /* generad de QR */
     $file = 'qrcode-codigo-certificado-' . $certificado_id . '.png';
+    $certificado_id = str_replace('CD','CB',$certificado_id);
     $file_qr_certificado = '../../../imagenes/qrcode/' . $file;
     if (!is_file($file_qr_certificado)) {
         copy('../../../imagenes/qrcode/jr-qrcode.png', $file_qr_certificado);
