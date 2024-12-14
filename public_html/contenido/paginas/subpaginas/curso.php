@@ -943,7 +943,7 @@ if(num_rows($qrtm1)>0){
                             $titulo_de_curso = $rc2['titulo'];
                             $departamento_curso = $rc2['departamento'];
                             $fecha_curso = fecha_curso($rc2['fecha']);
-                            $url_imagen_curso = "contenido/imagenes/paginas/small-" . $rc2['imagen'];
+                            $url_imagen_curso = "contenido/imagenes/paginas/medium-" . $rc2['imagen'];
                             $url_pagina_curso = "" . $rc2['titulo_identificador'] . ".html";
                             ?>
                             <div class="col-xs-6 col-sm-6 col-md-6" align="left">
